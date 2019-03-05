@@ -25,10 +25,23 @@
 \contentsline {subsection}{\numberline {2.7.1}Costruire l'inverso di f}{8}{subsection.2.7.1}
 \contentsline {subsubsection}{Osservazioni}{9}{section*.5}
 \contentsline {section}{\numberline {2.8}Funzioni elementari}{9}{section.2.8}
-\contentsline {subsection}{\numberline {2.8.1}Potenze}{9}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.1}Polinomi}{9}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.2}Potenze}{9}{subsection.2.8.2}
 \contentsline {subsubsection}{Propriet\IeC {\`a} delle potenze}{10}{section*.6}
 \contentsline {paragraph}{Osservazioni}{10}{section*.7}
 \contentsline {paragraph}{Dimostrazioni}{10}{section*.8}
-\contentsline {subsection}{\numberline {2.8.2}Esponenziale}{10}{subsection.2.8.2}
+\contentsline {subsection}{\numberline {2.8.3}Esponenziale}{11}{subsection.2.8.3}
 \contentsline {subsubsection}{Propriet\IeC {\`a}}{11}{section*.9}
-\contentsline {subsection}{\numberline {2.8.3}Logaritmo}{11}{subsection.2.8.3}
+\contentsline {subsection}{\numberline {2.8.4}Logaritmo}{12}{subsection.2.8.4}
+\contentsline {section}{\numberline {2.9}Funzioni trigonometriche}{13}{section.2.9}
+\contentsline {subsection}{\numberline {2.9.1}Le funzioni seno e coseno}{13}{subsection.2.9.1}
+\contentsline {paragraph}{Simmetria}{14}{section*.10}
+\contentsline {paragraph}{Monotonia}{14}{section*.11}
+\contentsline {subsubsection}{Formule trigonometriche}{14}{section*.12}
+\contentsline {paragraph}{Formule di addizione e sottrazione}{14}{section*.13}
+\contentsline {paragraph}{Formule di duplicazione}{14}{section*.14}
+\contentsline {paragraph}{Formule di potenza}{15}{section*.15}
+\contentsline {paragraph}{Formule di bisezione}{15}{section*.16}
+\contentsline {paragraph}{Formule di prostaferesi}{15}{section*.17}
+\contentsline {subsection}{\numberline {2.9.2}La funzione tangente e la funzione cotangente}{15}{subsection.2.9.2}
+\contentsline {subsubsection}{Propriet\IeC {\`a} fondamentali}{15}{section*.18}

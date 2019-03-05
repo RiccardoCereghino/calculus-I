@@ -304,6 +304,13 @@ Inoltre $f$ è invertibile se e solo se è iniettiva o surgettiva, da cui:
 \[g^{-1}:Im f \rightarrow \R\]
 
 \section{Funzioni elementari}
+\subsection{Polinomi}
+\[f(x)=a_0+a_1 x + \dots + a_n x^n =\displaystyle\sum_{k=0}^{n} a_k x^k \]
+\[a_0, a_1, \dots, a_n \in \R \text{ Coefficienti}\qquad a_n \neq 0 \text{ n è il grado del polinomio}\]
+
+Per cui:
+\[n=1 \qquad y=a_0+a_1 x \quad \text{Rette}\]
+\[n=2 \qquad y=a_0+a_1 x + a_2 x^2 \quad \text{Parabole}\]
 \subsection{Potenze}
 Fissato un esponente $a \in \R$ la funzione potenza è:
 \[f(x)=x^a\]
@@ -343,7 +350,7 @@ la cui definizione e dominio dipendono dal valore dell’esponente a.
 \dom f = (0,+\infty)
 \qquad \im f=(0,+\infty)\]
 
-\item $a=n \in \R$
+\item $a \in \R$
 \[f(x)=x^a=
 \begin{cases}
 	\text{sup}\{x^q | q \in \Q , q \leq a\} \quad x \geq 1 \\
@@ -354,6 +361,8 @@ la cui definizione e dominio dipendono dal valore dell’esponente a.
 \qquad
 \im f = (0, + \infty)
 \]
+
+
 \end{itemize}
 
 \begin{wrapfigure}{r}{0.65\textwidth}
@@ -454,12 +463,74 @@ Fissata la base $a>0$ con $a\neq 1$, la funzione logaritmo
   \caption{Logaritmi}
 \end{figure}
 
+\section{Funzioni trigonometriche}
+Una funuone $f:\R \in \R$ è detta periodica di periodo $T$, $T>0$ se:
+\[f(x+T)=f(x) \forall x \in \R\]
+La caratteristica fondamentale delle funzioni periodiche è che i suoi valori si ripetono dopo intervalli di ampiezza $T$.
+
+\subsection{Le funzioni seno e coseno}
+Sia $\gamma$ una circonferenza di raggio $1$ (detta circonferenza goniometrica) il cui centro $O$ è anche l'origine di un sistema di assi cartesiani e sia $A$ il punto $(1,0)$.
+Partendo da $A$ percorriamo la circonferenza in senso antiorario oppure in senso orario.
+Sia $x$ un numero reale, denotiamo con $P_x$ il punto su $\gamma$ che si ottiene percorrendo la circonferenza a partire dal punto $A$ per un arco di lunghezza $|x|$, in senso antorario se $x \geq 0$, oppure in senso orario se $x<0$.
+Il punto $P_x$ individua un angolo nel piano avente vertice $O$ e delimitatio dalle semirette nel piano uscenti da $O$ e passanti per $A$ e per $P_x$.
+Il numero reale $x$ rappresenta la misura dell'angolo in radianti.
+
+\begin{wrapfigure}{r}{0.40\textwidth}
+  \begin{center}
+    \includegraphics[width=0.40\textwidth]{images/circonferenza.png}
+  \end{center}
+  \caption{Circonferenza goniometrica con seno e coseno}
+\end{wrapfigure}
+
+
+Osserviamo che l'incremento della lunghezza $x$ di $2\pi$ corrisponde a compiere un intero giro sulla circonferenza in senso antiorario ritornando al punto $P_x$ (così come decrementare di $2\pi$ la lunghezza $x$). Quindi si ha:
+\[P_{x\pm k2\pi}=P_x \qquad \forall x \in \R, k \in \N\]
+
+\paragraph{Simmetria}
+Indichiamo con $\cos x$ e con $\sin x$ rispettivamente l'ascissa e l'ordinata del punto $P_x$. Le funzioni $y=\cos x$ e $y=\sin x$ sono definite su $\R$ a valori nell'intervallo $[-1,1]$, sono periodiche di minimo periodo $2\pi$ e soddisfano la relazione:
+\[\sin^2 x + \cos^2 x = 1\]
+
+\paragraph{Monotonia} Per la periodicità di seno e coseno ci basta studiarne le proprietà nell'intervallo $[0,2\pi]$. Dalle definizioni segue subito che la funzione seno è dispari e la funzione coseno è pari; inoltre la funzione coseno è strettamente decrescente in $[0,\pi]$ e strettamente crescente in $[\pi,2\pi]$. La funzione seno è strettamente crescente in $[0,\frac{\pi}{2}] \cup [\frac{3}{2}\pi,2\pi)$ e strettamente decrescente in $[\frac{\pi}{2},\frac{3}{2}\pi]$.
+
+\begin{figure}[H]
+  \centering
+    \includegraphics[width=1\textwidth]{images/senocoseno.png}
+  \caption{Grafico delle funzioni: seno (sinistra) e coseno (destra)}
+\end{figure}
+
+\subsubsection{Formule trigonometriche}
+\paragraph{Formule di addizione e sottrazione}
+\[\sin(\alpha\pm\beta)=\sin(\alpha)\cos(\beta)\pm\cos(\alpha)\sin(\beta)\]
+\[\cos(\alpha\pm\beta)=\cos(\alpha)\cos(\beta)\mp\sin(\alpha)\sin(\beta)\]
+\paragraph{Formule di duplicazione}
+\[\sin(2x)=2\sin x\cos x\]
+\[\cos(2x)=2\cos^2 x - 1\]
+\paragraph{Formule di potenza}
+\[(\sin x)^2 = \sin^2 x= \frac{1-\cos(2x)}{2}\]
+\[(\cos x)^2 = \cos^2 x= \frac{1+\cos(2x)}{2}\]
+\paragraph{Formule di bisezione}
+\[\sin(\frac{x}{2})=\sqrt{\frac{1-\cos x}{2}} \qquad 0<x\leq 2\pi\]
+\[\cos(\frac{x}{2})=\sqrt{\frac{1+\cos x}{2}} \qquad -\pi<x\leq \pi\]
+\paragraph{Formule di prostaferesi}
+\[\sin x -\sin y=2\sin(\frac{x-y}{2})\cos(\frac{x+y}{2})\]
+\[\cos x -\cos y=-2\cos(\frac{x-y}{2})\sin(\frac{x+y}{2})\]
+
+
+\[\cos(x+\pi)=-\cos x \qquad \sin(x+\pi)=-\sin x\]
+\[\cos(x+\frac{\pi}{2})=-\sin x \qquad \sin(x+\frac{\pi}{2})=\cos x \]
+
+\subsection{La funzione tangente e la funzione cotangente}
+La funzione tangente è:
+\[\tan x = \frac{\sin x}{\cos x}\]
+è definita nei punti di $\R$ diversi da $\frac{\pi}{2} +k\pi,k\in\Z$ e, come vedremo in seguito, ha immagine $\R$.
+
+\subsubsection{Proprietà fondamentali}
+Dal grafico della tangente di ottiene che $\tan(x)=\tan(x+k\pi)$ per $k\in \Z$ cioè $\tan(x)$ è periodica di minimo periodo $T=\pi$
+\begin{figure}[H]
+  \centering
+    \includegraphics[width=1\textwidth]{images/trigonometriche.png}
+  \caption{Funzioni trigonometriche}
+\end{figure}
+
 \end{document}
 
-\section{Polinomi}
-\[f(x)=a_0+a_1 x + \dots + a_n x^n =\displaystyle\sum_{k=0}^{n} a_k x^k \]
-\[a_0, a_1, \dots, a_n \in \R \text{ Coefficienti}\qquad a_n \neq 0 \text{ n è il grado del polinomio}\]
-
-Per cui:
-\[n=1 \qquad y=a_0+a_1 x \quad \text{Rette}\]
-\[n=2 \qquad y=a_0+a_1 x + a_2 x^2 \quad \text{Parabole}\]

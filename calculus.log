@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.20)  3 MAR 2019 21:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.20)  5 MAR 2019 22:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -764,7 +764,7 @@ mm/m/it/10.95 f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 ) =
  []
 
 [8]
-Overfull \hbox (71.3853pt too wide) detected at line 318
+Overfull \hbox (71.3853pt too wide) detected at line 325
 \OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.9
 5 ) = \OML/cmm/m/it/10.95 x[] \OT1/cmr/m/n/10.95 = []  []\OML/cmm/m/it/10.95 f 
 \OT1/cmr/m/n/10.95 = \U/msb/m/n/10.95 R []\OML/cmm/m/it/10.95 f \OT1/cmr/m/n/10
@@ -772,7 +772,7 @@ Overfull \hbox (71.3853pt too wide) detected at line 318
  []
 
 
-Overfull \hbox (22.42769pt too wide) detected at line 326
+Overfull \hbox (22.42769pt too wide) detected at line 333
 \OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.9
 5 ) = \OML/cmm/m/it/10.95 x[] \OT1/cmr/m/n/10.95 = [] []\OML/cmm/m/it/10.95 f \
 OT1/cmr/m/n/10.95 = \U/msb/m/n/10.95 R\OMS/cmsy/m/n/10.95 nf\OT1/cmr/m/n/10.95 
@@ -780,14 +780,14 @@ OT1/cmr/m/n/10.95 = \U/msb/m/n/10.95 R\OMS/cmsy/m/n/10.95 nf\OT1/cmr/m/n/10.95
  []
 
 
-Overfull \hbox (102.09488pt too wide) detected at line 339
+Overfull \hbox (102.09488pt too wide) detected at line 346
 \OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.9
 5 ) = \OML/cmm/m/it/10.95 x[] \OT1/cmr/m/n/10.95 = [] []\OML/cmm/m/it/10.95 f \
 OT1/cmr/m/n/10.95 = []  []\OML/cmm/m/it/10.95 f \OT1/cmr/m/n/10.95 = []
  []
 
 
-Overfull \hbox (108.12779pt too wide) detected at line 356
+Overfull \hbox (108.12779pt too wide) detected at line 363
 \OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.9
 5 ) = \OML/cmm/m/it/10.95 x[] \OT1/cmr/m/n/10.95 = []  []\OML/cmm/m/it/10.95 f 
 \OT1/cmr/m/n/10.95 = (0\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 +\OMS/cmsy/m/n/
@@ -796,14 +796,21 @@ Overfull \hbox (108.12779pt too wide) detected at line 356
 
  []
 
-<images/potenze.png, id=202, 655.44875pt x 478.78876pt>
+[9]
+<images/potenze.png, id=230, 655.44875pt x 478.78876pt>
 File: images/potenze.png Graphic file (type png)
 <use images/potenze.png>
-Package pdftex.def Info: images/potenze.png  used on input line 361.
+Package pdftex.def Info: images/potenze.png  used on input line 370.
 (pdftex.def)             Requested size: 233.9978pt x 170.9319pt.
-[9]
-Overfull \hbox (10.36304pt too wide) in paragraph at lines 374--374
+
+Overfull \hbox (10.36304pt too wide) in paragraph at lines 383--383
 [][]\OT1/cmr/bx/n/10.95 Propriet^^Ra delle potenze 
+ []
+
+
+Overfull \hbox (156.74571pt too wide) detected at line 395
+\OML/cmm/m/it/10.95 x[] \OT1/cmr/m/n/10.95 = [] = [] \OMS/cmsy/m/n/10.95 ^^B []
+ \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 x[]
  []
 
 [10pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
@@ -811,52 +818,97 @@ Overfull \hbox (10.36304pt too wide) in paragraph at lines 374--374
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.407 	\end{cases}\]
-                     </home/rick/Documents/Calculus/tex/images/potenze.png>]
-<images/esponenziali.png, id=219, 1047.915pt x 541.02126pt>
+l.411 	\item s
+              e $0<a<1$, allora la funzione $a^x$ è strettamente decrescente <
+/home/rick/Documents/Calculus/tex/images/potenze.png>]
+<images/esponenziali.png, id=239, 1047.915pt x 541.02126pt>
 File: images/esponenziali.png Graphic file (type png)
 <use images/esponenziali.png>
-Package pdftex.def Info: images/esponenziali.png  used on input line 420.
+Package pdftex.def Info: images/esponenziali.png  used on input line 429.
 (pdftex.def)             Requested size: 360.0pt x 185.86002pt.
-
-[11pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
-}) has been already used, duplicate ignored
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.432 	\item s
-              e $0<a<1$, allora la funzione $\log_a x$ è strettamente decre...
- </home/rick/Documents/Calculus/tex/images/esponenziali.png>]
-<images/logaritmi.png, id=231, 972.63374pt x 682.55pt>
+l.435 ... \dom f = (0,+\infty) \qquad \im f = \R\]
+                                                   </home/rick/Documents/Calcul
+us/tex/images/esponenziali.png>]
+<images/logaritmi.png, id=251, 972.63374pt x 682.55pt>
 File: images/logaritmi.png Graphic file (type png)
 <use images/logaritmi.png>
-Package pdftex.def Info: images/logaritmi.png  used on input line 453.
+Package pdftex.def Info: images/logaritmi.png  used on input line 462.
 (pdftex.def)             Requested size: 360.0pt x 252.62286pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 457.
- [12pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+ [12]
+<images/circonferenza.png, id=260, 275.0275pt x 301.125pt>
+File: images/circonferenza.png Graphic file (type png)
+<use images/circonferenza.png>
+Package pdftex.def Info: images/circonferenza.png  used on input line 480.
+(pdftex.def)             Requested size: 143.9978pt x 157.66566pt.
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.457 \end{document}
-                     </home/rick/Documents/Calculus/tex/images/logaritmi.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 457.
+l.486 O
+       sserviamo che l'incremento della lunghezza $x$ di $2\pi$ corrisponde ...
+ </home/rick/Documents/Calculus/tex/images/logaritmi.png>]
+Overfull \hbox (19.53471pt too wide) in paragraph at lines 486--487
+[][]\OT1/cmr/m/n/10.95 Osserviamo che l'incremento della lunghezza
+ []
 
-(/home/rick/Documents/Calculus/tex/calculus.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 457.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 457.
+<images/senocoseno.png, id=266, 1077.02374pt x 210.7875pt>
+File: images/senocoseno.png Graphic file (type png)
+<use images/senocoseno.png>
+Package pdftex.def Info: images/senocoseno.png  used on input line 497.
+(pdftex.def)             Requested size: 360.0pt x 70.45744pt.
+[14pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.509 ...n x)^2 = \sin^2 x= \frac{1-\cos(2x)}{2}\]
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.2.5}) has been already used, duplic
+ate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.509 ...n x)^2 = \sin^2 x= \frac{1-\cos(2x)}{2}\]
+                                                   </home/rick/Documents/Calcul
+us/tex/images/circonferenza.png> </home/rick/Documents/Calculus/tex/images/seno
+coseno.png>]
+<images/trigonometriche.png, id=279, 462.528pt x 346.896pt>
+File: images/trigonometriche.png Graphic file (type png)
+<use images/trigonometriche.png>
+Package pdftex.def Info: images/trigonometriche.png  used on input line 531.
+(pdftex.def)             Requested size: 360.0pt x 270.01141pt.
+ [15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 535.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.535 \end{document}
+                     </home/rick/Documents/Calculus/tex/images/trigonometriche.
+png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 535.
+ (/home/rick/Documents/Calculus/tex/calculus.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 535.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 535.
 Package rerunfilecheck Info: File `calculus.out' has not changed.
-(rerunfilecheck)             Checksum: 73D5F6F8BD4EDD369CE0CE4CF82310C8;1772.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 457.
+(rerunfilecheck)             Checksum: 8942FE74F379888DE87B33D3258A4532;2083.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 535.
  ) 
 Here is how much of TeX's memory you used:
- 7147 strings out of 492982
- 102288 string characters out of 6134896
- 191799 words of memory out of 5000000
- 10543 multiletter control sequences out of 15000+600000
+ 7187 strings out of 492982
+ 102971 string characters out of 6134896
+ 192799 words of memory out of 5000000
+ 10560 multiletter control sequences out of 15000+600000
  13531 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,13n,30p,261b,421s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,13n,30p,513b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
@@ -874,11 +926,11 @@ xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on /home/rick/Documents/Calculus/tex/calculus.pdf (14 pages, 375
-487 bytes).
+Output written on /home/rick/Documents/Calculus/tex/calculus.pdf (18 pages, 460
+617 bytes).
 PDF statistics:
- 316 PDF objects out of 1000 (max. 8388607)
- 276 compressed objects within 3 object streams
- 67 named destinations out of 1000 (max. 500000)
- 224 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 374 PDF objects out of 1000 (max. 8388607)
+ 325 compressed objects within 4 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 271 words of extra memory for PDF output out of 10000 (max. 10000000)
 
