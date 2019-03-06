@@ -1,0 +1,147 @@
+% Chapter 2
+
+\chapter{Funzioni} % Chapter title
+
+\label{ch:funzioni} % For referencing the chapter elsewhere, use \autoref{ch:introduction} 
+
+%----------------------------------------------------------------------------------------
+
+\section{Il concetto di funzione}
+\textbf{Definizione:} una funzione $f: A \rightarrow \R$ dove $A \subseteq \R$ è una legge che assegna ad ogni $x\in A$ uno ed un solo valore $y=f(x) \in \R$
+
+\textit{Nota:} in questo caso, i valori di $A$ sono chiamati variabile indipendente $(x)$, mentre  $\R$ è la variabile dipendente $y=f(x)$
+
+\textit{Nota:} inoltre definiamo $A=dom \quad f$ come il dominio della funzione.
+
+\textbf{Definizione:} Il grafico di $f$:
+	\[f=\left\{ (x,y) \in \R^2 \middle| x \in A, y=f(x) \right\}\]
+
+\textbf{Definizione:} L'immagine di $f$, Im f:
+	\[f(A)=\left\{ f(x) \in \R \middle| x \in A \right\}\]
+
+\section{Operazioni tra funzioni}
+Date due funzioni $f:A\rightarrow \R \qquad g:B\rightarrow \R$
+\begin{description}
+	\item[Somma e differenza:] $(f+g)(x)=f(x)+g(x) \qquad dom(f+g)=A\cap B$
+	\item[Prodotto:] $(fg)(x)=f(x)g(x) \quad dom(fg)=(A\cap B)$
+	\item[Rapporto:] $(\frac{f}{g})(x)=f(x)g(x) \quad dom(\frac{f}{g})=\{x\in \R | x\in A, x\in B, g(x) \neq 0\}$
+	\item[Reciproco:] $\frac{1}{f}(x)=\frac{1}{f(x)}=[f(x)]^{-1} \quad dom(\frac{1}{f})={x\in A | f(x) \neq 0}$
+\end{description}
+
+\subsection{Nomenclatura}
+Data una funzione $f: A \rightarrow \R , \quad y=f(x)$
+\begin{itemize}
+	\item $f$ è detta \textbf{iniettiva} se $\forall y_0 \in \R , f(x)=y_0$ ha al più una soluzione.
+	\item $f$ è detta \textbf{surgettiva} se $\forall y_0 \in \R , f(x)=y_0$ ha almeno una soluzione.
+	\item $f$ è detta \textbf{bigettiva} se $\forall y_0 \in \R , f(x)=y_0$ ha una ed una sola soluzione, ovvero se la funzione è sia iniettiva che surgettiva.
+\end{itemize}
+
+\subsubsection{Osservazioni}
+\begin{enumerate}
+	\item $f$ è surgettiva se e solo se $IM f=\R$
+	\item $f$ è iniettiva se e solo se $y_0 \in IM f, f(x)=y_0$ ha al più una soluzione.
+\end{enumerate}
+
+Data una funzione $f: A \rightarrow \R , \quad y=f(x)$ sono fatti equivalenti:
+\begin{itemize}
+	\item $f$ è iniettiva
+	\item $\forall x_1, x_2 \in A \cap x_1 \neq x_2$ allora $f(x_1)\neq f(x_2)$
+	\item dati $x_1,x_2 \in A | f(x_1)=f(x_2)$ allora $x_1=x_2$
+\end{itemize}
+
+
+\section{Funzioni reali di variabile reale}
+\subsection{Funzioni pari e dispari}
+Data una funzione $f: A \rightarrow \R , \quad y=f(x)$, $\forall x\in A \quad -x\in A$ f è detta:
+\[f(-x)= \begin{cases}
+	f(x) \qquad pari\\
+	-f(x) \qquad dispari
+\end{cases}
+\]
+
+\subsection{Funzioni monotone}
+Data una funzione $f: A \rightarrow \R , \quad y=f(x)$
+\begin{itemize}
+	\item $\forall x_1, x_2 \in A \quad x_1<x_2$ f è detta:
+	\[\begin{cases}
+		f(x_1) \leq f(x_2) \qquad crescente\\
+		f(x_1) \geq f(x_2) \qquad decrescente
+	\end{cases}
+	\]
+	\item $\forall x_1, x_2 \in A \quad x_1<x_2$ f è detta:
+	\[\begin{cases}
+		f(x_1) < f(x_2) \qquad strettamente crescente\\
+		f(x_1) > f(x_2) \qquad strettamente decrescente
+	\end{cases}
+	\]
+\end{itemize}
+
+
+\section{Traslazioni, dilatazioni e riflessioni}
+Data una funzione $f: A \rightarrow \R , \quad y=f(x)$:
+\begin{description}
+	\item[Traslazioni:] $x_0 > 0, \quad y_0 \in \R$
+		\[g(x)=f(x-x_0) \text{ Traslazione verso destra}\]
+		\[g(x)=f(x+x_0) \text{ Traslazione verso sinistra}\]
+		\[g(x)=f(x)+y_0 \text{ Traslazione verso l'alto}\]
+		\[g(x)=f(x)-y_0 \text{ Traslazione verso il basso}\]
+	\item[Dilatazioni:] $a>0$
+		\[g(x)=f(\frac{x}{a}) \text{ Dilata su asse x}\]
+		\[g(x)=a\times f(x) \text{ Dilata su asse y}\]
+	\item[Riflessioni:]
+		\[g(x)=f(-x) \text{ Riflette su asse }y\]
+		\[g(x)=-f(x) \text{ Riflette su asse }x\]
+		\[g(x)=-f(-x) \text{ Riflette rispetto l'origine}\]
+\end{description}
+
+
+\subsubsection{Osservazioni}
+Se $f(x)$ è dispari e $0 \in \text{dom f}$
+\[f(0)=f(-0)=-f(0)\Rightarrow f(0)=0\]
+\newline
+Se $n \in \N, n \geq 1$
+\[f(x)=x^n= \underbrace{x \times \dots \times x}_{\textbf{n volte}}\]
+\begin{itemize}
+	\item se $n$ è pari, $f$ è pari
+	\item se $n$ è dispari, $f$ è dispari
+\end{itemize}
+
+\section{Simmetrie, traslazioni, compressioni e dilatazioni di grafici.}
+Data una funzione $f: A \rightarrow \R , \quad y=f(x)$:
+\begin{description}
+	\item[Traslazioni:] $x_0 > 0, \quad y_0 \in \R$
+		\[g(x)=f(x-x_0) \text{ Traslazione verso destra}\]
+		\[g(x)=f(x+x_0) \text{ Traslazione verso sinistra}\]
+		\[g(x)=f(x)+y_0 \text{ Traslazione verso l'alto}\]
+		\[g(x)=f(x)-y_0 \text{ Traslazione verso il basso}\]
+	\item[Dilatazioni:] $a>0$
+		\[g(x)=f(\frac{x}{a}) \text{ Dilata su asse x}\]
+		\[g(x)=a\times f(x) \text{ Dilata su asse y}\]
+	\item[Riflessioni:]
+		\[g(x)=f(-x) \text{ Riflette su asse }y\]
+		\[g(x)=-f(x) \text{ Riflette su asse }x\]
+		\[g(x)=-f(-x) \text{ Riflette rispetto l'origine}\]
+\end{description}
+
+\section{Funzione composta}
+Date due funzioni $f:A\rightarrow \R \qquad g:B\rightarrow \R$
+\[g(y)=g(f(x))=g\circ f(x) \qquad \text{dom }g\circ f(x)=\{x\in A \cap f(x) \in \qquad \text{se n dispari} \\ B\}\]
+
+\section{Funzione inversa e sue proprietà.}
+Data una funzione iniettiva $f:A\rightarrow \R$
+\[\forall y \in f=f(A), \exists ! x\in A | f(x)=y\]
+Da cui si ricava che:
+\[x=f^{-1}(y) \qquad f^{-1}: B\rightarrow \R \qquad B=Im f\]
+\subsection{Costruire l'inverso di f}
+\begin{enumerate}
+	\item Determinare $Im f=B$ e $dom f^{-1}=B$
+	\item $y \in B$ determiniamo $x \in A | f(x)=y$
+	\item $x=f^{-1}(y)$
+	\item $y=f^{-1}(x) \qquad x\rightleftarrows y$
+\end{enumerate}
+Il grafico di $y=f^{-1}(x)$ è simmetrico rispetto alla bisettrice $x=y$ della funzione $y=f(x)$
+\subsubsection{Osservazioni}
+\[f(f^{-1}(y)) = y \qquad \forall y \in dom^{f^{-1}}=Im f \]
+\[f^{-1}(f(x)) = x \qquad \forall x \in dom f = Im f^{-1}\]
+Inoltre $f$ è invertibile se e solo se è iniettiva o surgettiva, da cui: 
+\[g^{-1}:Im f \rightarrow \R\]

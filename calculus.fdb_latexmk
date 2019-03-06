@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1551822536 "calculus.tex" "/home/rick/Documents/Calculus/tex/calculus.pdf" "calculus" 1551822538
+["pdflatex"] 1551822536 "calculus.tex" "/home/rick/Documents/Calculus/tex/calculus.pdf" "calculus" 1551824083
   "/etc/texmf/web2c/texmf.cnf" 1545920756 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/rick/Documents/Calculus/tex/calculus.aux" 1551822538 5984 71589cf110ba167e4876c382f5ff7c5c ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -108,10 +108,10 @@
   "images/senocoseno.png" 1551819284 24779 96ff03aea2e792bf7e71af4389363439 ""
   "images/trigonometriche.png" 1551730970 47848 a67b8f9964d7d0aa9280935483746061 ""
   (generated)
-  "calculus.toc"
   "calculus.out"
+  "/home/rick/Documents/Calculus/tex/calculus.log"
+  "calculus.toc"
+  "calculus.aux"
+  "calculus.pdf"
   "/home/rick/Documents/Calculus/tex/calculus.pdf"
   "calculus.log"
-  "calculus.aux"
-  "/home/rick/Documents/Calculus/tex/calculus.log"
-  "calculus.pdf"
