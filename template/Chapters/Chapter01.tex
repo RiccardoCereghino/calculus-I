@@ -5,34 +5,36 @@
 \label{ch:notazione} % For referencing the chapter elsewhere, use \autoref{ch:introduction} 
 
 %----------------------------------------------------------------------------------------
+Un richiamo alla notazione che verrà utilizzata nel documento.
 
 \section{Insiemi}
-\begin{itemize}
-  \item $\emptyset = $ Insieme vuoto
-  \item $\N = \{0,1,2,3...\} = $ Naturali
-  \item $\Z = \{...-3,-2,-1,0,1 ,2,3...\} = $ Relativi
-  \item $\Q = \left\{ \frac{n}{m} \middle| n \in \Z , m \in \Z , m \neq 0 \right\} = $ Razionali
-  \item $\R = $ Reali
-\end{itemize}
+\begin{tabular}{ll}
+  $\emptyset$ & Insieme vuoto \\
+  $\N$ & Naturali compreso lo $0$ \\
+  $\Z$ & Relativi \\
+  $\Q = \left\{ \frac{n}{m} \middle| n \in \Z , m \in \Z , m \neq 0 \right\} $ & Razionali \\
+  $\R$ & Reali \\
+\end{tabular}
 
 \section{Logica}
-\begin{itemize}
-  \item $| $ tale che
-  \item $ \Rightarrow $ implica
-  \item $ \Leftrightarrow $ se e solo se
-  \item $ \forall $ per ogni
-  \item $ \exists $ esiste
-  \item $ \nexists $ non esiste
-  \item $ \in $ appartiene
-  \item $ \notin $ non appartiene
-\end{itemize}
+\begin{tabular}{ll}
+  $| $ & tale che \\
+  $ \Rightarrow $ & implica \\
+  $ \Leftrightarrow $ & se e solo se \\
+  $ \forall $ & per ogni \\
+  $ \exists $ & esiste \\
+  $ \nexists $ & non esiste \\
+  $ \in $ & appartiene \\
+  $ \notin $ & non appartiene \\
+\end{tabular}
+
 
 \section{Operazioni tra insiemi}
-\begin{itemize}
-  \item A sottoinsieme di B
+\begin{description}
+  \item[A sottoinsieme di B]
     \[A \subseteq  B\]
     \[\forall x \in A \Rightarrow x \in B\]
-  \item A sottoinsieme proprio
+  \item[A sottoinsieme proprio]
     \[A \subsetneqq  B\]
     \[
       \begin{cases}
@@ -40,31 +42,37 @@
         \exists x \in B | x \notin A
         \end{cases}
       \]
-    \item Intersezione
+    \item[Intersezione]
       \[A \cap B = \left\{ x \in X \middle| x \in A, x \in B\right\}\]
-    \item Unione
+    \item[Unione]
       \[A \cup B = \left\{ x \in X \middle| x \in A or x \in B\right\}\]
-    \item Differenza insiemistica
+    \item[Differenza insiemistica]
       \[A \diagdown B = \left\{ x \in X \middle| x \in A, x \notin B\right\}\]
-    \item Complementare
+    \item[Complementare]
       \[A^C = \left\{ x \in X \middle| x \notin A \right\}\]
-\end{itemize}
+\end{description}
 
 \section{Prodotto cartesiano}
 Assegnati due numeri reali $a, b, a < b$, si definiscono intervalli gli insiemi seguenti:
 \[A\times B = \left\{ (x,y) \middle| x\in A, y\in B\right\}\]
 Coppia ordinata: $(1,3) \neq (3,1)$
-\subsection{Intervalli}
-\[[a,b] = \left\{ x\in \R \middle| a \leq x \leq b \right\}\]
-\[(a,b) = \left\{ x\in \R \middle| a < x < b \right\}\]
-\[[a,b) = \left\{ x\in \R \middle| a \leq x < b \right\}\]
-\[(a,b] = \left\{ x\in \R \middle| a < x \leq b \right\}\]
 
-\[[a,+\infty) = \left\{ x\in \R \middle| x \geq a \right\}\]
-\[(a,+\infty) = \left\{ x\in \R \middle| x > a \right\}\]
-\[(-\infty,b] = \left\{ x\in \R \middle| x \leq b \right\}\]
-\[(-\infty,b) = \left\{ x\in \R \middle| x < b \right\}\]
-\[(-\infty,+\infty) = \R\]
+
+\subsection{Intervalli}
+\begin{tabular}{ll}
+intervallo limitato chiuso &$[a,b] = \left\{ x\in \R \middle| a \leq x \leq b \right\}$ \\
+intervallo limitato aperto&$(a,b) = \left\{ x\in \R \middle| a < x < b \right\}$ \\
+intervallo limitato aperto a destra&$[a,b) = \left\{ x\in \R \middle| a \leq x < b \right\}$ \\
+intervallo limitato aperto a sinistra&$(a,b] = \left\{ x\in \R \middle| a < x \leq b \right\}$ \\
+
+intervallo illimitato chiuso a sinistra&$[a,+\infty) = \left\{ x\in \R \middle| x \geq a \right\}$ \\
+intervallo illimitato aperto a sinistra&$(a,+\infty) = \left\{ x\in \R \middle| x > a \right\}$ \\
+intervallo illimitato chiuso a destra&$(-\infty,b] = \left\{ x\in \R \middle| x \leq b \right\}$ \\
+intervallo illimitato aperto a destra&$(-\infty,b) = \left\{ x\in \R \middle| x < b \right\}$ \\
+intervallo illimitato&$(-\infty,+\infty) = \R$ \\
+
+\end{tabular}
+
 
 \section{Proprietà delle operazioni tra numeri reali}
 \[x,y,z \in \R\]
