@@ -3,16 +3,11 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: FrontBackMatter/Titlepage.aux
-A level-1 auxiliary file: FrontBackMatter/Titleback.aux
-A level-1 auxiliary file: FrontBackMatter/Dedication.aux
-A level-1 auxiliary file: FrontBackMatter/Abstract.aux
 A level-1 auxiliary file: FrontBackMatter/Contents.aux
 A level-1 auxiliary file: Chapters/Chapter01.aux
 A level-1 auxiliary file: Chapters/Chapter02.aux
 A level-1 auxiliary file: Chapters/Chapter03.aux
-A level-1 auxiliary file: Chapters/Chapter0A.aux
-A level-1 auxiliary file: FrontBackMatter/Declaration.aux
-A level-1 auxiliary file: FrontBackMatter/Colophon.aux
+A level-1 auxiliary file: Chapters/Chapter04.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
@@ -33,7 +28,7 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 1 entry,
             6268 wiz_defined-function locations,
-            1188 strings with 8842 characters,
+            1183 strings with 8696 characters,
 and the built_in function-call counts, 1205 in all, are:
 = -- 58
 > -- 52

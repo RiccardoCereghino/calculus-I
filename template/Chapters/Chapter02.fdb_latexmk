@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1551860867 "Chapter02.tex" "/home/rick/Documents/Calculus/tex/template/Chapters/Chapter02.pdf" "Chapter02" 1551860868
+["pdflatex"] 1552126458 "Chapter02.tex" "/home/rick/Documents/Calculus/tex/template/Chapters/Chapter02.pdf" "Chapter02" 1552126458
   "/etc/texmf/web2c/texmf.cnf" 1545920756 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/rick/Documents/Calculus/tex/template/Chapters/Chapter02.aux" 1551860843 7027 a3247417b7be6d952017e06b30a17b52 ""
+  "/home/rick/Documents/Calculus/tex/template/Chapters/Chapter02.aux" 1552126119 7073 0b9673df380f5e374cb3bf7686fde2eb ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1480098701 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
@@ -9,9 +9,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1550653147 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1550653183 4132192 2fe3f194735da3742c5c8a1c10584c55 ""
-  "Chapter02.tex" 1551860865 6021 02673853eb1aef43f4e05ec32883b73e ""
+  "Chapter02.tex" 1552126456 6123 6968d3acfbad982e5610951959ee2721 ""
   (generated)
-  "/home/rick/Documents/Calculus/tex/template/Chapters/Chapter02.pdf"
-  "/home/rick/Documents/Calculus/tex/template/Chapters/Chapter02.log"
-  "Chapter02.log"
   "Chapter02.pdf"
+  "Chapter02.log"
+  "/home/rick/Documents/Calculus/tex/template/Chapters/Chapter02.log"
+  "/home/rick/Documents/Calculus/tex/template/Chapters/Chapter02.pdf"

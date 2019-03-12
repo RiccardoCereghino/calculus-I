@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.20)  6 MAR 2019 10:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.20)  9 MAR 2019 15:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1599,6 +1599,30 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count419
+\float@exts=\toks27
+\float@box=\box48
+\@float@everytoks=\toks28
+\@floatcapt=\box49
+)
+Package scrhack Info: loading float hack on input line 252.
+
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/float.hak
+File: float.hak 2017/09/07 v3.24 KOMA-Script package (hacking package float)
+Package scrhack Info: redefining \newfloat on input line 161.
+Package scrhack Info: redefining \listof on input line 161.
+Package scrhack Info: undefining \float@addtolists on input line 161.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen169
+\WF@size=\dimen170
+\c@WF@wrappedlines=\count420
+\WF@box=\box50
+\WF@everypar=\toks29
+Package: wrapfig 2003/01/31  v 3.6
+)
 (/home/rick/Documents/Calculus/tex/template/classicthesis.sty
 Package: classicthesis 2015/09/06 v4.2 Typographic style for a classic-looking 
 thesis
@@ -1635,12 +1659,12 @@ Package: eulervm 2005/01/11 v4.0 (WaS)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
-\MT@toks=\toks27
-\MT@count=\count419
+\MT@toks=\toks30
+\MT@count=\count421
 LaTeX Info: Redefining \textls on input line 793.
-\MT@outer@kern=\dimen169
+\MT@outer@kern=\dimen171
 LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
-\MT@listname@count=\count420
+\MT@listname@count=\count422
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
@@ -1674,23 +1698,23 @@ Package typearea Info: These are the values describing the layout:
 
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen170
-\lightrulewidth=\dimen171
-\cmidrulewidth=\dimen172
-\belowrulesep=\dimen173
-\belowbottomsep=\dimen174
-\aboverulesep=\dimen175
-\abovetopsep=\dimen176
-\cmidrulesep=\dimen177
-\cmidrulekern=\dimen178
-\defaultaddspace=\dimen179
-\@cmidla=\count421
-\@cmidlb=\count422
-\@aboverulesep=\dimen180
-\@belowrulesep=\dimen181
-\@thisruleclass=\count423
-\@lastruleclass=\count424
-\@thisrulewidth=\dimen182
+\heavyrulewidth=\dimen172
+\lightrulewidth=\dimen173
+\cmidrulewidth=\dimen174
+\belowrulesep=\dimen175
+\belowbottomsep=\dimen176
+\aboverulesep=\dimen177
+\abovetopsep=\dimen178
+\cmidrulesep=\dimen179
+\cmidrulekern=\dimen180
+\defaultaddspace=\dimen181
+\@cmidla=\count423
+\@cmidlb=\count424
+\@aboverulesep=\dimen182
+\@belowrulesep=\dimen183
+\@thisruleclass=\count425
+\@lastruleclass=\count426
+\@thisrulewidth=\dimen184
 )
 (/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -1733,15 +1757,15 @@ Class scrreprt Warning: Usage of package `titlesec' together
 
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box48
+\ttl@box=\box51
 \beforetitleunit=\skip89
 \aftertitleunit=\skip90
-\ttl@plus=\dimen183
-\ttl@minus=\dimen184
-\ttl@toksa=\toks28
-\titlewidth=\dimen185
-\titlewidthlast=\dimen186
-\titlewidthfirst=\dimen187
+\ttl@plus=\dimen185
+\ttl@minus=\dimen186
+\ttl@toksa=\toks31
+\titlewidth=\dimen187
+\titlewidthlast=\dimen188
+\titlewidthfirst=\dimen189
 
 
 Package titlesec Warning: Non standard sectioning command detected
@@ -1817,11 +1841,11 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \newchnumberwidth=\skip133
 \figurelabelwidth=\skip134
 \tablelabelwidth=\skip135
-\c@listings=\count425
+\c@listings=\count427
 \cftbeforelistingsskip=\skip136
 \cftlistingsindent=\skip137
 \cftlistingsnumwidth=\skip138
-\c@loldepth=\count426
+\c@loldepth=\count428
 \cftbeforeloltitleskip=\skip139
 \cftafterloltitleskip=\skip140
 \listingslabelwidth=\skip141
@@ -1855,16 +1879,11 @@ File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 )
 (/home/rick/Documents/Calculus/tex/template/main.aux
 (/home/rick/Documents/Calculus/tex/template/FrontBackMatter/Titlepage.aux)
-(/home/rick/Documents/Calculus/tex/template/FrontBackMatter/Titleback.aux)
-(/home/rick/Documents/Calculus/tex/template/FrontBackMatter/Dedication.aux)
-(/home/rick/Documents/Calculus/tex/template/FrontBackMatter/Abstract.aux)
 (/home/rick/Documents/Calculus/tex/template/FrontBackMatter/Contents.aux)
 (/home/rick/Documents/Calculus/tex/template/Chapters/Chapter01.aux)
 (/home/rick/Documents/Calculus/tex/template/Chapters/Chapter02.aux)
 (/home/rick/Documents/Calculus/tex/template/Chapters/Chapter03.aux)
-(/home/rick/Documents/Calculus/tex/template/Chapters/Chapter0A.aux)
-(/home/rick/Documents/Calculus/tex/template/FrontBackMatter/Declaration.aux)
-(/home/rick/Documents/Calculus/tex/template/FrontBackMatter/Colophon.aux))
+(/home/rick/Documents/Calculus/tex/template/Chapters/Chapter04.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
@@ -1912,17 +1931,17 @@ Package biblatex Info: Reference segment=0 on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count427
-\scratchdimen=\dimen188
-\scratchbox=\box49
-\nofMPsegments=\count428
-\nofMParguments=\count429
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count430
-\MPscratchDim=\dimen189
-\MPnumerator=\count431
-\makeMPintoPDFobject=\count432
-\everyMPtoPDFconversion=\toks30
+\scratchcounter=\count429
+\scratchdimen=\dimen190
+\scratchbox=\box52
+\nofMPsegments=\count430
+\nofMParguments=\count431
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count432
+\MPscratchDim=\dimen191
+\MPnumerator=\count433
+\makeMPintoPDFobject=\count434
+\everyMPtoPDFconversion=\toks33
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1942,12 +1961,14 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count433
+\c@lstlisting=\count435
 Package scrhack Info: undefining \float@addtolists on input line 46.
-\AtBeginShipoutBox=\box50
+\AtBeginShipoutBox=\box53
 Package hyperref Info: Link coloring ON on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1956,7 +1977,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count434
+\c@section@level=\count436
 )
 LaTeX Info: Redefining \ref on input line 46.
 LaTeX Info: Redefining \pageref on input line 46.
@@ -2021,7 +2042,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zplm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<gfx/TFZsuperellipse_bw.pdf, id=184, 260.5755pt x 203.14595pt>
+<gfx/TFZsuperellipse_bw.pdf, id=196, 260.5755pt x 203.14595pt>
 File: gfx/TFZsuperellipse_bw.pdf Graphic file (type pdf)
 <use gfx/TFZsuperellipse_bw.pdf>
 Package pdftex.def Info: gfx/TFZsuperellipse_bw.pdf  used on input line 20.
@@ -2043,41 +2064,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/rick/Documents/Calcu
-lus/tex/template/gfx/TFZsuperellipse_bw.pdf>])
-\openout2 = `FrontBackMatter/Titleback.aux'.
-
-
-(/home/rick/Documents/Calculus/tex/template/FrontBackMatter/Titleback.tex
-LaTeX Font Info:    Try loading font information for TS1+pplj on input line 10.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pplj.fd
-File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
-)) [2
-
-
-]
-\openout2 = `FrontBackMatter/Dedication.aux'.
-
-
-(/home/rick/Documents/Calculus/tex/template/FrontBackMatter/Dedication.tex)
-[3
-
-
-
-
-] [4
-
-
-
-]
-\openout2 = `FrontBackMatter/Abstract.aux'.
-
-
-(/home/rick/Documents/Calculus/tex/template/FrontBackMatter/Abstract.tex)
-[5
-
-] [6
+lus/tex/template/gfx/TFZsuperellipse_bw.pdf>]) [2
 
 
 
@@ -2103,7 +2090,11 @@ Overfull \hbox (5.06564pt too wide) in paragraph at lines 54--54
 a-zio-ni di gra- 
  []
 
-)
+[3
+
+
+
+])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
@@ -2112,36 +2103,16 @@ a-zio-ni di gra-
 1: chapter
 1: chapter
 1: section
-[7
-
-
-
-]
+[4]
 Package tocbasic Info: character protrusion at lof deactivated on input line 33
 .
  (/home/rick/Documents/Calculus/tex/template/main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [8
+) [5
 
-]
-Package tocbasic Info: character protrusion at lot deactivated on input line 46
-.
-
-(/home/rick/Documents/Calculus/tex/template/main.lot)
-\tf@lot=\write8
-\openout8 = `main.lot'.
-
- [9]
-(/home/rick/Documents/Calculus/tex/template/main.lol
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.30756pt on input line 15.
-)
-\tf@lol=\write9
-\openout9 = `main.lol'.
-
- [10]) [11] [12
+] [6
 
 
 
@@ -2150,17 +2121,23 @@ LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 
 
 
-]
-[2]
+] [2]
 \openout2 = `Chapters/Chapter01.aux'.
 
- (/home/rick/Documents/Calculus/tex/template/Chapters/Chapter01.tex
+
+(/home/rick/Documents/Calculus/tex/template/Chapters/Chapter01.tex
 chapter 1.
 [3
 
 
 
-] [4] [5]) [6] [7
+]
+LaTeX Font Info:    Try loading font information for TS1+pplj on input line 84.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pplj.fd
+File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
+) [4] [5])
+[6] [7
 
 
 
@@ -2169,8 +2146,7 @@ chapter 1.
 ] [8]
 \openout2 = `Chapters/Chapter02.aux'.
 
-
-(/home/rick/Documents/Calculus/tex/template/Chapters/Chapter02.tex
+ (/home/rick/Documents/Calculus/tex/template/Chapters/Chapter02.tex
 chapter 2.
 
 Overfull \hbox (6.38503pt too wide) in paragraph at lines 27--28
@@ -2188,19 +2164,6 @@ r/m/n/10.95 x\U/zeus/m/n/10.95 © 6½
 
 
 ] [10]
-Overfull \hbox (39.63965pt too wide) detected at line 128
- $\U/zeur/m/n/10.95 g\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 y\U/zeus/m/n/10.95 © 
-½ \U/zeur/m/n/10.95 g\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 f\U/zeus/m/n/10.95 ¨\
-U/zeur/m/n/10.95 x\U/zeus/m/n/10.95 ©© ½ \U/zeur/m/n/10.95 g \U/zeus/m/n/10.95 
-^^N \U/zeur/m/n/10.95 f\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 x\U/zeus/m/n/10.95 
-© []\U/zeur/m/n/10.95 g \U/zeus/m/n/10.95 ^^N \U/zeur/m/n/10.95 f\U/zeus/m/n/10
-.95 ¨\U/zeur/m/n/10.95 x\U/zeus/m/n/10.95 © ½ f\U/zeur/m/n/10.95 x \U/zeus/m/n/
-10.95 2 \U/zeur/m/n/10.95 A \U/zeus/m/n/10.95 \ \U/zeur/m/n/10.95 f\U/zeus/m/n/
-10.95 ¨\U/zeur/m/n/10.95 x\U/zeus/m/n/10.95 © 2  [][] \U/zeur/m/n/10.95 B\U/zeu
-s/m/n/10.95 g$ 
- []
-
-
 Overfull \hbox (23.557pt too wide) has occurred while \output is active
  []|[]|
  []
@@ -2211,18 +2174,14 @@ Overfull \hbox (23.557pt too wide) has occurred while \output is active
  (/home/rick/Documents/Calculus/tex/template/Chapters/Chapter03.tex
 chapter 3.
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 9.
-
-
-Overfull \hbox (60.89166pt too wide) detected at line 27
+Overfull \hbox (60.89166pt too wide) detected at line 19
   $\U/zeur/m/n/10.95 f\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 x\U/zeus/m/n/10.95 ©
  ½ \U/zeur/m/n/10.95 x[] \U/zeus/m/n/10.95 ½ []  []\U/zeur/m/n/10.95 f \U/zeus/
 m/n/10.95 ½ \U/msb/m/n/10.95 R []\U/zeur/m/n/10.95 f \U/zeus/m/n/10.95 ½ []$ 
  []
 
 
-Overfull \hbox (10.388pt too wide) detected at line 35
+Overfull \hbox (10.388pt too wide) detected at line 27
   $\U/zeur/m/n/10.95 f\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 x\U/zeus/m/n/10.95 ©
  ½ \U/zeur/m/n/10.95 x[] \U/zeus/m/n/10.95 ½ [] []\U/zeur/m/n/10.95 f \U/zeus/m
 /n/10.95 ½ \U/msb/m/n/10.95 R\U/zeus/m/n/10.95 nf\U/zeur/m/n/10.95 0\U/zeus/m/n
@@ -2230,14 +2189,14 @@ Overfull \hbox (10.388pt too wide) detected at line 35
  []
 
 
-Overfull \hbox (93.40683pt too wide) detected at line 48
+Overfull \hbox (93.40683pt too wide) detected at line 40
   $\U/zeur/m/n/10.95 f\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 x\U/zeus/m/n/10.95 ©
  ½ \U/zeur/m/n/10.95 x[] \U/zeus/m/n/10.95 ½ [] []\U/zeur/m/n/10.95 f \U/zeus/m
 /n/10.95 ½ []  []\U/zeur/m/n/10.95 f \U/zeus/m/n/10.95 ½ []$ 
  []
 
 
-Overfull \hbox (99.98706pt too wide) detected at line 65
+Overfull \hbox (99.98706pt too wide) detected at line 57
   $\U/zeur/m/n/10.95 f\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.95 x\U/zeus/m/n/10.95 ©
  ½ \U/zeur/m/n/10.95 x[] \U/zeus/m/n/10.95 ½ []  []\U/zeur/m/n/10.95 f \U/zeus/
 m/n/10.95 ½ ¨\U/zeur/m/n/10.95 0; \U/zeus/m/n/10.95 «\U/zeuex/m/n/10.95 ™\U/zeu
@@ -2245,160 +2204,138 @@ s/m/n/10.95 © []\U/zeur/m/n/10.95 f \U/zeus/m/n/10.95 ½ ¨\U/zeur/m/n/10.95 0; \
 U/zeus/m/n/10.95 «\U/zeuex/m/n/10.95 ™\U/zeus/m/n/10.95 ©$ 
  []
 
-<gfx/images/potenze.png, id=371, 655.44875pt x 478.78876pt>
-File: gfx/images/potenze.png Graphic file (type png)
-<use gfx/images/potenze.png>
-Package pdftex.def Info: gfx/images/potenze.png  used on input line 73.
-(pdftex.def)             Requested size: 151.19897pt x 110.44785pt.
 [13
 
 
 
 
-] [14 </home/rick/Documents/Calculus/tex/template/gfx/images/potenze.png>]pdfTe
-X warning (ext4): destination with the same identifier (name{subfigure.1.1}) ha
-s been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.129 \subfloat
-               [Esponenziali.]
-<gfx/images/esponenziali.png, id=384, 1047.915pt x 541.02126pt>
-File: gfx/images/esponenziali.png Graphic file (type png)
-<use gfx/images/esponenziali.png>
-Package pdftex.def Info: gfx/images/esponenziali.png  used on input line 130.
-(pdftex.def)             Requested size: 151.19897pt x 78.05394pt.
- [15 </home/rick/Documents/Calculus/tex/template/gfx/images/esponenziali.png>]p
-dfTeX warning (ext4): destination with the same identifier (name{subfigure.1.1}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.163 \subfloat
-               [Logaritmi.]
-<gfx/images/logaritmi.png, id=395, 972.63374pt x 682.55pt>
-File: gfx/images/logaritmi.png Graphic file (type png)
-<use gfx/images/logaritmi.png>
-Package pdftex.def Info: gfx/images/logaritmi.png  used on input line 164.
-(pdftex.def)             Requested size: 151.19897pt x 106.09618pt.
- [16 </home/rick/Documents/Calculus/tex/template/gfx/images/logaritmi.png>]pdfT
-eX warning (ext4): destination with the same identifier (name{subfigure.1.1}) h
-as been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.182 \subfloat
-               [Circonferenza goniometrica con seno e coseno.]
-<gfx/circonferenza.png, id=405, 275.0275pt x 301.125pt>
-File: gfx/circonferenza.png Graphic file (type png)
-<use gfx/circonferenza.png>
-Package pdftex.def Info: gfx/circonferenza.png  used on input line 183.
-(pdftex.def)             Requested size: 151.19897pt x 165.55032pt.
+]
+<gfx/3/potenze.png, id=376, 655.44875pt x 478.78876pt>
+File: gfx/3/potenze.png Graphic file (type png)
+<use gfx/3/potenze.png>
+Package pdftex.def Info: gfx/3/potenze.png  used on input line 91.
+(pdftex.def)             Requested size: 302.39795pt x 220.8957pt.
+ [14 </home/rick/Documents/Calculus/tex/template/gfx/3/potenze.png>]
+<gfx/3/esponenziali.png, id=382, 1047.915pt x 541.02126pt>
+File: gfx/3/esponenziali.png Graphic file (type png)
+<use gfx/3/esponenziali.png>
+Package pdftex.def Info: gfx/3/esponenziali.png  used on input line 121.
+(pdftex.def)             Requested size: 302.39795pt x 156.11613pt.
 
-Underfull \hbox (badness 3657) in paragraph at lines 183--183
-[][]|\T1/pplj/m/n/9 Cir-con-fe-ren-za go-nio-me-tri-ca con
+[15 </home/rick/Documents/Calculus/tex/template/gfx/3/esponenziali.png>]
+<gfx/3/logaritmi.png, id=391, 972.63374pt x 682.55pt>
+File: gfx/3/logaritmi.png Graphic file (type png)
+<use gfx/3/logaritmi.png>
+Package pdftex.def Info: gfx/3/logaritmi.png  used on input line 154.
+(pdftex.def)             Requested size: 302.39795pt x 212.20279pt.
+)
+[16 </home/rick/Documents/Calculus/tex/template/gfx/3/logaritmi.png>]
+\openout2 = `Chapters/Chapter04.aux'.
+
+
+(/home/rick/Documents/Calculus/tex/template/Chapters/Chapter04.tex
+chapter 4.
+<gfx/4/circonferenza.png, id=400, 275.0275pt x 301.125pt>
+File: gfx/4/circonferenza.png Graphic file (type png)
+<use gfx/4/circonferenza.png>
+Package pdftex.def Info: gfx/4/circonferenza.png  used on input line 17.
+(pdftex.def)             Requested size: 141.11938pt x 154.51364pt.
+[17
+
+
+
+
+ </home/rick/Documents/Calculus/tex/template/gfx/4/circonferenza.png>]
+<gfx/4/senocoseno.png, id=406, 1077.02374pt x 210.7875pt>
+File: gfx/4/senocoseno.png Graphic file (type png)
+<use gfx/4/senocoseno.png>
+Package pdftex.def Info: gfx/4/senocoseno.png  used on input line 40.
+(pdftex.def)             Requested size: 336.0pt x 65.75835pt.
+
+[18 </home/rick/Documents/Calculus/tex/template/gfx/4/senocoseno.png>]
+<gfx/4/tangente.png, id=416, 402.50375pt x 384.43625pt>
+File: gfx/4/tangente.png Graphic file (type png)
+<use gfx/4/tangente.png>
+Package pdftex.def Info: gfx/4/tangente.png  used on input line 68.
+(pdftex.def)             Requested size: 141.11938pt x 134.78346pt.
+
+Underfull \hbox (badness 4096) in paragraph at lines 78--79
+[]\T1/pplj/m/n/10.95 Nella [][]Fi-gu-ra 6[][][] è evi-den-zia-ta
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{subfigure.1.1
-}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.199 \subfloat
-               [Grafico delle funzioni: seno (sinistra) e coseno (destra).]
-<gfx/images/senocoseno.png, id=406, 1077.02374pt x 210.7875pt>
-File: gfx/images/senocoseno.png Graphic file (type png)
-<use gfx/images/senocoseno.png>
-Package pdftex.def Info: gfx/images/senocoseno.png  used on input line 200.
-(pdftex.def)             Requested size: 151.19897pt x 29.59045pt.
 
-[17 </home/rick/Documents/Calculus/tex/template/gfx/circonferenza.png>]pdfTeX w
-arning (ext4): destination with the same identifier (name{subfigure.1.1}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.234 \subfloat
-               [Funzioni trigonometriche.]
-<gfx/images/trigonometriche.png, id=414, 462.528pt x 346.896pt>
-File: gfx/images/trigonometriche.png Graphic file (type png)
-<use gfx/images/trigonometriche.png>
-Package pdftex.def Info: gfx/images/trigonometriche.png  used on input line 235
-.
-(pdftex.def)             Requested size: 151.19897pt x 113.4015pt.
- [18 </home/rick/Documents/Calculus/tex/template/gfx/images/senocoseno.png>]) [
-19 </home/rick/Documents/Calculus/tex/template/gfx/images/trigonometriche.png>]
- [20
+Underfull \hbox (badness 1102) in paragraph at lines 78--79
+\T1/pplj/m/n/10.95 la tan-gen-te nel pun-to $\U/zeus/m/n/10.95 ¨\U/zeur/m/n/10.
+95 A; Q[] \U/zeus/m/n/10.95 ½
+ []
+
+<gfx/4/trigonometriche.png, id=418, 462.528pt x 346.896pt>
+File: gfx/4/trigonometriche.png Graphic file (type png)
+<use gfx/4/trigonometriche.png>
+Package pdftex.def Info: gfx/4/trigonometriche.png  used on input line 87.
+(pdftex.def)             Requested size: 302.39795pt x 226.8083pt.
+[19 </home/rick/Documents/Calculus/tex/template/gfx/4/tangente.png>]
+Overfull \hbox (12.72595pt too wide) detected at line 99
+ $[] [] \U/zeur/m/n/10.95 x \U/zeus/m/n/10.95 ½ Û^^@\U/zeur/m/n/10.95 1; 1\U/ze
+us/m/n/10.95 Ý [] [] \U/zeur/m/n/10.95 x \U/zeus/m/n/10.95 ½ Û^^@\U/zeur/m/n/10
+.95 1; 1\U/zeus/m/n/10.95 Ý [] [] \U/zeur/m/n/10.95 x \U/zeus/m/n/10.95 ½ \U/ms
+b/m/n/10.95 R$ 
+ []
 
 
+Overfull \hbox (22.65556pt too wide) detected at line 100
+ $[] [] \U/zeur/m/n/10.95 x \U/zeus/m/n/10.95 ½ Û[]\U/zeur/m/n/10.95 ; []\U/zeu
+s/m/n/10.95 Ý [] [] \U/zeur/m/n/10.95 x \U/zeus/m/n/10.95 ½ Û\U/zeur/m/n/10.95 
+0; ^^Y\U/zeus/m/n/10.95 Ý\U/zeur/m/n/10.95 ;  [] [] x \U/zeus/m/n/10.95 ½ ¨[]\U
+/zeur/m/n/10.95 ; []\U/zeus/m/n/10.95 ©$ 
+ []
 
-] [21
+[20 </home/rick/Documents/Calculus/tex/template/gfx/4/trigonometriche.png>]
+<gfx/4/arcoseno.png, id=431, 704.6325pt x 524.96124pt>
+File: gfx/4/arcoseno.png Graphic file (type png)
+<use gfx/4/arcoseno.png>
+Package pdftex.def Info: gfx/4/arcoseno.png  used on input line 122.
+(pdftex.def)             Requested size: 302.39795pt x 225.28836pt.
+<gfx/4/arcocoseno.png, id=432, 710.655pt x 526.96875pt>
+File: gfx/4/arcocoseno.png Graphic file (type png)
+<use gfx/4/arcocoseno.png>
+Package pdftex.def Info: gfx/4/arcocoseno.png  used on input line 127.
+(pdftex.def)             Requested size: 302.39795pt x 224.2442pt.
 
-
-] [22]
-\openout2 = `Chapters/Chapter0A.aux'.
-
-
-(/home/rick/Documents/Calculus/tex/template/Chapters/Chapter0A.tex
-chapter A.
-[23
-
-
-
-] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 8.50006pt on input line 41.
-) [24]
-\openout2 = `FrontBackMatter/Declaration.aux'.
-
-
-(/home/rick/Documents/Calculus/tex/template/FrontBackMatter/Declaration.tex)
-[25
-
-
-
-
-
-
-] [26
-
-
-
-]
-\openout2 = `FrontBackMatter/Colophon.aux'.
-
-
-(/home/rick/Documents/Calculus/tex/template/FrontBackMatter/Colophon.tex)
-[27
-
-]
+[21 </home/rick/Documents/Calculus/tex/template/gfx/4/arcoseno.png>]
+<gfx/4/arcotangente.png, id=437, 862.22125pt x 643.40375pt>
+File: gfx/4/arcotangente.png Graphic file (type png)
+<use gfx/4/arcotangente.png>
+Package pdftex.def Info: gfx/4/arcotangente.png  used on input line 133.
+(pdftex.def)             Requested size: 302.39795pt x 225.64629pt.
+) [22 </home/rick/Documents/Calculus/tex/template/gfx/4/arcocoseno.png> </home/
+rick/Documents/Calculus/tex/template/gfx/4/arcotangente.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 137.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 137.
- (/home/rick/Documents/Calculus/tex/template/main.aux
+
+(/home/rick/Documents/Calculus/tex/template/main.aux
 (/home/rick/Documents/Calculus/tex/template/FrontBackMatter/Titlepage.aux)
-(/home/rick/Documents/Calculus/tex/template/FrontBackMatter/Titleback.aux)
-(/home/rick/Documents/Calculus/tex/template/FrontBackMatter/Dedication.aux)
-(/home/rick/Documents/Calculus/tex/template/FrontBackMatter/Abstract.aux)
 (/home/rick/Documents/Calculus/tex/template/FrontBackMatter/Contents.aux)
 (/home/rick/Documents/Calculus/tex/template/Chapters/Chapter01.aux)
 (/home/rick/Documents/Calculus/tex/template/Chapters/Chapter02.aux)
 (/home/rick/Documents/Calculus/tex/template/Chapters/Chapter03.aux)
-(/home/rick/Documents/Calculus/tex/template/Chapters/Chapter0A.aux)
-(/home/rick/Documents/Calculus/tex/template/FrontBackMatter/Declaration.aux)
-(/home/rick/Documents/Calculus/tex/template/FrontBackMatter/Colophon.aux))
+(/home/rick/Documents/Calculus/tex/template/Chapters/Chapter04.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 137.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 137.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 923B388587C329A1C0008A5001642FC0;3030.
+(rerunfilecheck)             Checksum: 55444A7B84B910A49C289DA15CA2B815;3338.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34031 strings out of 492982
- 628078 string characters out of 6134896
- 1151153 words of memory out of 5000000
- 36838 multiletter control sequences out of 15000+600000
- 626784 words of font info for 177 fonts, out of 8000000 for 9000
+ 33730 strings out of 492982
+ 623930 string characters out of 6134896
+ 1150896 words of memory out of 5000000
+ 36595 multiletter control sequences out of 15000+600000
+ 622819 words of font info for 169 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,23n,96p,10448b,1642s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,23n,96p,10448b,1674s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
@@ -2410,18 +2347,17 @@ ic/amsfonts/euler/eurb10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/euler/eurm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/euler/eurm7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/euler/eusm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fplrc8
-a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/palatino/uplri8a.pfb>
-Output written on /home/rick/Documents/Calculus/tex/template/main.pdf (39 pages
-, 479567 bytes).
+a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/palatino/uplri8a.pfb>
+Output written on /home/rick/Documents/Calculus/tex/template/main.pdf (28 pages
+, 751538 bytes).
 PDF statistics:
- 566 PDF objects out of 1000 (max. 8388607)
- 493 compressed objects within 5 object streams
- 139 named destinations out of 1000 (max. 500000)
- 28556 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 524 PDF objects out of 1000 (max. 8388607)
+ 459 compressed objects within 5 object streams
+ 114 named destinations out of 1000 (max. 500000)
+ 27064 words of extra memory for PDF output out of 29859 (max. 10000000)
 

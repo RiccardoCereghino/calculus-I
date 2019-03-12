@@ -9,29 +9,31 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Notazione}}{3}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Insiemi}{3}{section.1.1}
+\contentsline {section}{\numberline {1.1}Insiemistica}{3}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Logica}{3}{section.1.2}
+\contentsline {section}{\numberline {1.2}Simboli logici}{3}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Operazioni tra insiemi}{3}{section.1.3}
+\contentsline {subsection}{\numberline {1.2.1}Intervalli}{3}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}Prodotto cartesiano}{4}{section.1.4}
+\contentsline {section}{\numberline {1.3}Insiemi}{4}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4.1}Intervalli}{4}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.3.1}Relazioni tra insiemi}{4}{subsection.1.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Propriet\IeC {\`a} delle operazioni tra numeri reali}{4}{section.1.5}
+\contentsline {subsection}{\numberline {1.3.2}Operazioni tra insiemi}{4}{subsection.1.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.6}Geometria}{6}{section.1.6}
+\contentsline {section}{\numberline {1.4}Numeri reali}{4}{section.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.6.1}Circonferenza}{6}{subsection.1.6.1}
+\contentsline {section}{\numberline {1.5}Geometria}{6}{section.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Forma canonica:}{6}{subsection.1.6.1}
+\contentsline {subsection}{\numberline {1.5.1}Circonferenza}{6}{subsection.1.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.6.2}Ellisse}{6}{subsection.1.6.2}
+\contentsline {subsubsection}{\numberline {1.5.1.1}Forma canonica:}{6}{subsubsection.1.5.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.6}Ellisse}{6}{section.1.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {part}{\numberline {ii}\spacedlowsmallcaps {Funzioni}}{7}{part.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Funzioni}}{9}{chapter.2}
+\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Funzioni elementari di variabile reale}}{9}{chapter.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Il concetto di funzione}{9}{section.2.1}
 \defcounter {refsection}{0}\relax 
@@ -41,72 +43,76 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.1.1}Osservazioni}{10}{subsubsection.2.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Funzioni reali di variabile reale}{10}{section.2.3}
+\contentsline {section}{\numberline {2.3}Funzioni pari e dispari}{10}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Funzioni pari e dispari}{10}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Funzioni monotone}{10}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Funzioni monotone}{10}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.5}Traslazioni, dilatazioni e riflessioni}{10}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Traslazioni, dilatazioni e riflessioni}{10}{section.2.4}
+\contentsline {subsection}{\numberline {2.5.1}Osservazioni}{11}{subsection.2.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.0.1}Osservazioni}{11}{subsubsection.2.4.0.1}
+\contentsline {section}{\numberline {2.6}Simmetrie, traslazioni, compressioni e dilatazioni di grafici.}{11}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Simmetrie, traslazioni, compressioni e dilatazioni di grafici.}{11}{section.2.5}
+\contentsline {section}{\numberline {2.7}Funzione composta}{12}{section.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Funzione composta}{12}{section.2.6}
+\contentsline {section}{\numberline {2.8}Funzione inversa e sue propriet\IeC {\`a}.}{12}{section.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Funzione inversa e sue propriet\IeC {\`a}.}{12}{section.2.7}
+\contentsline {subsection}{\numberline {2.8.1}Costruire l'inverso di f}{12}{subsection.2.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.1}Costruire l'inverso di f}{12}{subsection.2.7.1}
+\contentsline {subsubsection}{\numberline {2.8.1.1}Osservazioni}{12}{subsubsection.2.8.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.7.1.1}Osservazioni}{12}{subsubsection.2.7.1.1}
+\contentsline {section}{\numberline {2.9}Polinomi}{12}{section.2.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Funzioni elementari}}{13}{chapter.3}
+\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Funzioni esponenziali e logaritmiche }}{13}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.0.1}Polinomi}{13}{subsection.3.0.1}
+\contentsline {section}{\numberline {3.1}Potenze}{13}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.0.2}Potenze}{13}{subsection.3.0.2}
+\contentsline {subsection}{\numberline {3.1.1}Propriet\IeC {\`a} delle potenze}{14}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.0.2.1}Propriet\IeC {\`a} delle potenze}{14}{subsubsection.3.0.2.1}
+\contentsline {paragraph}{Osservazioni}{14}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Osservazioni}{14}{subsubsection.3.0.2.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Dimostrazioni}{14}{subsubsection.3.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Dimostrazioni}{14}{subsubsection.3.0.2.1}
+\contentsline {section}{\numberline {3.2}Esponenziale}{14}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.0.3}Esponenziale}{15}{subsection.3.0.3}
+\contentsline {subsection}{\numberline {3.2.1}Propriet\IeC {\`a}}{15}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.0.3.1}Propriet\IeC {\`a}}{15}{subsubsection.3.0.3.1}
+\contentsline {section}{\numberline {3.3}Logaritmo}{15}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.0.4}Logaritmo}{15}{subsection.3.0.4}
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Funzioni trigonometriche}}{17}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Funzioni trigonometriche}{16}{section.3.1}
+\contentsline {section}{\numberline {4.1}Radianti}{17}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Le funzioni seno e coseno}{17}{subsection.3.1.1}
+\contentsline {section}{\numberline {4.2}Le funzioni seno e coseno}{17}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Simmetria}{17}{subfigure.1.1}
+\contentsline {subsection}{\numberline {4.2.1}Simmetria}{17}{subsection.4.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Monotonia}{17}{subfigure.1.1}
+\contentsline {subsection}{\numberline {4.2.2}Monotonia}{18}{subsection.4.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.1.1}Formule trigonometriche}{18}{subsubsection.3.1.1.1}
+\contentsline {subsection}{\numberline {4.2.3}Formule trigonometriche}{18}{subsection.4.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Formule di addizione e sottrazione}{18}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {4.2.3.1}Formule di addizione e sottrazione}{18}{subsubsection.4.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Formule di duplicazione}{18}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {4.2.3.2}Formule di duplicazione}{18}{subsubsection.4.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Formule di potenza}{18}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {4.2.3.3}Formule di potenza}{18}{subsubsection.4.2.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Formule di bisezione}{18}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {4.2.3.4}Formule di bisezione}{18}{subsubsection.4.2.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Formule di prostaferesi}{18}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {4.2.3.5}Formule di prostaferesi}{19}{subsubsection.4.2.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}La funzione tangente e la funzione cotangente}{18}{subsection.3.1.2}
+\contentsline {section}{\numberline {4.3}La funzione tangente}{19}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.2.1}Propriet\IeC {\`a} fondamentali}{19}{subsubsection.3.1.2.1}
+\contentsline {subsection}{\numberline {4.3.1}Simmetria}{19}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {iii}\spacedlowsmallcaps {Appendix}}{21}{part.3}
+\contentsline {subsection}{\numberline {4.3.2}Monotonia}{19}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{23}{appendix.Alph1}
+\contentsline {section}{\numberline {4.4}Funzioni trigonometriche inverse}{20}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Appendix Section Test}{23}{section.Alph1.1}
+\contentsline {subsection}{\numberline {4.4.1}Dominio ed immagine}{20}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{24}{section.Alph1.2}
+\contentsline {subsection}{\numberline {4.4.2}Parit\IeC {\`a}}{20}{subsection.4.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.3}Monotonia}{20}{subsection.4.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.4}Relazioni}{21}{subsection.4.4.4}

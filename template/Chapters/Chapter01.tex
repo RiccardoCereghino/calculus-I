@@ -7,17 +7,19 @@
 %----------------------------------------------------------------------------------------
 Un richiamo alla notazione che verrà utilizzata nel documento.
 
-\section{Insiemi}
-\begin{tabular}{ll}
+\section{Insiemistica}
+\begin{tabular}{|l|l|}
+  \hline
   $\emptyset$ & Insieme vuoto \\
-  $\N$ & Naturali compreso lo $0$ \\
-  $\Z$ & Relativi \\
-  $\Q = \left\{ \frac{n}{m} \middle| n \in \Z , m \in \Z , m \neq 0 \right\} $ & Razionali \\
-  $\R$ & Reali \\
+  $\N$ & Insieme dei numeri naturali compreso lo $0$ \\
+  $\Z$ & Insieme dei numeri relativi \\
+  $\Q$ & Insieme dei numeri razionali \\
+  $\R$ & Insieme dei numeri reali \\\hline
 \end{tabular}
 
-\section{Logica}
-\begin{tabular}{ll}
+\section{Simboli logici}
+\begin{tabular}{|l|l|}
+  \hline
   $| $ & tale che \\
   $ \Rightarrow $ & implica \\
   $ \Leftrightarrow $ & se e solo se \\
@@ -25,16 +27,34 @@ Un richiamo alla notazione che verrà utilizzata nel documento.
   $ \exists $ & esiste \\
   $ \nexists $ & non esiste \\
   $ \in $ & appartiene \\
-  $ \notin $ & non appartiene \\
+  $ \notin $ & non appartiene \\\hline
 \end{tabular}
 
 
-\section{Operazioni tra insiemi}
+
+\subsection{Intervalli}
+\begin{tabular}{|l|l|}
+\hline
+intervallo limitato chiuso &$[a,b] = \left\{ x\in \R \middle| a \leq x \leq b \right\}$ \\
+intervallo limitato aperto&$(a,b) = \left\{ x\in \R \middle| a < x < b \right\}$ \\
+intervallo limitato aperto a destra&$[a,b) = \left\{ x\in \R \middle| a \leq x < b \right\}$ \\
+intervallo limitato aperto a sinistra&$(a,b] = \left\{ x\in \R \middle| a < x \leq b \right\}$ \\
+intervallo illimitato chiuso a sinistra&$[a,+\infty) = \left\{ x\in \R \middle| x \geq a \right\}$ \\
+intervallo illimitato aperto a sinistra&$(a,+\infty) = \left\{ x\in \R \middle| x > a \right\}$ \\
+intervallo illimitato chiuso a destra&$(-\infty,b] = \left\{ x\in \R \middle| x \leq b \right\}$ \\
+intervallo illimitato aperto a destra&$(-\infty,b) = \left\{ x\in \R \middle| x < b \right\}$ \\
+intervallo illimitato&$(-\infty,+\infty) = \R$ \\ \hline
+\end{tabular}
+
+\section{Insiemi}
+\subsection{Relazioni tra insiemi}
+Dati due insiemi $A$ e $B$:
+
 \begin{description}
-  \item[A sottoinsieme di B]
+  \item[Inclusione:] si dice che $A$ è un sottoinsieme di $B$, o che è contenuto in $B$:
     \[A \subseteq  B\]
     \[\forall x \in A \Rightarrow x \in B\]
-  \item[A sottoinsieme proprio]
+  \item[Inclusione propria:]
     \[A \subsetneqq  B\]
     \[
       \begin{cases}
@@ -42,96 +62,83 @@ Un richiamo alla notazione che verrà utilizzata nel documento.
         \exists x \in B | x \notin A
         \end{cases}
       \]
-    \item[Intersezione]
-      \[A \cap B = \left\{ x \in X \middle| x \in A, x \in B\right\}\]
-    \item[Unione]
-      \[A \cup B = \left\{ x \in X \middle| x \in A or x \in B\right\}\]
-    \item[Differenza insiemistica]
-      \[A \diagdown B = \left\{ x \in X \middle| x \in A, x \notin B\right\}\]
-    \item[Complementare]
-      \[A^C = \left\{ x \in X \middle| x \notin A \right\}\]
 \end{description}
 
-\section{Prodotto cartesiano}
-Assegnati due numeri reali $a, b, a < b$, si definiscono intervalli gli insiemi seguenti:
-\[A\times B = \left\{ (x,y) \middle| x\in A, y\in B\right\}\]
-Coppia ordinata: $(1,3) \neq (3,1)$
+\subsection{Operazioni tra insiemi}
+\begin{description}
+  \item[Intersezione:]
+    \[A \cap B = \left\{ x \in X \middle| x \in A, x \in B\right\}\]
+  \item[Unione:]
+    \[A \cup B = \left\{ x \in X \middle| x \in A or x \in B\right\}\]
+  \item[Differenza insiemistica:]
+    \[A \diagdown B = \left\{ x \in X \middle| x \in A, x \notin B\right\}\]
+  \item[Complementare:]
+    \[A^C = \left\{ x \in X \middle| x \notin A \right\}\]
+  \item[Prodotto cartesiano:] dove $(x,y)$ denota la coppia ordinata
+  \[A\times B = \left\{ (x,y) \middle| x\in A, y\in B\right\}\]
+\end{description}
 
-
-\subsection{Intervalli}
-\begin{tabular}{ll}
-intervallo limitato chiuso &$[a,b] = \left\{ x\in \R \middle| a \leq x \leq b \right\}$ \\
-intervallo limitato aperto&$(a,b) = \left\{ x\in \R \middle| a < x < b \right\}$ \\
-intervallo limitato aperto a destra&$[a,b) = \left\{ x\in \R \middle| a \leq x < b \right\}$ \\
-intervallo limitato aperto a sinistra&$(a,b] = \left\{ x\in \R \middle| a < x \leq b \right\}$ \\
-
-intervallo illimitato chiuso a sinistra&$[a,+\infty) = \left\{ x\in \R \middle| x \geq a \right\}$ \\
-intervallo illimitato aperto a sinistra&$(a,+\infty) = \left\{ x\in \R \middle| x > a \right\}$ \\
-intervallo illimitato chiuso a destra&$(-\infty,b] = \left\{ x\in \R \middle| x \leq b \right\}$ \\
-intervallo illimitato aperto a destra&$(-\infty,b) = \left\{ x\in \R \middle| x < b \right\}$ \\
-intervallo illimitato&$(-\infty,+\infty) = \R$ \\
-
-\end{tabular}
-
-
-\section{Proprietà delle operazioni tra numeri reali}
-\[x,y,z \in \R\]
+\section{Numeri reali}
+Dati $x,y,z \in \R$ sono definite le operazioni di:
 \begin{itemize}
-  \item Associativa
+\item somma $x+y$
+\item prodotto $xy$
+\item relazione d'ordine $x<y$
+\end{itemize}
+Che soddisfano le seguenti proprietà:
+
+\begin{description}
+  \item[Associativa.]
     \[(x+y)+z=x+(y+z)=x+y+z \]
     \[(xy)z=x(yz)=xyz \]
-  \item Commutativa
+  \item[Commutativa.]
     \[x+y=y+x\]
     \[xy=yx\]
-  \item Distributiva
+  \item[Distributiva.]
     \[x(y+z)=xy+xz\]
-  \item Esistenza elemento neutro
-    \[x+0=x\]
-    \[1x=x\]
-  \item Esistenza dell'universo
-    \begin{enumerate}
-      \item \[\forall x \in \R \quad \exists !y=-x \in \R | x+(-x)=0\]
-      \item \[\forall x \in \R \quad x \neq 0 \quad \exists !y=\frac{1}{x} \in \R | x\frac{1}{x}=1 \]
-    \end{enumerate}
-  \item Relazione d'ordine totale
-    \[x,y,z \in \R\]
+  \item[Esistenza dell'elemento neutro.]
+    \[x+0=0+x=x\]
+    \[1x=x1=x\]
+  \item[Esistenza dell'inverso.]
+      \[\forall x \in \R \quad \exists !x=-x \in \R | x+(-x)=0\]
+      \[\forall x \in \R \quad x \neq 0 \quad \exists !y=\frac{1}{x} \in \R | x\frac{1}{x}=1 \]
+  \item[Relazione d'ordine totale.] per ogni $x,y,z \in \R$ una ed una sola delle seguenti relazioni è vera.
     \[
     \begin{cases}
-      x<y \quad oppure\\
-      x=y \quad oppure\\
+      x<y \\
+      x=y \\
       x>y
     \end{cases}
     \]
-  \item Transitività
-    \[x,y,z \in \R\]
+  \item[Transitiva.]
     \[(x<y) \cap (y<z) \Rightarrow (x<z)\]
-  \item Compatibilità con la somma
-    \[x,y,z \in \R\]
+  \item[Compatibilità con la somma.]
     \[x<y \Rightarrow x+z<y+z\]
-  \item Compatibilità con il prodotto
-    \[x,y,z \in \R\]
+  \item[Compatibilità con il prodotto.]
     \[x<y \cap z>0 \Rightarrow xz<yz\]
     \[x<y \cap z<0 \Rightarrow xz>yz\]
-\end{itemize}
+\end{description}
 
 \section{Geometria}
 \subsection{Circonferenza}
 Dato il centro di una circonferenza $C=(x_c,y_c)$
 Si esprime l'equazione della circonferenza nella forma:
 \[(x-x_c)^2+(y-y_c)^2=r^2\]
-
+Oppure:
 \[x^2+y^2+\alpha x+ \beta y +\gamma =r^2\]
 Per cui se $O=(0,0)$
 \[x^2+y^2=r^2\]
 
 
-\paragraph{Forma canonica:}
+\subsubsection{Forma canonica:}
 \[\alpha = -2x_c \quad \beta = -2y_c \quad \gamma = x_c^2 + y_c^2 - r^2\]
 \[x^2+y^2+\alpha x+ \beta y +\gamma =r^2\]
 
-Da cui calcolare centro e raggio:
-\[C=\left(-\frac{\alpha}{2}, -\frac{\beta}{2}\right); \quad r=\sqrt{\frac{\alpha^2}{4}+\frac{\beta^2}{4}-\gamma}\]
+Per ricavare il centro:
+\[C=\left(-\frac{\alpha}{2}, -\frac{\beta}{2}\right)\]
+Per ricavare il raggio:
+\[r=\sqrt{\frac{\alpha^2}{4}+\frac{\beta^2}{4}-\gamma}\]
 
-\subsection{Ellisse}
+\section{Ellisse}
 Equazione dell'ellisse (con centro nell'origine degli assi)
 \[\frac{x^2}{a^2}+\frac{y^2}{b^2} \qquad a\neq 0 , b\neq 0\]

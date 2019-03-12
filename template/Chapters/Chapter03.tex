@@ -1,19 +1,11 @@
 % Chapter 2
 
-\chapter{Funzioni elementari} % Chapter title
+\chapter{Funzioni esponenziali e logaritmiche } % Chapter title
 
-\label{ch:funzioni-elementari} % For referencing the chapter elsewhere, use \autoref{ch:introduction} 
+\label{ch:esponenziali-logaritmi} % For referencing the chapter elsewhere, use \autoref{ch:introduction} 
 
 %----------------------------------------------------------------------------------------
-
-\subsection{Polinomi}
-\[f(x)=a_0+a_1 x + \dots + a_n x^n =\displaystyle\sum_{k=0}^{n} a_k x^k \]
-\[a_0, a_1, \dots, a_n \in \R \text{ Coefficienti}\qquad a_n \neq 0 \text{ n è il grado del polinomio}\]
-
-Per cui:
-\[n=1 \qquad y=a_0+a_1 x \quad \text{Rette}\]
-\[n=2 \qquad y=a_0+a_1 x + a_2 x^2 \quad \text{Parabole}\]
-\subsection{Potenze}
+\section{Potenze}
 Fissato un esponente $a \in \R$ la funzione potenza è:
 \[f(x)=x^a\]
 la cui definizione e dominio dipendono dal valore dell’esponente a.
@@ -67,11 +59,7 @@ la cui definizione e dominio dipendono dal valore dell’esponente a.
 
 \end{itemize}
 
-\begin{figure}[bth]
-\myfloatalign
-\subfloat[Potenze.]
-{\includegraphics[width=.45\linewidth]{gfx/images/potenze.png}} 
-\end{figure}
+
 Osserviamo che:
 \begin{itemize}
 	\item $f(0)=0$
@@ -80,7 +68,7 @@ Osserviamo che:
 	\item se $n$ dispari $f$ è dispari
 \end{itemize}
 
-\subsubsection{Proprietà delle potenze}
+\subsection{Proprietà delle potenze}
 \begin{itemize}
 \item $x^{n+m}=x^n x^m$
 \item $(x^n)^m=x^{nm}$
@@ -90,7 +78,7 @@ Osserviamo che:
 \[f(x)=x^0=1 \quad \forall x \in \R\]
 \[0^0=1\]
 
-\paragraph{Dimostrazioni}
+\subsubsection{Dimostrazioni}
 
 \[x^{n+m}= \underbrace{x \times \dots \times x}_{\text{n+m volte}}=\underbrace{(x \times \dots \times x)}_{\text{n volte}}\times \underbrace{x \times \dots \times x}_{\text{m volte}}=x^{n+m}\]
 
@@ -99,13 +87,18 @@ Osserviamo che:
 \[x^n=x^{n+0}=x^n x^0 \qquad x\neq 0\]
 \[x^0 = 1 \quad \forall x \in \R\]
 
-\subsection{Esponenziale}
+\begin{figure}[H]
+{\includegraphics[width=.9\linewidth]{gfx/3/potenze.png}}
+\caption{Grafici di funzioni di potenze.}\label{fig:potenze}
+\end{figure}
+
+\section{Esponenziale}
 Fissata la base $a>0$ con $a \neq 1$, la funzione esponenziale è
 \[f(x)=a^x \qquad \dom f = \R \qquad \im f = (0,+\infty)\]
 Se si sceglie come base il numero di Nepero $e=2.71828\dots > 1$, la funzione esponenziale si denota:
 \[f(x)=e^x=\exp x\]
 
-\subsubsection{Proprietà}
+\subsection{Proprietà}
 \begin{enumerate}
 	\item se $a>1$, allora la funzzione $a^x$ è strettamente crescente
 	\item se $0<a<1$, allora la funzione $a^x$ è strettamente decrescente
@@ -124,13 +117,12 @@ Se si sceglie come base il numero di Nepero $e=2.71828\dots > 1$, la funzione es
 	\end{itemize}
 \end{enumerate}
 
-\begin{figure}[bth]
-\myfloatalign
-\subfloat[Esponenziali.]
-{\includegraphics[width=.45\linewidth]{gfx/images/esponenziali.png}} 
+\begin{figure}[H]
+{\includegraphics[width=.9\linewidth]{gfx/3/esponenziali.png}}
+\caption{Grafici di funzioni esponenziali.}\label{fig:esponenziali}
 \end{figure}
 
-\subsection{Logaritmo}
+\section{Logaritmo}
 Fissata la base $a>0$ con $a\neq 1$, la funzione logaritmo
 \[f(x)=\log_a x \qquad \dom f = (0,+\infty) \qquad \im f = \R\]
 è definita come la funzione inversa della funzione esponenziale $a^x$. Se si sceglie come base il numero di Nepero \textit{e}, il logaritmo si denota:
@@ -158,79 +150,7 @@ Fissata la base $a>0$ con $a\neq 1$, la funzione logaritmo
 	\end{itemize}
 \end{enumerate}
 
-\begin{figure}[bth]
-\myfloatalign
-\subfloat[Logaritmi.]
-{\includegraphics[width=.45\linewidth]{gfx/images/logaritmi.png}} 
-\end{figure}
-
-\section{Funzioni trigonometriche}
-Una funuone $f:\R \in \R$ è detta periodica di periodo $T$, $T>0$ se:
-\[f(x+T)=f(x) \forall x \in \R\]
-La caratteristica fondamentale delle funzioni periodiche è che i suoi valori si ripetono dopo intervalli di ampiezza $T$.
-
-\subsection{Le funzioni seno e coseno}
-Sia $\gamma$ una circonferenza di raggio $1$ (detta circonferenza goniometrica) il cui centro $O$ è anche l'origine di un sistema di assi cartesiani e sia $A$ il punto $(1,0)$.
-Partendo da $A$ percorriamo la circonferenza in senso antiorario oppure in senso orario.
-Sia $x$ un numero reale, denotiamo con $P_x$ il punto su $\gamma$ che si ottiene percorrendo la circonferenza a partire dal punto $A$ per un arco di lunghezza $|x|$, in senso antorario se $x \geq 0$, oppure in senso orario se $x<0$.
-Il punto $P_x$ individua un angolo nel piano avente vertice $O$ e delimitatio dalle semirette nel piano uscenti da $O$ e passanti per $A$ e per $P_x$.
-Il numero reale $x$ rappresenta la misura dell'angolo in radianti.
-
-
-\begin{figure}[bth]
-\myfloatalign
-\subfloat[Circonferenza goniometrica con seno e coseno.]
-{\includegraphics[width=.45\linewidth]{gfx/circonferenza.png}} 
-\end{figure}
-
-
-
-Osserviamo che l'incremento della lunghezza $x$ di $2\pi$ corrisponde a compiere un intero giro sulla circonferenza in senso antiorario ritornando al punto $P_x$ (così come decrementare di $2\pi$ la lunghezza $x$). Quindi si ha:
-\[P_{x\pm k2\pi}=P_x \qquad \forall x \in \R, k \in \N\]
-
-\paragraph{Simmetria}
-Indichiamo con $\cos x$ e con $\sin x$ rispettivamente l'ascissa e l'ordinata del punto $P_x$. Le funzioni $y=\cos x$ e $y=\sin x$ sono definite su $\R$ a valori nell'intervallo $[-1,1]$, sono periodiche di minimo periodo $2\pi$ e soddisfano la relazione:
-\[\sin^2 x + \cos^2 x = 1\]
-
-\paragraph{Monotonia} Per la periodicità di seno e coseno ci basta studiarne le proprietà nell'intervallo $[0,2\pi]$. Dalle definizioni segue subito che la funzione seno è dispari e la funzione coseno è pari; inoltre la funzione coseno è strettamente decrescente in $[0,\pi]$ e strettamente crescente in $[\pi,2\pi]$. La funzione seno è strettamente crescente in $[0,\frac{\pi}{2}] \cup [\frac{3}{2}\pi,2\pi)$ e strettamente decrescente in $[\frac{\pi}{2},\frac{3}{2}\pi]$.
-
-\begin{figure}[bth]
-\myfloatalign
-\subfloat[Grafico delle funzioni: seno (sinistra) e coseno (destra).]
-{\includegraphics[width=.45\linewidth]{gfx/images/senocoseno.png}} 
-\end{figure}
-
-\subsubsection{Formule trigonometriche}
-\paragraph{Formule di addizione e sottrazione}
-\[\sin(\alpha\pm\beta)=\sin(\alpha)\cos(\beta)\pm\cos(\alpha)\sin(\beta)\]
-\[\cos(\alpha\pm\beta)=\cos(\alpha)\cos(\beta)\mp\sin(\alpha)\sin(\beta)\]
-\paragraph{Formule di duplicazione}
-\[\sin(2x)=2\sin x\cos x\]
-\[\cos(2x)=2\cos^2 x - 1\]
-\paragraph{Formule di potenza}
-\[(\sin x)^2 = \sin^2 x= \frac{1-\cos(2x)}{2}\]
-\[(\cos x)^2 = \cos^2 x= \frac{1+\cos(2x)}{2}\]
-\paragraph{Formule di bisezione}
-\[\sin(\frac{x}{2})=\sqrt{\frac{1-\cos x}{2}} \qquad 0<x\leq 2\pi\]
-\[\cos(\frac{x}{2})=\sqrt{\frac{1+\cos x}{2}} \qquad -\pi<x\leq \pi\]
-\paragraph{Formule di prostaferesi}
-\[\sin x -\sin y=2\sin(\frac{x-y}{2})\cos(\frac{x+y}{2})\]
-\[\cos x -\cos y=-2\cos(\frac{x-y}{2})\sin(\frac{x+y}{2})\]
-
-
-\[\cos(x+\pi)=-\cos x \qquad \sin(x+\pi)=-\sin x\]
-\[\cos(x+\frac{\pi}{2})=-\sin x \qquad \sin(x+\frac{\pi}{2})=\cos x \]
-
-\subsection{La funzione tangente e la funzione cotangente}
-La funzione tangente è:
-\[\tan x = \frac{\sin x}{\cos x}\]
-è definita nei punti di $\R$ diversi da $\frac{\pi}{2} +k\pi,k\in\Z$ e, come vedremo in seguito, ha immagine $\R$.
-
-\subsubsection{Proprietà fondamentali}
-Dal grafico della tangente di ottiene che $\tan(x)=\tan(x+k\pi)$ per $k\in \Z$ cioè $\tan(x)$ è periodica di minimo periodo $T=\pi$
-
-\begin{figure}[bth]
-\myfloatalign
-\subfloat[Funzioni trigonometriche.]
-{\includegraphics[width=.45\linewidth]{gfx/images/trigonometriche.png}} 
+\begin{figure}[H]
+{\includegraphics[width=.9\linewidth]{gfx/3/logaritmi.png}}
+\caption{Grafici di funzioni logaritmiche.}\label{fig:logaritmi}
 \end{figure}
