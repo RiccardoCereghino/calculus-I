@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.21)  27 MAR 2019 17:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.21)  27 MAR 2019 22:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -929,7 +929,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks54
 \@floatcapt=\box54
 )
-Package scrhack Info: loading float hack on input line 182.
+Package scrhack Info: loading float hack on input line 183.
 
 (/usr/share/texmf-dist/tex/latex/koma-script/float.hak
 File: float.hak 2019/02/01 v3.26b KOMA-Script package (hacking package float)
@@ -1281,15 +1281,15 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 679.
 Package hyperref Info: Option `linktocpage' set `true' on input line 679.
 Package hyperref Info: Option `breaklinks' set `true' on input line 679.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 211.
-Package hyperref Info: Option `linktocpage' set `true' on input line 211.
-Package hyperref Info: Option `breaklinks' set `true' on input line 211.
-Package hyperref Info: Option `pageanchor' set `true' on input line 211.
-Package hyperref Info: Option `plainpages' set `false' on input line 211.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 211.
+Package hyperref Info: Option `colorlinks' set `true' on input line 212.
+Package hyperref Info: Option `linktocpage' set `true' on input line 212.
+Package hyperref Info: Option `breaklinks' set `true' on input line 212.
+Package hyperref Info: Option `pageanchor' set `true' on input line 212.
+Package hyperref Info: Option `plainpages' set `false' on input line 212.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 212.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 211.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 211.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 212.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 212.
 )
 \c@teo=\count443
 \c@prop=\count444
@@ -1669,19 +1669,19 @@ T1/zplm/m/n/10.95 +\OMS/zplm/m/n/10.95 1\OT1/zplm/m/n/10.95 ) []\OML/zplm/m/it/
 
 
 ]
-<gfx/3/potenze.png, id=204, 655.44875pt x 478.78876pt>
+<gfx/3/potenze.png, id=216, 655.44875pt x 478.78876pt>
 File: gfx/3/potenze.png Graphic file (type png)
 <use gfx/3/potenze.png>
 Package pdftex.def Info: gfx/3/potenze.png  used on input line 91.
 (pdftex.def)             Requested size: 302.39795pt x 220.8957pt.
  [14 <./gfx/3/potenze.png>]
-<gfx/3/esponenziali.png, id=212, 1047.915pt x 541.02126pt>
+<gfx/3/esponenziali.png, id=224, 1047.915pt x 541.02126pt>
 File: gfx/3/esponenziali.png Graphic file (type png)
 <use gfx/3/esponenziali.png>
 Package pdftex.def Info: gfx/3/esponenziali.png  used on input line 121.
 (pdftex.def)             Requested size: 302.39795pt x 156.11613pt.
  [15 <./gfx/3/esponenziali.png>]
-<gfx/3/logaritmi.png, id=223, 972.63374pt x 682.55pt>
+<gfx/3/logaritmi.png, id=235, 972.63374pt x 682.55pt>
 File: gfx/3/logaritmi.png Graphic file (type png)
 <use gfx/3/logaritmi.png>
 Package pdftex.def Info: gfx/3/logaritmi.png  used on input line 154.
@@ -1691,7 +1691,7 @@ Package pdftex.def Info: gfx/3/logaritmi.png  used on input line 154.
 
  (./Chapters/Chapter04.tex
 Capitolo 4.
-<gfx/4/circonferenza.png, id=233, 275.0275pt x 301.125pt>
+<gfx/4/circonferenza.png, id=245, 275.0275pt x 301.125pt>
 File: gfx/4/circonferenza.png Graphic file (type png)
 <use gfx/4/circonferenza.png>
 Package pdftex.def Info: gfx/4/circonferenza.png  used on input line 17.
@@ -1707,18 +1707,18 @@ Underfull \hbox (badness 8075) in paragraph at lines 19--19
 
 
  <./gfx/4/circonferenza.png>]
-<gfx/4/senocoseno.png, id=239, 1077.02374pt x 210.7875pt>
+<gfx/4/senocoseno.png, id=251, 1077.02374pt x 210.7875pt>
 File: gfx/4/senocoseno.png Graphic file (type png)
 <use gfx/4/senocoseno.png>
 Package pdftex.def Info: gfx/4/senocoseno.png  used on input line 40.
 (pdftex.def)             Requested size: 336.0pt x 65.75835pt.
  [18 <./gfx/4/senocoseno.png>]
-<gfx/4/tangente.png, id=249, 402.50375pt x 384.43625pt>
+<gfx/4/tangente.png, id=261, 402.50375pt x 384.43625pt>
 File: gfx/4/tangente.png Graphic file (type png)
 <use gfx/4/tangente.png>
 Package pdftex.def Info: gfx/4/tangente.png  used on input line 68.
 (pdftex.def)             Requested size: 141.11938pt x 134.78346pt.
-<gfx/4/trigonometriche.png, id=251, 462.528pt x 346.896pt>
+<gfx/4/trigonometriche.png, id=263, 462.528pt x 346.896pt>
 File: gfx/4/trigonometriche.png Graphic file (type png)
 <use gfx/4/trigonometriche.png>
 Package pdftex.def Info: gfx/4/trigonometriche.png  used on input line 87.
@@ -1743,18 +1743,18 @@ Overfull \hbox (36.67009pt too wide) detected at line 100
  []
 
 [20 <./gfx/4/trigonometriche.png>]
-<gfx/4/arcoseno.png, id=266, 704.6325pt x 524.96124pt>
+<gfx/4/arcoseno.png, id=278, 704.6325pt x 524.96124pt>
 File: gfx/4/arcoseno.png Graphic file (type png)
 <use gfx/4/arcoseno.png>
 Package pdftex.def Info: gfx/4/arcoseno.png  used on input line 122.
 (pdftex.def)             Requested size: 302.39795pt x 225.28836pt.
-<gfx/4/arcocoseno.png, id=267, 710.655pt x 526.96875pt>
+<gfx/4/arcocoseno.png, id=279, 710.655pt x 526.96875pt>
 File: gfx/4/arcocoseno.png Graphic file (type png)
 <use gfx/4/arcocoseno.png>
 Package pdftex.def Info: gfx/4/arcocoseno.png  used on input line 127.
 (pdftex.def)             Requested size: 302.39795pt x 224.2442pt.
  [21 <./gfx/4/arcoseno.png>]
-<gfx/4/arcotangente.png, id=274, 862.22125pt x 643.40375pt>
+<gfx/4/arcotangente.png, id=286, 862.22125pt x 643.40375pt>
 File: gfx/4/arcotangente.png Graphic file (type png)
 <use gfx/4/arcotangente.png>
 Package pdftex.def Info: gfx/4/arcotangente.png  used on input line 133.
@@ -1811,7 +1811,12 @@ Overfull \hbox (17.023pt too wide) detected at line 150
   $[] [] \OT1/zplm/m/n/10.95 = []$ 
  []
 
-[29]) [30]
+[29] [30]
+Overfull \hbox (23.54605pt too wide) detected at line 232
+[]
+ []
+
+[31]) [32]
 \tf@thm=\write6
 \openout6 = `ClassicThesis.thm'.
 
@@ -2020,10 +2025,10 @@ Package logreq Info: Writing requests to 'ClassicThesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34976 strings out of 492616
- 638825 string characters out of 6135177
- 1119946 words of memory out of 5000000
- 37888 multiletter control sequences out of 15000+600000
+ 34992 strings out of 492616
+ 638994 string characters out of 6135177
+ 1121952 words of memory out of 5000000
+ 37896 multiletter control sequences out of 15000+600000
  641995 words of font info for 354 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,23n,93p,9092b,1788s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2040,10 +2045,10 @@ exmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/share/texmf-dist/fonts/type
 amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/upl
 b8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/
 texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (34 pages, 801629 bytes).
+Output written on ClassicThesis.pdf (36 pages, 806573 bytes).
 PDF statistics:
- 595 PDF objects out of 1000 (max. 8388607)
- 525 compressed objects within 6 object streams
- 153 named destinations out of 1000 (max. 500000)
- 96232 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 634 PDF objects out of 1000 (max. 8388607)
+ 562 compressed objects within 6 object streams
+ 161 named destinations out of 1000 (max. 500000)
+ 96280 words of extra memory for PDF output out of 106986 (max. 10000000)
 

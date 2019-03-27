@@ -181,3 +181,60 @@ Le condizioni del teorema non sono sufficienti per assicurare l'esistenza del li
 \item esiste $\delta>0$ tale che $f(x)\neq y_0$ per ogni $x\in A,x\neq x_0$ e $x_0-\delta\leq x\leq x_0+\delta$.
 \end{enumerate}
 \end{teo}
+
+\section{Limiti agli estremi del dominio di definizione}
+\subsection{Potenze}
+
+\begin{align*}
+\lim_{x\to+\infty}{x^b}&=+\infty         & b>0      &\\
+\lim_{x\to+\infty}{x^b}&=0               & b<0      &\\
+\lim_{x\to-\infty}{x^n}&=+\infty         & n\in \N, &\text{ n pari} \\
+\lim_{x\to-\infty}{x^n}&=-\infty         & n\in \N, &\text{ n dispari} \\
+\lim_{x\to-\infty}{x^{-n}}&=0            & n\in \N, &n\geq 1 \\
+\lim_{x\to-\infty}{\sqrt[n]{n}}&=-\infty & n\in \N, &\text{ n dispari}
+\end{align*}
+
+\subsection{Esponenziali e logaritmi}
+\begin{align*}
+&\lim_{x\to+\infty}{\e^x}=+\infty & \qquad & \lim_{x\to+\infty}{\ln x}=+\infty \\
+&\lim_{x\to-\infty}{\e^x}=0 & \qquad & \lim_{x\to 0}{\ln x}=-\infty \\
+&\lim_{x\to+\infty}{a^x}=+\infty & \qquad & a>1 \\
+&\lim_{x\to+\infty}{a^x}=0 & \qquad & 0<a<1 \\
+&\lim_{x\to-\infty}{a^x}=0 & \qquad & a>1 \\
+&\lim_{x\to-\infty}{a^x}=+\infty & \qquad & 0<a<1 \\
+&\lim_{x\to+\infty}{\log_a x}=+\infty & \qquad & a>1 \\
+&\lim_{x\to+\infty}{\log_a x}=-\infty & \qquad & 0<a<1 \\
+&\lim_{x\to 0}{\log_a x}=-\infty & \qquad & a>1 \\
+&\lim_{x\to 0}{\log_a x}=+\infty & \qquad & 0<a<1
+\end{align*}
+
+\subsection{Funzioni trigonometriche ed inverse}
+\begin{align*}
+&\lim_{x\to\frac{\pi}{2}^-}{\tan x}=+\infty \\
+&\lim_{x\to\frac{\pi}{2}^+}{\tan x}=-\infty \\
+&\lim_{x\to-\frac{\pi}{2}^-}{\tan x}=+\infty \\
+&\lim_{x\to-\frac{\pi}{2}^+}{\tan x}=-\infty \\
+&\nexists \lim_{x\to\pm\infty}{\sin x} \\
+&\nexists \lim_{x\to\pm\infty}{\cos x} \\
+&\nexists \lim_{x\to\pm\infty}{\tan x} \\
+&\lim_{x\to+\infty}{\arctan x}=\frac{\pi}{2} \\
+&\lim_{x\to-\infty}{\arctan x}=-\frac{\pi}{2}
+\end{align*}
+
+\subsection{Forme indeterminate del tipo 0/0}
+\begin{align*}
+&\lim_{x\to0}{\frac{\sin x}{x}}= 1                & \qquad & \lim_{x\to0}{\frac{1-\cos x}{x^2}}=\frac{1}{2} \\
+&\lim_{x\to0}{\frac{x-\sin x}{x^3}}=\frac{1}{6}   & \qquad & \lim_{x\to0}{\frac{\arctan x}{x}}= 1 \\
+&\lim_{x\to0}{\frac{\e^x-1}{x}}= 1                & \qquad & \lim_{x\to0}{\frac{a^x-1}{x}}= \ln a \quad a>0 \\
+&\lim_{x\to0}{\frac{\ln(1+x)}{x}}= 1              & \qquad & \\
+&\lim_{x\to0}{\frac{\log_a(1+x)}{x}}= \frac{1}{\ln a} \quad a>0,a\neq1 & \qquad & \\
+&\lim_{x\to0}{\frac{(1+x)^b-1}{x}}=b \quad b\in\R & \qquad & 
+\end{align*}
+
+\subsection{Forme indeterminate del tipo infinito/infinito o 0infinito}
+\begin{align*}
+&\lim_{x\to+\infty}{\frac{a^x}{x^b}}=+\infty & \qquad & a>1,b>0 & \\
+&\lim_{x\to+\infty}{\frac{x^b}{\log_a x}}=+\infty & \qquad & a>1,b>0 & \\
+&\lim_{x\to-\infty}{|x|^b a^x}=0 & \qquad & a>1,b>0 & \\
+&\lim_{x\to0}{x^b \log_a x}=0 & \qquad & a,b>0,a\neq 1 &
+\end{align*}
