@@ -42,6 +42,9 @@
 %*******************************************************
 \input{classicthesis-config}
 
+\theoremstyle{break}
+\newtheorem{teo}{Teorema}[chapter]
+\newtheorem{prop}{Proposizione}[chapter]
 %********************************************************************
 % Bibliographies
 %*******************************************************
@@ -75,7 +78,7 @@
 %\cleardoublepage\include{FrontBackmatter/Abstract}
 %\cleardoublepage\include{FrontBackmatter/Publications}
 %\cleardoublepage\include{FrontBackmatter/Acknowledgments}
-%\cleardoublepage\include{FrontBackmatter/Contents}
+\cleardoublepage\include{FrontBackmatter/Contents}
 %********************************************************************
 % Mainmatter
 %*******************************************************
@@ -94,7 +97,12 @@
 %\addtocontents{toc}{\protect\clearpage} % <--- just debug stuff, ignore
 \include{Chapters/Chapter03}
 \include{Chapters/Chapter04}
+
+\cleardoublepage
+%\ctparttext{}
+\part{Funzioni continue e limiti}\label{pt:limiti}
 \include{Chapters/Chapter05}
+\include{Chapters/Chapter06}
 %\include{multiToC} % <--- just debug stuff, ignore for your documents
 % ********************************************************************
 % Backmatter

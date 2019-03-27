@@ -1,71 +1,134 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {american}{}
+\babel@toc {italian}{}
+\babel@toc {italian}{}
 \defcounter {refsection}{0}\relax 
 \vspace {-\cftbeforepartskip }
-\babel@toc {american}{}
-\babel@toc {ngerman}{}
-\babel@toc {american}{}
+\babel@toc {italian}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {i}{Some Kind of Manual}}{1}{part.1}% 
+\contentsline {part}{\numberline {i}{Introduzione}}{1}{part.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}{Introduction}}{3}{chapter.1}% 
+\contentsline {chapter}{\numberline {1}{Notazione}}{3}{chapter.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{{Important Note:}}{4}{paragraph*.2}% 
+\contentsline {section}{\numberline {1.1}{Insiemistica}}{3}{section.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{{Yet Another Important Note:}}{4}{paragraph*.3}% 
+\contentsline {section}{\numberline {1.2}{Simboli logici}}{3}{section.1.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}{Organization}}{4}{section.1.1}% 
+\contentsline {subsection}{\numberline {1.2.1}{Intervalli}}{3}{subsection.1.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}{Style Options}}{6}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}{Insiemi}}{4}{section.1.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}{Customization}}{7}{section.1.3}% 
+\contentsline {subsection}{\numberline {1.3.1}{Relazioni tra insiemi}}{4}{subsection.1.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}{Issues}}{8}{section.1.4}% 
+\contentsline {subsection}{\numberline {1.3.2}{Operazioni tra insiemi}}{4}{subsection.1.3.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}{Future Work}}{8}{section.1.5}% 
+\contentsline {section}{\numberline {1.4}{Numeri reali}}{4}{section.1.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.6}{Beyond a Thesis}}{9}{section.1.6}% 
+\contentsline {section}{\numberline {1.5}{Geometria}}{6}{section.1.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.7}{License}}{9}{section.1.7}% 
+\contentsline {subsection}{\numberline {1.5.1}{Circonferenza}}{6}{subsection.1.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{{GNU General Public License:}}{9}{paragraph*.4}% 
+\contentsline {subsubsection}{\numberline {1.5.1.1}{Forma canonica:}}{6}{subsubsection.1.5.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{{classichthesis Authors' note:}}{9}{paragraph*.5}% 
+\contentsline {section}{\numberline {1.6}{Ellisse}}{6}{section.1.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {ii}{The Showcase}}{11}{part.2}% 
+\contentsline {part}{\numberline {ii}{Funzioni}}{7}{part.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}{Examples}}{13}{chapter.2}% 
+\contentsline {chapter}{\numberline {2}{Funzioni elementari di variabile reale}}{9}{chapter.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}{A New Section}}{13}{section.2.1}% 
+\contentsline {section}{\numberline {2.1}{Il concetto di funzione}}{9}{section.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}{Test for a Subsection}}{13}{subsection.2.1.1}% 
+\contentsline {section}{\numberline {2.2}{Operazioni tra funzioni}}{9}{section.2.2}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}{Autem Timeam}}{13}{subsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.2.1}{Nomenclatura}}{9}{subsection.2.2.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}{Another Section in This Chapter}}{14}{section.2.2}% 
+\contentsline {subsubsection}{\numberline {2.2.1.1}{Osservazioni}}{10}{subsubsection.2.2.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}{Personas Initialmente}}{14}{subsection.2.2.1}% 
+\contentsline {section}{\numberline {2.3}{Funzioni pari e dispari}}{10}{section.2.3}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1.1}{A Subsubsection}}{14}{subsubsection.2.2.1.1}% 
+\contentsline {section}{\numberline {2.4}{Funzioni monotone}}{10}{section.2.4}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{{A Paragraph Example}}{14}{paragraph*.8}% 
+\contentsline {section}{\numberline {2.5}{Traslazioni, dilatazioni e riflessioni}}{10}{section.2.5}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}{Linguistic Registrate}}{15}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.5.1}{Osservazioni}}{11}{subsection.2.5.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}{Math Test Chapter}}{17}{chapter.3}% 
+\contentsline {section}{\numberline {2.6}{Simmetrie, traslazioni, compressioni e dilatazioni di grafici.}}{11}{section.2.6}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}{Some Formulas}}{17}{section.3.1}% 
+\contentsline {section}{\numberline {2.7}{Funzione composta}}{12}{section.2.7}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}{Various Mathematical Examples}}{18}{section.3.2}% 
+\contentsline {section}{\numberline {2.8}{Funzione inversa e sue propriet\IeC {\`a}.}}{12}{section.2.8}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {iii}{Appendix}}{19}{part.3}% 
+\contentsline {subsection}{\numberline {2.8.1}{Costruire l'inverso di f}}{12}{subsection.2.8.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}{Appendix Test}}{21}{appendix.A}% 
+\contentsline {subsubsection}{\numberline {2.8.1.1}{Osservazioni}}{12}{subsubsection.2.8.1.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}{Appendix Section Test}}{21}{section.A.1}% 
+\contentsline {section}{\numberline {2.9}{Polinomi}}{12}{section.2.9}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}{Another Appendix Section Test}}{21}{section.A.2}% 
+\contentsline {chapter}{\numberline {3}{Funzioni esponenziali e logaritmiche }}{13}{chapter.3}% 
 \defcounter {refsection}{0}\relax 
-\vspace {\beforebibskip }
+\contentsline {section}{\numberline {3.1}{Potenze}}{13}{section.3.1}% 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {}{Bibliography}}{23}{section*.14}% 
+\contentsline {subsection}{\numberline {3.1.1}{Propriet\IeC {\`a} delle potenze}}{14}{subsection.3.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{{Osservazioni}}{14}{paragraph*.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.1.1}{Dimostrazioni}}{14}{subsubsection.3.1.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}{Esponenziale}}{14}{section.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.1}{Propriet\IeC {\`a}}}{15}{subsection.3.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}{Logaritmo}}{15}{section.3.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}{Funzioni trigonometriche}}{17}{chapter.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}{Radianti}}{17}{section.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}{Le funzioni seno e coseno}}{17}{section.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}{Simmetria}}{17}{subsection.4.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.2}{Monotonia}}{18}{subsection.4.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.3}{Formule trigonometriche}}{18}{subsection.4.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.3.1}{Formule di addizione e sottrazione}}{18}{subsubsection.4.2.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.3.2}{Formule di duplicazione}}{18}{subsubsection.4.2.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.3.3}{Formule di potenza}}{18}{subsubsection.4.2.3.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.3.4}{Formule di bisezione}}{18}{subsubsection.4.2.3.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.3.5}{Formule di prostaferesi}}{19}{subsubsection.4.2.3.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}{La funzione tangente}}{19}{section.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}{Simmetria}}{19}{subsection.4.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}{Monotonia}}{19}{subsection.4.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}{Funzioni trigonometriche inverse}}{20}{section.4.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.1}{Dominio ed immagine}}{20}{subsection.4.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.2}{Parit\IeC {\`a}}}{20}{subsection.4.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.3}{Monotonia}}{20}{subsection.4.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.4}{Relazioni}}{21}{subsection.4.4.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {iii}{Funzioni continue e limiti}}{23}{part.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}{Funzioni continue}}{25}{chapter.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}{Funzioni continue}}{25}{section.5.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}{Limiti}}{27}{chapter.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}{Punto di accumulazione}}{27}{section.6.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}{Limite}}{27}{section.6.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.1}{Limite destro e sinitro}}{28}{subsection.6.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{{Nota:}}{30}{paragraph*.12}% 

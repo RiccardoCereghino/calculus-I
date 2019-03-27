@@ -1,8 +1,8 @@
 % Chapter X
 
-\chapter{Funzioni continue e limiti} % Chapter title
+\chapter{Funzioni continue} % Chapter title
 
-\label{ch:limiti} % For referencing the chapter elsewhere, use \autoref{ch:name}
+\label{ch:continue} % For referencing the chapter elsewhere, use \autoref{ch:name}
 
 %----------------------------------------------------------------------------------------
 
@@ -13,6 +13,31 @@ Data una funzione $f:A\rightarrow \R, y = f(x)$, ed un punto $x_0 \in A $, la fu
 
 La funzione è detta continua se è continua in $x_0$ per ogni $x_0 \in A$.
 
-\paragraph{Continuità funzioni elementari}
-Le funzioni potenza $x^a$, 
+\begin{teo}[Continuità funzioni elementari]
+Le funzioni potenza $x^a$, esponenziali $a^x$, logaritmo $\log_a x$, trigonometriche e trigonometriche inverse, sono continue.
+\end{teo}
 
+\begin{teo}[Algebra delle funzioni continue]
+Date due funzioni $f,g: A \rightarrow \R, \quad y=f(x), \quad y=g(x)$, continue, allora:
+\begin{enumerate}
+\item la somma $f(x) + g(x)$ è una funzione continua;
+\item il prodotto $f(x)g(x)$ è una funzione continua;
+\item il rapporto $\frac{f(x)}{g(x)}$ è una funzione continua sul suo dominio ${x\in A | g(x) \neq 0 }$
+\end{enumerate}
+\end{teo}
+
+\begin{teo}[Continuità funzione composta]
+Date due funzioni continue $f:A\rightarrow \R$ e $g:B\rightarrow \R$ allora la funzione composta:
+\[g\circ f:{x\in A |f(x) \in B} \rightarrow \R \qquad y=g(f(x))\]
+è continua.
+\end{teo}
+
+\begin{teo}[Continuità funzioni inversa]
+Data una funzione $f:I\rightarrow \R, \quad y=f(x)$, tale che:
+\begin{enumerate}
+\item $f$ è iniettiva;
+\item $f$ è continua;
+\item il dominio di $I$ è un intervallo;
+\end{enumerate}
+allora, posto $B = \im f$, la funzione inversa $f^{-1}:B\rightarrow \R$ è continua.
+\end{teo}
