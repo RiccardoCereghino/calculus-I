@@ -1,0 +1,183 @@
+% Chapter 6
+
+\chapter{Limiti} % Chapter title
+
+\label{ch:limiti} % For referencing the chapter elsewhere, use \autoref{ch:name}
+
+%----------------------------------------------------------------------------------------
+
+\section{Punto di accumulazione}
+Dato un insieme $A \subseteq \R$ e:
+\begin{enumerate}
+\item un punto $x_0 \in \R$ è detto punto di accumulazione per $A$ se per ogni $\delta > 0$ esiste $x\in A$ tale che:
+\[x_0-\delta <x<x_0+\delta \qquad x \neq x_0\]
+\item $+\infty$ è detto punto di accumulazione per $A$ se per ogni $R>0$ esiste $x\in A$ tale che $x>R$
+\item $-\infty$ è detto punto di accumulazione per $A$ se per ogni $R>0$ esiste $x\in A$ tale che $x<-R$
+\end{enumerate}
+
+\section{Limite}
+Data una funzione $f:A\rightarrow \R$, un punto di accumulazione $x_0\in\R\cup\{\pm\infty\}$ per $A$ ed $\ell\in\R\cup\{\pm\infty\}$, si scrive
+\[\lim_{x\to x_0}{f(x)=\ell}\]
+Si distinguono i casi:
+\begin{enumerate}
+\item $x_0\in \R$ e $\ell \in \R$: se per ogni $\epsilon > 0$ esiste $\delta > 0$ tale che:
+\[\ell - \epsilon < f(x) < \ell + \epsilon \qquad \forall x\in A,x\neq x_0 \cap x_0 - \delta < x < x_0 + \delta\]
+
+\item $x_0\in \R$ e $\ell = \pm \infty$: se per ogni $M > 0$ esiste $\delta > 0$ tale che:
+\[\begin{cases}
+f(x)>M & \text{se } \ell=+\infty \\
+f(x)<-M & \text{se } \ell=-\infty
+\end{cases}
+\quad
+\forall x\in A, x\neq x_0 \cap x_0 - \delta < x < x_0 + \delta
+\]
+
+\item $x_0 = \pm \infty$ e $\ell = \in \R$: se per ogni $\epsilon > 0$ esiste $R > 0$ tale che:
+\[\ell-\epsilon<f(x)<\ell+\epsilon \quad \forall x\in A \cap
+\begin{cases}
+x>R & \text{se } x_0=+\infty \\
+x<-R & \text{se } x_0=-\infty
+\end{cases}\]
+
+\item $x_0 = \pm \infty$ e $\ell = \in \R$: se per ogni $M > 0$ esiste $R > 0$ tale che:
+\[\begin{cases}
+f(x)>M & \text{se } \ell=+\infty \\
+f(x)<-M & \text{se } \ell=-\infty 
+\end{cases}
+\quad \forall x\in A \cap
+\begin{cases}
+x>R & \text{se } x_0=+\infty \\
+x<-R & \text{se } x_0=-\infty
+\end{cases}
+\]
+\end{enumerate}
+
+In tal caso, si dice che esiste finito il limite di $f$ per $x$ che tende a $x_0$ e vale $\ell$ oppure che $f(x)$ tende ad $\ell$ per $x$ che tende a $x_0$.
+
+\begin{prop}[Continuità dei limiti]
+Data $f:A\rightarrow \R$ ed $x_0\in A$ punto di accumulazione per $A$, $f$ è continua in $x_0$ se e solo se:
+\[\lim_{x\to x_0}{f(x)}=f(x_0)\]
+\end{prop}
+
+\subsection{Limite destro e sinitro}
+Data una funzione $f:A\rightarrow \R$ ed un punto $x_0 \in \R$ per $A$ tale che per ogni $\delta>0$
+\[A\cap (-\delta,x_0)\neq \emptyset \qquad \text{e} \qquad A\cap (x_0,\delta)\neq \emptyset\]
+si scrive:
+\[\begin{cases}
+\lim_{x\to x_{0^+}}{f(x)}=\ell_1 \in \R & \text{limite destro} \\
+\lim_{x\to x_{0^-}}{f(x)}=\ell_2 \in \R & \text{limite sinistro}
+\end{cases}\]
+Se per ogni $\epsilon >0$ esiste $\delta > 0$ tale che:
+\[\begin{cases}
+\ell_1 - \epsilon < f(x) < \ell_1 + \epsilon \\
+\ell_2 - \epsilon < f(x) < \ell_2 + \epsilon \\
+\end{cases}
+\qquad \forall x\in A \cap
+\begin{cases}
+x_0<x<x_0+\delta & \text{limite destro}\\
+x_0-\delta<x<x_0 & \text{limite sinistro}\\
+\end{cases}\]
+Analoghe definizioni valgono se $\ell_{1,2}=\pm\infty$
+
+\begin{prop}
+Data una funzione $f:A\rightarrow \R$, un punto $x_0\in \R$ tale che per ogni $\delta>0$
+\[A\cap(-\delta,x_0) \neq \emptyset \qquad \text{e} \qquad A\cap(x_0,\delta) \neq \emptyset)\]
+Allora $x_0$ è un punto di accumulazione per $A$ e:
+\[\text{esiste } \lim_{x\to x_0}f(x)=\ell \quad \Leftrightarrow \quad \text{esistono }
+\begin{cases}
+\lim_{x\to x_{0^+}}{f(x)}=\ell \\
+\lim_{x\to x_{0^-}}{f(x)}=\ell
+\end{cases}\]
+\end{prop}
+
+\begin{teo}[Algebra dei limiti]
+Date due funzioni $f,g:A\rightarrow\R$ ed un punto $x_0\in\R$ di accumulazione per $A$, se esitono:
+\[\lim_{x\to x_0}{f(x)}=\ell_1\in\R\cup\{\pm\infty\}\]
+\[\lim_{x\to x_0}{f(x)}=\ell_2\in\R\cup\{\pm\infty\}\]
+allora:
+\begin{description}
+\item[Somma:]
+\[\lim_{x\to x_0}{f(x)+g(x)}= 
+\begin{array}{ |*{4}{c|} }
+\toprule
+& \ell_2 \in \R & \ell_2 = +\infty & \ell_2 = -\infty \\
+\midrule
+\ell_1 \in \R & \ell_1 + \ell_2 & +\infty & -\infty \\
+\midrule
+\ell_1 = +\infty & +\infty & +\infty & \foi \\
+\midrule
+\ell_1 = -\infty & -\infty & \foi & -\infty \\
+\bottomrule
+\end{array}\]
+Dove $\foi$= forma indeterminata $+\infty -\infty$
+
+\item[Prodotto:]
+\[\lim_{x\to x_0}{f(x)g(x)}= 
+\begin{array}{ |*{6}{c|} }
+\toprule
+& \ell_2<0 & \ell_2=0 & \ell_2>0 & \ell_2=+\infty & \ell_2=-\infty\\
+\midrule
+\ell_1<0 & \ell_1 \ell_2 & 0 & \ell_1 \ell_2 & -\infty & +\infty \\
+\midrule
+\ell_1=0 & 0 & 0 & 0 & \foi & \foi \\
+\midrule
+\ell_1>0 & \ell_1 \ell_2 & 0 & \ell_1 \ell_2 & +\infty & -\infty \\
+\midrule
+\ell_1=+\infty & -\infty & \foi & +\infty & +\infty & -\infty \\
+\midrule
+\ell_1=-\infty & +\infty & \foi & -\infty & -\infty & +\infty\\
+\bottomrule
+\end{array}\]
+Dove $\foi$= forma indeterminata $0 \infty$
+
+\item[Rapporto:]
+\[\lim_{x\to x_0}{\frac{f(x)}{g(x)}}=
+\begin{array}{ |*{6}{c|} }
+\toprule
+& \ell_2<0 & \ell_2=0^{\pm} & \ell_2>0 & \ell_2=+\infty & \ell_2=-\infty\\
+\midrule
+\ell_1<0 & \frac{\ell_1}{\ell_2} & \mp\infty & \frac{\ell_1}{\ell_2} & 0 & 0 \\
+\midrule
+\ell_1=0 & 0 & \foi & 0 & 0 & 0 \\
+\midrule
+\ell_1>0 & \frac{\ell_1}{\ell_2} & \pm\infty & \frac{\ell_1}{\ell_2} & 0 & 0 \\
+\midrule
+\ell_1=+\infty & -\infty & \pm\infty & +\infty & \foi & \foi \\
+\midrule
+\ell_1=-\infty & +\infty & \mp\infty & -\infty & \foi & \foi \\
+\bottomrule
+\end{array}
+\]
+Dove $\foi$= forma indeterminata $\frac{0}{0}$ o $\frac{\infty}{\infty}$ e la notazione $l_2=0^\pm$ significa che:
+\begin{enumerate}
+\item esiste il limite
+\[\lim_{x\to x_0}{g(x)}=0\]
+\item esiste $\delta>0$ tale che per ogni $x\in A \cap (x_0-\delta,x_0+\delta), x\neq x_0$
+\[\begin{cases}
+g(x)>0 & \ell_2 = 0^+ \\
+g(x)<0 & \ell_2 = 0^- \\
+\end{cases}\]
+Se $x_0 \in \R$ (analoga definizione se $x_0=\pm\infty$).
+\end{enumerate}
+\end{description}
+\end{teo}
+
+\begin{teo}[Limite funzione composta.]
+Date due funzioni $f:A\rightarrow\R,y=f(x)$ e $g:B\rightarrow\R,z=g(y)$, tali che:
+\begin{enumerate}
+\item per ogni $x\in A$, allora $f(x)\in B,$
+\item il punto $x_0$ è di accumulazione per $A$ ed esiste:
+\[\lim_{x\to x_0}{f(x)}=y_0\in\R\cup\{+\infty\},\]
+\item il punto $y_0$ è di accumulazione per $B$ ed esiste:
+\[\lim_{y\to y_0}{g(x)}=\ell\in\R\cup\{+\infty\},\]
+\end{enumerate}
+Allora esiste:
+\[\lim_{x\to x_0}{g(f(x))}=\ell\]
+\paragraph{Nota:}
+Le condizioni del teorema non sono sufficienti per assicurare l'esistenza del limite $\lim_{x\to x_0}{g(f(x))}=\ell$. Occorre aggiungere delle ipotesi tecniche, che però sono sempre verificate negli esercizi. Ad esempio, è sufficiente richiedere che una delle seguenti tre condizioni sia soddisfatta:
+\begin{enumerate}
+\item il punto $y_0$ non appartiene a $\dom{g}$;
+\item la funzione $g$ è continua in $y_0$;
+\item esiste $\delta>0$ tale che $f(x)\neq y_0$ per ogni $x\in A,x\neq x_0$ e $x_0-\delta\leq x\leq x_0+\delta$.
+\end{enumerate}
+\end{teo}

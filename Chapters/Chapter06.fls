@@ -1,0 +1,5 @@
+PWD /home/rick/uni/calculus-I/Chapters
+INPUT /usr/share/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
+INPUT Chapter06.tex
+OUTPUT Chapter06.log
