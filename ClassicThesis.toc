@@ -144,3 +144,11 @@
 \contentsline {subsection}{\numberline {6.3.4}{Forme indeterminate del tipo 0/0}}{32}{subsection.6.3.4}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.3.5}{Forme indeterminate del tipo infinito/infinito o 0infinito}}{32}{subsection.6.3.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}{Intorno}}{32}{section.6.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.5}{Limiti di successioni}}{33}{section.6.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.6}{Estremo superiore, inferiore, massimo e minimo assoluto.}}{33}{section.6.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{{Osservazione}}{34}{paragraph*.13}% 

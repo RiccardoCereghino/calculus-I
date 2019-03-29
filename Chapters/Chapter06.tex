@@ -238,3 +238,104 @@ Le condizioni del teorema non sono sufficienti per assicurare l'esistenza del li
 &\lim_{x\to-\infty}{|x|^b a^x}=0 & \qquad & a>1,b>0 & \\
 &\lim_{x\to0}{x^b \log_a x}=0 & \qquad & a,b>0,a\neq 1 &
 \end{align*}
+
+\section{Intorno}
+Dato $x_0\in\R\cup\{\pm\infty\}$, un insieme $I$ della forma:
+\begin{equation*}
+I=
+\begin{cases}
+(x_0-r,x_0+r) \qquad r>0 \quad se x_0\in\R \\
+(\R,+\infty) \qquad R>0 \quad se x_0=+\infty \\
+(-\infty,-\R) \qquad R>0 \quad se x_0=-\infty
+\end{cases}
+\end{equation*}
+è detto intorno di $x_0$.
+
+\begin{teo}[Teorema del confronto.]
+Data una funzione $f:A\rightarrow\R$ ed un punto $x_0$ di accumulazione per $A$, se:
+\begin{enumerate}
+\item esistono due funzioni $g,h:A\rightarrow\R$ tali che:
+\[g(x)\leq f(x)\leq h(x) \qquad \forall x\in A\cap I, x\neq x_0\]
+dove $I$ è un opportuno intorno di $x_0$.
+\item esistono i limiti:
+\[\lim_{x\to x_0}{g(x)}=\ell \qquad \text{e} \qquad \lim_{x\to x_0}{h(x)}=\ell\]
+dove $\ell \in \R \cup \{\pm\infty\}$.
+\end{enumerate}
+Allora esiste:
+\[\lim_{x\to x_0}{f(x)}=\ell\]
+\end{teo}
+
+\section{Limiti di successioni}
+Una successione è una funzione definita sui numeri naturali:
+\[f:\N\rightarrow\R \qquad f(n)=a_n \qquad n\in\N,\]
+denotata con $(a_n)_{n\in\N}$ oppure:
+\[a_0,a_1,a_2,\dots,a_n\]
+Poichè $\N$ non è superiormente limitato, $x_0=+\infty$ è un punto di accumulazione per $\N$ e, se esiste, si denota con:
+\[\lim_{n\to+\infty}{a_n}=\ell\in\R\cup\{\pm\infty\}\]
+Valgono tutti i teoremi visti per i limiti di funzioni.
+
+\begin{teo}[Caratterizzazione per successioni.]
+Data uan funzione $f:A\rightarrow\R,y=f(x)$, ed un punto $x_0$ di accumulazione per $A$ sono fatti equivalenti:
+\begin{aenumerate}
+\item esiste:
+\[\lim_{x\to x_0}{f(x)}=\ell\in\R\cup\{\pm\infty\}\]
+\item per ogni successione $(a_n)_{n\in\N}$ tale che:
+\begin{align*}
+&a_n\in A & \qquad & a_n\neq x_0 & \qquad & \lim_{n\to+\infty}{a_n}=x_0
+\end{align*}
+allora esiste:
+\[\lim_{n\to+\infty}{f(a_n)}=\ell\in\R\cup\{\pm\infty\}\]
+\end{aenumerate}
+\end{teo}
+
+\section{Estremo superiore, inferiore, massimo e minimo assoluto.}
+Data una funzione $f:A\rightarrow\R$,
+\begin{enumerate}
+\item un elemento $y_0\in\R$ è detto un maggiorante di $\im f$ se:
+\[f(x)\leq y_0 \qquad \forall x\in A\]
+inoltre, se esiste un maggiorante, $f$ si dice superiormente limitata.
+
+\item un elemento $M\in\R$ è detto estremo superiore di $f$ se:
+\begin{equation*}\begin{cases}
+f(x)\leq M \qquad \forall x\in A \\
+\forall\epsilon>0 \exists x\in A | f(x)>M-\epsilon
+\end{cases}\end{equation*}
+e si scrive $M=\sup_{x\in A}{f(x)}$.
+Se $f$ non è superiormente limitata, si pone:
+\[\sup_{x\in A}{f(x)}=+\infty\]
+
+\item $x_M \in A$ è detto punto di massimo assoluto se:
+\[f(x)\leq f(x_M) \qquad \forall x\in A\]
+e $f(x_M)=\max_{x\in A}{f(x)}$ è detto massimo assoluto di $f$.
+
+\item un elemento $y_0 \in\R$ è detto un minorante di $A$ se:
+\[f(x)\geq y_0 \qquad \forall x\in A\]
+e, se esiste un minorante, $f$ si dice inferiormente limitata.
+
+\item un elemento $x_m\in\R$ è detto punto di minimo assoluto di $f$ se:
+\[f(x)\geq f(x_m) \qquad \forall x\in A\]
+e $f(x_m)=\min_{x\in A}{f(x)}$ è detto minimo assoluto di $f$
+
+\item un elemento $m\in\R$ è detto estremo inferiore se:
+\begin{equation*}\begin{cases}
+f(x)\geq m \qquad \forall x\in A \\
+\forall \epsilon>0\exists x\in A | f(x)<m+\epsilon
+\end{cases}\end{equation*}
+e si scrive $m=\inf_{x\in A}{f(x)}$.
+Se $f$ non è inferiormente limitata, si pone:
+\[\inf_{x\in A}{f(x)}=-\infty\]
+
+\item $f$ è detta limitata se è inferiormente e superiormente limitata, cioè se esistono $m,M\in\R$ tali che:
+\[m\leq f(x) \leq M \qquad \forall x\in I\]
+\end{enumerate}
+
+\paragraph{Osservazione}
+Data una funzione $f:A\rightarrow\R$,
+\begin{aenumerate}
+\item se $x_m\in A$ è un punto di minimo assoluto, allora:
+\[\min_{x\in A}{f(x)}=\inf_{x\in A}{f(x)}=f(x_m)\]
+\item se $x_M\in A$ è un punto di massimo assoluto, allora:
+\[\max_{x\in A}{f(x)}=\sup_{x\in A}{f(x)}=f(x_M)\]
+\item se $f$ è limitata, allora:
+\[\im f \subseteq [\inf_{x\in A}{f(x)}, \sup_{x\in A}{f(x)}] \]
+\end{aenumerate}

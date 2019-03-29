@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.21)  27 MAR 2019 22:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.3.21)  28 MAR 2019 16:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1323,7 +1323,8 @@ File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 (./ClassicThesis.aux (./FrontBackmatter/Titlepage.aux)
 (./FrontBackmatter/Contents.aux) (./Chapters/Chapter01.aux)
 (./Chapters/Chapter02.aux) (./Chapters/Chapter03.aux) (./Chapters/Chapter04.aux
-) (./Chapters/Chapter05.aux) (./Chapters/Chapter06.aux))
+) (./Chapters/Chapter05.aux) (./Chapters/Chapter06.aux)
+(./Chapters/Chapter07.aux))
 \openout1 = `ClassicThesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
@@ -1341,8 +1342,7 @@ LaTeX Font Info:    ... okay on input line 62.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
 LaTeX Font Info:    ... okay on input line 62.
 LaTeX Font Info:    Try loading font information for T1+pplj on input line 62.
-
-(/usr/share/texmf-dist/tex/latex/psnfss/t1pplj.fd
+ (/usr/share/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
 LaTeX Info: Redefining \it@ocap on input line 62.
@@ -1357,7 +1357,8 @@ Package biblatex Info: Data encoding 'ascii' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ClassicThesis.bbl' found.
- (./ClassicThesis.bbl)
+
+(./ClassicThesis.bbl)
 Package biblatex Info: Reference section=0 on input line 62.
 Package biblatex Info: Reference segment=0 on input line 62.
 
@@ -1669,19 +1670,19 @@ T1/zplm/m/n/10.95 +\OMS/zplm/m/n/10.95 1\OT1/zplm/m/n/10.95 ) []\OML/zplm/m/it/
 
 
 ]
-<gfx/3/potenze.png, id=216, 655.44875pt x 478.78876pt>
+<gfx/3/potenze.png, id=222, 655.44875pt x 478.78876pt>
 File: gfx/3/potenze.png Graphic file (type png)
 <use gfx/3/potenze.png>
 Package pdftex.def Info: gfx/3/potenze.png  used on input line 91.
 (pdftex.def)             Requested size: 302.39795pt x 220.8957pt.
  [14 <./gfx/3/potenze.png>]
-<gfx/3/esponenziali.png, id=224, 1047.915pt x 541.02126pt>
+<gfx/3/esponenziali.png, id=230, 1047.915pt x 541.02126pt>
 File: gfx/3/esponenziali.png Graphic file (type png)
 <use gfx/3/esponenziali.png>
 Package pdftex.def Info: gfx/3/esponenziali.png  used on input line 121.
 (pdftex.def)             Requested size: 302.39795pt x 156.11613pt.
  [15 <./gfx/3/esponenziali.png>]
-<gfx/3/logaritmi.png, id=235, 972.63374pt x 682.55pt>
+<gfx/3/logaritmi.png, id=241, 972.63374pt x 682.55pt>
 File: gfx/3/logaritmi.png Graphic file (type png)
 <use gfx/3/logaritmi.png>
 Package pdftex.def Info: gfx/3/logaritmi.png  used on input line 154.
@@ -1691,7 +1692,7 @@ Package pdftex.def Info: gfx/3/logaritmi.png  used on input line 154.
 
  (./Chapters/Chapter04.tex
 Capitolo 4.
-<gfx/4/circonferenza.png, id=245, 275.0275pt x 301.125pt>
+<gfx/4/circonferenza.png, id=251, 275.0275pt x 301.125pt>
 File: gfx/4/circonferenza.png Graphic file (type png)
 <use gfx/4/circonferenza.png>
 Package pdftex.def Info: gfx/4/circonferenza.png  used on input line 17.
@@ -1707,18 +1708,18 @@ Underfull \hbox (badness 8075) in paragraph at lines 19--19
 
 
  <./gfx/4/circonferenza.png>]
-<gfx/4/senocoseno.png, id=251, 1077.02374pt x 210.7875pt>
+<gfx/4/senocoseno.png, id=257, 1077.02374pt x 210.7875pt>
 File: gfx/4/senocoseno.png Graphic file (type png)
 <use gfx/4/senocoseno.png>
 Package pdftex.def Info: gfx/4/senocoseno.png  used on input line 40.
 (pdftex.def)             Requested size: 336.0pt x 65.75835pt.
  [18 <./gfx/4/senocoseno.png>]
-<gfx/4/tangente.png, id=261, 402.50375pt x 384.43625pt>
+<gfx/4/tangente.png, id=267, 402.50375pt x 384.43625pt>
 File: gfx/4/tangente.png Graphic file (type png)
 <use gfx/4/tangente.png>
 Package pdftex.def Info: gfx/4/tangente.png  used on input line 68.
 (pdftex.def)             Requested size: 141.11938pt x 134.78346pt.
-<gfx/4/trigonometriche.png, id=263, 462.528pt x 346.896pt>
+<gfx/4/trigonometriche.png, id=269, 462.528pt x 346.896pt>
 File: gfx/4/trigonometriche.png Graphic file (type png)
 <use gfx/4/trigonometriche.png>
 Package pdftex.def Info: gfx/4/trigonometriche.png  used on input line 87.
@@ -1743,18 +1744,18 @@ Overfull \hbox (36.67009pt too wide) detected at line 100
  []
 
 [20 <./gfx/4/trigonometriche.png>]
-<gfx/4/arcoseno.png, id=278, 704.6325pt x 524.96124pt>
+<gfx/4/arcoseno.png, id=284, 704.6325pt x 524.96124pt>
 File: gfx/4/arcoseno.png Graphic file (type png)
 <use gfx/4/arcoseno.png>
 Package pdftex.def Info: gfx/4/arcoseno.png  used on input line 122.
 (pdftex.def)             Requested size: 302.39795pt x 225.28836pt.
-<gfx/4/arcocoseno.png, id=279, 710.655pt x 526.96875pt>
+<gfx/4/arcocoseno.png, id=285, 710.655pt x 526.96875pt>
 File: gfx/4/arcocoseno.png Graphic file (type png)
 <use gfx/4/arcocoseno.png>
 Package pdftex.def Info: gfx/4/arcocoseno.png  used on input line 127.
 (pdftex.def)             Requested size: 302.39795pt x 224.2442pt.
  [21 <./gfx/4/arcoseno.png>]
-<gfx/4/arcotangente.png, id=286, 862.22125pt x 643.40375pt>
+<gfx/4/arcotangente.png, id=292, 862.22125pt x 643.40375pt>
 File: gfx/4/arcotangente.png Graphic file (type png)
 <use gfx/4/arcotangente.png>
 Package pdftex.def Info: gfx/4/arcotangente.png  used on input line 133.
@@ -1816,17 +1817,21 @@ Overfull \hbox (23.54605pt too wide) detected at line 232
 []
  []
 
-[31]) [32]
+[31] [32] [33]) [34]
+\openout2 = `Chapters/Chapter07.aux'.
+
+ (./Chapters/Chapter07.tex)
 \tf@thm=\write6
 \openout6 = `ClassicThesis.thm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
- (./ClassicThesis.aux (./FrontBackmatter/Titlepage.aux)
-(./FrontBackmatter/Contents.aux) (./Chapters/Chapter01.aux)
-(./Chapters/Chapter02.aux) (./Chapters/Chapter03.aux) (./Chapters/Chapter04.aux
-) (./Chapters/Chapter05.aux) (./Chapters/Chapter06.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
+ (./ClassicThesis.aux
+(./FrontBackmatter/Titlepage.aux) (./FrontBackmatter/Contents.aux)
+(./Chapters/Chapter01.aux) (./Chapters/Chapter02.aux) (./Chapters/Chapter03.aux
+) (./Chapters/Chapter04.aux) (./Chapters/Chapter05.aux)
+(./Chapters/Chapter06.aux) (./Chapters/Chapter07.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 125.
 
 
  *File List*
@@ -2012,9 +2017,10 @@ gfx/4/arcocoseno.png
 gfx/4/arcotangente.png
 Chapters/Chapter05.tex
 Chapters/Chapter06.tex
+Chapters/Chapter07.tex
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
 Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -2025,11 +2031,11 @@ Package logreq Info: Writing requests to 'ClassicThesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34992 strings out of 492616
- 638994 string characters out of 6135177
+ 35050 strings out of 492616
+ 639624 string characters out of 6135177
  1121952 words of memory out of 5000000
- 37896 multiletter control sequences out of 15000+600000
- 641995 words of font info for 354 fonts, out of 8000000 for 9000
+ 37904 multiletter control sequences out of 15000+600000
+ 643194 words of font info for 371 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,23n,93p,9092b,1788s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
@@ -2045,10 +2051,10 @@ exmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/share/texmf-dist/fonts/type
 amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/upl
 b8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/
 texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (36 pages, 806573 bytes).
+Output written on ClassicThesis.pdf (38 pages, 813451 bytes).
 PDF statistics:
- 634 PDF objects out of 1000 (max. 8388607)
- 562 compressed objects within 6 object streams
- 161 named destinations out of 1000 (max. 500000)
- 96280 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 683 PDF objects out of 1000 (max. 8388607)
+ 608 compressed objects within 7 object streams
+ 183 named destinations out of 1000 (max. 500000)
+ 96304 words of extra memory for PDF output out of 106986 (max. 10000000)
 

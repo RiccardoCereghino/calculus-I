@@ -289,6 +289,8 @@ INPUT Chapters/Chapter05.aux
 INPUT Chapters/Chapter05.aux
 INPUT Chapters/Chapter06.aux
 INPUT Chapters/Chapter06.aux
+INPUT Chapters/Chapter07.aux
+INPUT Chapters/Chapter07.aux
 OUTPUT ClassicThesis.aux
 INPUT /usr/share/texmf-dist/tex/latex/psnfss/t1pplj.fd
 INPUT /usr/share/texmf-dist/tex/latex/psnfss/t1pplj.fd
@@ -554,6 +556,9 @@ INPUT /usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplrij8r.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplri9d.tfm
 INPUT /usr/share/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+OUTPUT Chapters/Chapter07.aux
+INPUT Chapters/Chapter07.tex
+INPUT Chapters/Chapter07.tex
 OUTPUT ClassicThesis.thm
 INPUT ClassicThesis.aux
 INPUT FrontBackmatter/Titlepage.aux
@@ -572,6 +577,8 @@ INPUT Chapters/Chapter05.aux
 INPUT Chapters/Chapter05.aux
 INPUT Chapters/Chapter06.aux
 INPUT Chapters/Chapter06.aux
+INPUT Chapters/Chapter07.aux
+INPUT Chapters/Chapter07.aux
 INPUT ./ClassicThesis.out
 INPUT ./ClassicThesis.out
 INPUT ClassicThesis.run.xml
