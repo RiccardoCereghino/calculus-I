@@ -152,3 +152,5 @@
 \contentsline {section}{\numberline {6.6}{Estremo superiore, inferiore, massimo e minimo assoluto.}}{33}{section.6.6}% 
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{{Osservazione}}{34}{paragraph*.13}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.7}{Teorema degli zeri}}{35}{section.6.7}% 
