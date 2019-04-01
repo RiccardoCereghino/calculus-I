@@ -1,8 +1,78 @@
 % Chapter 6
 
-%\chapter{Intorno} % Chapter title
+\chapter{Derivate} % Chapter title
 
-%\label{ch:intorno} % For referencing the chapter elsewhere, use \autoref{ch:name}
+\label{ch:derivate} % For referencing the chapter elsewhere, use \autoref{ch:name}
 
 %----------------------------------------------------------------------------------------
 
+\section{Rette nel piano}
+Dato un punto $P_0=(x_0,y_0)\in\R^2$ le rette passanti per $P_0$ hanno equazione:
+\[y=m(x-x_0)+y_0 \qquad \text{oppure } \qquad x=x_0 \text{ retta verticale},\]
+dove $m=tan\theta$ è il coefficiente angolare e $\theta\in(\frac{-\pi}{2},\frac{\pi}{2})$ è l'angolo che la retta forma con la retta $y=y_0$, parallela all'asse delle ascisse.
+
+Dati due punti $P_0=(x_0,y_0)$ e $P_1=(x_1,y_1)$, la retta passante per $P_0$ e $P_1$ ha equazione:
+\begin{equation*}\begin{cases}
+y=\frac{y_1-y_0}{x_1-x_0}(x-x_0)+y_0 \qquad x_0\neq x_1 \\
+x=x_0 \qquad \qquad x_0=x_1
+\end{cases}\end{equation*}
+
+Data una funzione $f:I\rightarrow\R$ definita su intervallo $I$ ed $x_0\neq x_1 \in I$, l'equazione della retta secante il grafico di $f$ nei punti $P_0=(x_0,f(x_0))$ e $P_1=(x_1,f(x_1))$ è:
+\[y=\frac{f(x_1)-f(x_0)}{x_1-x_0}(x-x_0)+f(x_0).\]
+
+In particolare, la retta secante non è parallela all'asse delle ordinate ed il suo coefficiente angolare è:
+\[m=\frac{f(x_1)-f(x_0)}{x_1-x_0}.\]
+
+\section{Derivata e retta tangente}
+Data una funzione $f:I\rightarrow\R$ definita su un intervallo $I$
+\begin{aenumerate}
+	\item fissato $x_0\in I$, si dice che $f$ è derivabile in $x_0$ se esiste finito:
+	\[\lim_{h\to0}{\frac{f(x_0+h)-f(x_0)}{h}}=:f^\prime(x_0),\]
+	il valore del limite$f^\prime(x_0)$ si chiama derivata della funzione $f$ nel punto $x_0$.
+	\item la funzione $f$ si dice derivabile se è derivabile in $x_0$ per ogni $x_0\in I$ e la funzione:
+	\[f^\prime : I\rightarrow\R \qquad y=f^\prime(x),\]
+	è detta derivata prima.
+\end{aenumerate}
+
+\paragraph*{Nota} La definizione di funzione derivabile si estende al caso di funzioni definite su un unione di intervalli disgiunti.
+
+\subsection{Derivate delle funzioni elementari}
+\begin{equation*}
+\begin{array}{ |*{4}{c|} }
+\toprule
+f(x) & & f^\prime(x) & I \\
+\midrule
+x^b & b\in\R        & bx^{b-1} & (0,+\infty) \\
+c   & c\in\R        & 0        & \R          \\
+x^n & n\in\N,n\geq1 & nx^{n-1} & \R          \\
+\frac{1}{x^n}=x^{-n} & n\in\N,n\geq1 & -n\frac{1}{x^{n+1}} & \R \backslash\{0\} \\
+\sqrt[n]{x} = x^{\frac{1}{n}} & n\in\N,n\geq1 & \frac{1}{n} x^{\frac{1-n}{n}} & n\text{ pari}(0,+\infty),n \text{ dispari} \R\backslash\{0\} \\
+\midrule
+\e^x & & \e^x & \R \\
+a^x & a>0 & \log a \text{ } a^x & \R \\
+\log x & & \frac{1}{x} & (0,+\infty) \\
+\log_a x & a>0,a\neq 1 & \frac{1}{\log a}\frac{1}{x} & (0,+\infty) \\
+\midrule
+\sin x & & \cos x & \R \\
+\cos x & & -\sin x & \R \\
+\tan x & & \frac{1}{\cos^2 x}=1+\tan^2 x & \R\backslash\{\frac{\pi}{2}+k\pi | k\in \Z\} \\
+\midrule
+\arcsin x & & \frac{1}{\sqrt{1-x^2}} & (-1,1) \\
+\arccos x & & \frac{-1}{\sqrt{1-x^2}} & (-1,1) \\
+\arctan x & & \frac{1}{1+x^2} & \R \\
+\bottomrule
+\end{array}
+\end{equation*}
+
+\paragraph{Osservazione.}
+Se si pone $h=x-x_0$ la definizione di derivata diventa:
+\[f^\prime(x_0)=\lim_{x\to x_0} \frac{f(x)-f(x_0)}{x-x_0},\]
+dove è inteso che il limite esiste finito. La quantità:
+\[\frac{f(x)-f(x_0)}{x-x_0}=\frac{f(x_0+h)-f(x_0)}{h},\]
+è detta rapporto incrementale della funzione ed è il coefficiente angolare della retta secante il grafico di $f(x)$ nei punti $P_0=(x_0,f(x_0))$ e $P_h=(x_0+h,f(x_0+h))$.
+
+Facendo tendere $h$ a zero, il punto $P_h$ tente a $P_0$ e la corrispondente retta secante converge alla retta tangente, se $f$ è derivabile.
+
+Ne segue che l'equazione della retta tangente al grafico di $f(x)$ nel punto $P_0=(x_0,f(x_0))$ è:
+\[y=f^\prime(x_0)(x-x_0)+f(y_0)\]
+In particolare la derivata $f^\prime(x_0)$ rappresenta il coefficiente angolare della retta tangente. 
