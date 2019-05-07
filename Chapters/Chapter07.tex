@@ -36,7 +36,7 @@ Data una funzione $f:I\rightarrow\R$ definita su un intervallo $I$
 
 \paragraph*{Nota} La definizione di funzione derivabile si estende al caso di funzioni definite su un unione di intervalli disgiunti.
 
-\subsection{Derivate delle funzioni elementari}
+\section{Derivate delle funzioni elementari}
 \begin{equation*}
 \begin{array}{ |*{4}{c|} }
 \toprule
@@ -76,3 +76,147 @@ Facendo tendere $h$ a zero, il punto $P_h$ tente a $P_0$ e la corrispondente ret
 Ne segue che l'equazione della retta tangente al grafico di $f(x)$ nel punto $P_0=(x_0,f(x_0))$ è:
 \[y=f^\prime(x_0)(x-x_0)+f(y_0)\]
 In particolare la derivata $f^\prime(x_0)$ rappresenta il coefficiente angolare della retta tangente. 
+
+\section{Derivata destra e sinistra}
+Data una funzione $f:I\rightarrow \R$ definita su un intervallo $I$ di estremo sinistro $a\in\R\cup \{-\infty\}$ ed estremo destro $b\in\R\cap \{+\infty\}$, ed un punto $x_0 \neq a$, se esiste finito:
+\begin{equation*}
+\lim_{x\to x_0^-}{\frac{f(x)-f(x_0)}{x-x_0}} =: f^\prime_-(x_0)
+\end{equation*}
+
+Il valore $f^\prime_-(x_0)$ si chiama derivata sinistra. Se $x_0\neq b$ se esiste finito:
+
+\begin{equation*}
+\lim_{x\to x_0^+}{\frac{f(x)-f(x_0)}{x-x_0}} =: f^\prime_+(x_0)
+\end{equation*}
+
+\paragraph{Osservazione.}
+Data una funzione $f:I\rightarrow \R$ definita su un intervallo $I$ di estremo sinistro $a\in \R \cup \{-\infty\}$ ed estremo destro $b\in\R\cap \{+\infty\}$, ed un punto $x_0\in I, x_0 \neq a , x_0 \neq b$, allora sono fatti equivalenti:
+\begin{aenumerate}
+\item la funzione $f$ è derivabile in $x_0$;
+\item la funzione $f$ ammette derivata sinistra e destra in $x_0$ e sono uguali tra loro.
+\end{aenumerate}
+In tal caso
+\begin{equation*}
+f^\prime(x_0)=f^\prime_-(x_0) = f^\prime_+(x_0)
+\end{equation*}
+
+\section{Proprietà delle funzioni derivabili.}
+\begin{teo}[Continuità funzioni derivabili.]
+Sia: $f:I\rightarrow\R$ una funzione definita su un intervallo $I$. Se $f(x)$ è derivabile in $x_0\in I$, allora $f(x)$ è continua in $x_0$.
+Da notare che esistono funzioni continue non derivabili come $f(x) = |x|$.
+\end{teo}
+
+\begin{teo}[Algebra delle funzioni derivabili.]
+Date due funzioni $f,g:I\rightarrow\R$ definite su un intervallo $I$ e derivabili, allora:
+\begin{aenumerate}
+\item dati $\alpha,\beta \in\R$ la combinazione lineare $\alpha f(x)+\beta g(x)$ è derivabile e vale
+\[(\alpha f(x)+\beta g(x))^\prime = \alpha f^\prime(x) + \beta g^\prime(x);\]
+in particolare:
+\[ (\alpha f(x))^\prime = \alpha f^\prime(x) \qquad (f(x)+g(x))^\prime=f^\prime(x)+g^\prime(x).\]
+\item il prodotto $f(x)g(x)$ è derivabile e vale:
+\[(f(x)g(x))^\prime = f^\prime(x)g(x)+f(x)g^\prime(x);\]
+\item se $g(x)\neq 0$ per ogni $x\in I$, allora il rapporto $\frac{f(x)}{g(x)}$	è derivabile e vale:
+\[\left(\frac{f(x)}{g(x)}\right)^\prime = \frac{f^\prime g(x)-f(x)(x)g^\prime(x)}{g(x)^2},\]
+in particolare:
+\[\left( \frac{1}{g(x)} \right)^\prime = - \frac{g^\prime(x)}{g(x)^2}.\]
+\end{aenumerate}
+\end{teo}
+
+\begin{teo}[Derivata funzione composta.]
+Date due funzioni $f:I\rightarrow\R, y=f(x), g:J\rightarrow\R, z=g(y)$, dove $I$ e $J$ sono due intervalli, tali che:
+\begin{aenumerate}
+\item per ogni $x\in I$ allora $f(x)\in J$
+\item le funzioni $f$ e $g$ sono derivabili
+\end{aenumerate}
+allora la funzione composta $g \circ f: I\rightarrow \R, z=g(f(x))$, è derivabile e:
+\[g(f(x))^\prime=g^\prime(f(x))f^\prime(x) \text{     regola di derivazione in catena.}\]
+\end{teo}
+
+\section{Derivata funzione inversa}
+Data una funzione $f:I \rightarrow \R$ tale che:
+\begin{aenumerate}
+\item il dominio $I$ è un intervallo;
+\item $f$ è iniettiva;
+\item $f$ è derivabile;
+\item per ogni $x\in I, f^\prime(x) \neq 0 $
+\end{aenumerate}
+allora, posto $J=\im f$, la funzione inversa $f^{-1}:J\rightarrow\R$è derivabile e:
+\[(f^{-1}(x))^\prime = \frac{1}{f^\prime(f^{-1}(x))}\]
+
+\section{Estremi relativi}
+Data una funzione $f:A\rightarrow\R$, un punto $x_0\in A$ è detto punto di estremo relativo se esiste $\delta> 0$ tale che:
+\begin{itemize}
+\item minimo relativo:
+\[f(x)\geq f(x_0) \qquad \forall x\in (x_0 - \delta, x_0 + \delta) \cap A\]
+\item massimo relativo:
+\[f(x)\leq f(x_0) \qquad \forall x\in (x_0 - \delta, x_0 + \delta) \cap A\]
+\end{itemize}
+Il valore $f(x_0)$ è detto estremo (minimo/massimo) relativo.
+
+\begin{teo}[Condizione necessaria del I ordine]
+Data $f:I\rightarrow\R$ definita su un intervallo $I$ di estremo sinistro $a \in \R \cup\{-\infty\}$ ed estremo destro $b \in \R \cup\{+\infty\}$ ed un punto $x_0\in I$ tali che:
+\begin{enumerate}
+\item la funzione $f$ è derivabile in $x_0$;
+\item $x_0$ è un punto di estremo relativo per $f$;
+\item $x_0\neq a$ e $x_0\neq b$;
+\end{enumerate}
+allora $f^\prime(x_0)=0$.
+\paragraph{Osservazione.}
+Il teorema assicura che la retta tangente al grafico di $f(x)$ nel punto $P_0 = (x_0,f(x_0))$ è parallela all'asse delle ascisse purchè:
+\begin{enumerate}
+\item $f$ sia derivabile in $x_0$ e quindi ammette retta tangente;
+\item il punto $x_0$ sia di minimo o massimo relativo;
+\item $x_0$ non coincida con gli estremi $a$ e $b$, cioè $x_0 \in (a,b)$
+\end{enumerate}
+\end{teo}
+
+\begin{teo}[Teorema di Lagrange.]
+Data una funzione $f:[a,b]\rightarrow \R$ tale che:
+\begin{enumerate}
+\item $f$ è continua in $x_0$ per ogni $x_0\in[a,b]$;
+\item $f$ è derivabile in $x_0$ per ogni $x_0\in(a,b)$;
+\end{enumerate}
+allora esiste $x_0\in (a,b)$ tale che:
+\[f(b)-f(a)=f^\prime(x_0)(b-a).\]
+\end{teo}
+
+\paragraph{Osservazione.}
+Dal punto di vista grafico, significa che esiste un punto $x_0\in(a,b)$ tale che la retta tangente al grafico di $f(x)$ nel punto $P_0=(x_0,f(x_0))$ è parallela alla retta secante passante per i punti $P_1=(a,f(a))$ e $P_2=(b,f(b))$.
+
+\subparagraph{Nota:} nel caso in cui $f(a)=f(b)$ il teorema di Lagrange implica che esiste $x_0\in (a,b)$ tale che $f^\prime(x_0)$ (teorema di Rolle.)
+
+\begin{teo}[Caratterizzazione monotonia.]
+Data $f:I\rightarrow\R$ definita su un intervallo $I$ di estremo sinistro $a\in\R\cup\{-\infty\}$ ed estremo destro $b\in\R\cup\{+\infty\}$ tale che:
+\begin{enumerate}
+\item $f$ è continua in $x_0$ per ogni $x_0 \in I$;
+\item $f$ è derivabile in $x_0$ per ogni $x_0\in (a,b)$;
+\end{enumerate}
+allora:
+\begin{equation*}
+\begin{array}{ *{4}{c} }
+f^\prime(x) \geq 0 & \forall x \in (a,b) & \Leftrightarrow & f(x) \text{ è crescente su I} \\
+f^\prime(x) \leq 0 & \forall x \in (a,b) & \Leftrightarrow & f(x) \text{ è decrescente su I} \\
+f^\prime(x) = 0 & \forall x \in (a,b) & \Leftrightarrow & f(x) \text{ è costante su I} \\
+f^\prime(x) > 0 & \forall x \in (a,b) & \Leftrightarrow & f(x) \text{ è strettamente crescente su I} \\
+f^\prime(x) < 0 & \forall x \in (a,b) & \Leftrightarrow & f(x) \text{ è strettamente decrescente su I} \\
+\end{array}
+\end{equation*}
+\subparagraph{Nota:} Se il dominio nella funzione $f$ non è un intervallo, il segno della derivata prima non permette di caratterizzare la monotonia della funzione. Infatti, se $f(x)=\frac{1}{x}$ con dominio $\R \backslash \{0\}$, la sua derivata $f^\prime(x)=-\frac{1}{x^2}<0$ per ogni $x\neq 0$. Il grafico $f(x)$ è l'iperbole equilatera $xy=1$, per cui la funzione è strettamente decrescente nell'intervallo $(-\infty,0)$ così come nell'intervallo $(0,+\infty)$. Tuttavia non è decrescente sull'unione dei due intervalli $\R \backslash \{0\}$: infatti:
+\[f(x_1)<0<f(x_2) \qquad \text{ se } x_1<0<x_2\].
+\end{teo}
+
+\section{De l'Hopital}
+\begin{teo}[Teorema di De l'Hopital.]
+Date due funzioni $f,g:I \backslash \{x_0\} \rightarrow \R$ dove $I$ è un intervallo e $x_0 \in I$ tali che:
+\begin{aenumerate}
+\item $f$ e $g$ sono derivabili;
+\item vale una delle due seguenti condizioni:
+\[\lim_{x\to x_0}{f(x)}=\lim_{x\to x_0}{g(x)}=0,\]
+\[\lim_{x\to x_0}{f(x)}=\lim_{x\to x_0}{g(x)}=\pm\infty;\]
+\item per ogni $x\in I, x\neq x_0$, allora $g^\prime(x)\neq 0$;
+\item esiste:
+\[\lim_{x\to x_0}{\frac{f^\prime(x)}{g^\prime(x)}}=\ell\in\R\cup\{\pm\infty\};\]
+\end{aenumerate}
+allora esiste:
+\[\lim_{x\to x_0}{\frac{f(x)}{g(x)}}=\ell.\]
+\end{teo}

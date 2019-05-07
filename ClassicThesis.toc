@@ -163,6 +163,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.2}{Derivata e retta tangente}}{39}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.1}{Derivate delle funzioni elementari}}{40}{subsection.7.2.1}
+\contentsline {section}{\numberline {7.3}{Derivate delle funzioni elementari}}{40}{section.7.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{{Osservazione.}}{40}{paragraph*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.4}{Derivata destra e sinistra}}{41}{section.7.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{{Osservazione.}}{41}{paragraph*.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.5}{Propriet\IeC {\`a} delle funzioni derivabili.}}{41}{section.7.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.6}{Derivata funzione inversa}}{42}{section.7.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.7}{Estremi relativi}}{42}{section.7.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{{Osservazione.}}{43}{paragraph*.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{{Osservazione.}}{43}{paragraph*.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{{Nota:}}{43}{subparagraph*.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{{Nota:}}{44}{subparagraph*.19}
