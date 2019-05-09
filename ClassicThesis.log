@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.1)  5 MAY 2019 18:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.4.1)  8 MAY 2019 19:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1381,7 +1381,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks54
 \@floatcapt=\box49
 )
-Package scrhack Info: loading float hack on input line 183.
+Package scrhack Info: loading float hack on input line 184.
 
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/float.hak
 File: float.hak 2017/09/07 v3.24 KOMA-Script package (hacking package float)
@@ -1711,18 +1711,19 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 679.
 Package hyperref Info: Option `linktocpage' set `true' on input line 679.
 Package hyperref Info: Option `breaklinks' set `true' on input line 679.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 212.
-Package hyperref Info: Option `linktocpage' set `true' on input line 212.
-Package hyperref Info: Option `breaklinks' set `true' on input line 212.
-Package hyperref Info: Option `pageanchor' set `true' on input line 212.
-Package hyperref Info: Option `plainpages' set `false' on input line 212.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 212.
+Package hyperref Info: Option `colorlinks' set `true' on input line 213.
+Package hyperref Info: Option `linktocpage' set `true' on input line 213.
+Package hyperref Info: Option `breaklinks' set `true' on input line 213.
+Package hyperref Info: Option `pageanchor' set `true' on input line 213.
+Package hyperref Info: Option `plainpages' set `false' on input line 213.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 213.
 
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 212.
-Package hyperref Info: Option `hypertexnames' set `true' on input line 212.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 213.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 213.
 )
 \c@teo=\count437
 \c@prop=\count438
+\c@coro=\count439
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1753,30 +1754,31 @@ File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 (/home/rick/uni/calculus-I/Chapters/Chapter04.aux)
 (/home/rick/uni/calculus-I/Chapters/Chapter05.aux)
 (/home/rick/uni/calculus-I/Chapters/Chapter06.aux)
-(/home/rick/uni/calculus-I/Chapters/Chapter07.aux))
+(/home/rick/uni/calculus-I/Chapters/Chapter07.aux)
+(/home/rick/uni/calculus-I/Chapters/Chapter0A.aux))
 \openout1 = `ClassicThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Try loading font information for T1+pplj on input line 62.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Try loading font information for T1+pplj on input line 63.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
-LaTeX Info: Redefining \it@ocap on input line 62.
-LaTeX Info: Redefining \it@ccap on input line 62.
+LaTeX Info: Redefining \it@ocap on input line 63.
+LaTeX Info: Redefining \it@ccap on input line 63.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Data encoding 'ascii' specified.
 (biblatex)             No need to reencode data.
@@ -1789,21 +1791,21 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ClassicThesis.bbl' found.
 
 (/home/rick/uni/calculus-I/ClassicThesis.bbl)
-Package biblatex Info: Reference section=0 on input line 62.
-Package biblatex Info: Reference segment=0 on input line 62.
+Package biblatex Info: Reference section=0 on input line 63.
+Package biblatex Info: Reference segment=0 on input line 63.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count439
+\scratchcounter=\count440
 \scratchdimen=\dimen194
 \scratchbox=\box52
-\nofMPsegments=\count440
-\nofMParguments=\count441
+\nofMPsegments=\count441
+\nofMParguments=\count442
 \everyMPshowfont=\toks58
-\MPscratchCnt=\count442
+\MPscratchCnt=\count443
 \MPscratchDim=\dimen195
-\MPnumerator=\count443
-\makeMPintoPDFobject=\count444
+\MPnumerator=\count444
+\makeMPintoPDFobject=\count445
 \everyMPtoPDFconversion=\toks59
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1829,9 +1831,9 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count445
-Package scrhack Info: undefining \float@addtolists on input line 62.
-LaTeX Info: Redefining \microtypecontext on input line 62.
+\c@lstlisting=\count446
+Package scrhack Info: undefining \float@addtolists on input line 63.
+LaTeX Info: Redefining \microtypecontext on input line 63.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1847,7 +1849,7 @@ File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box53
-Package hyperref Info: Link coloring ON on input line 62.
+Package hyperref Info: Link coloring ON on input line 63.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1855,11 +1857,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count446
+\c@section@level=\count447
 )
-LaTeX Info: Redefining \ref on input line 62.
-LaTeX Info: Redefining \pageref on input line 62.
-LaTeX Info: Redefining \nameref on input line 62.
+LaTeX Info: Redefining \ref on input line 63.
+LaTeX Info: Redefining \pageref on input line 63.
+LaTeX Info: Redefining \nameref on input line 63.
 
 (/home/rick/uni/calculus-I/ClassicThesis.out)
 (/home/rick/uni/calculus-I/ClassicThesis.out)
@@ -1924,18 +1926,19 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zplm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<gfx/TFZsuperellipse_bw.pdf, id=297, 260.5755pt x 203.14595pt>
-File: gfx/TFZsuperellipse_bw.pdf Graphic file (type pdf)
-<use gfx/TFZsuperellipse_bw.pdf>
-Package pdftex.def Info: gfx/TFZsuperellipse_bw.pdf  used on input line 23.
-(pdftex.def)             Requested size: 170.71652pt x 133.09721pt.
+<gfx/brand.jpg, id=317, 144.54pt x 144.54pt>
+File: gfx/brand.jpg Graphic file (type jpg)
+<use gfx/brand.jpg>
+Package pdftex.def Info: gfx/brand.jpg  used on input line 23.
+(pdftex.def)             Requested size: 170.71652pt x 170.72551pt.
  [1
 
 
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/rick/uni/calculus-I/
-gfx/TFZsuperellipse_bw.pdf>]) [2
+gfx/brand.jpg>])
+[2
 
 
 
@@ -2083,19 +2086,19 @@ T1/zplm/m/n/10.95 +\OMS/zplm/m/n/10.95 1\OT1/zplm/m/n/10.95 ) []\OML/zplm/m/it/
 
 
 ]
-<gfx/3/potenze.png, id=463, 655.44875pt x 478.78876pt>
+<gfx/3/potenze.png, id=485, 655.44875pt x 478.78876pt>
 File: gfx/3/potenze.png Graphic file (type png)
 <use gfx/3/potenze.png>
 Package pdftex.def Info: gfx/3/potenze.png  used on input line 91.
 (pdftex.def)             Requested size: 302.39795pt x 220.8957pt.
  [14 </home/rick/uni/calculus-I/gfx/3/potenze.png>]
-<gfx/3/esponenziali.png, id=471, 1047.915pt x 541.02126pt>
+<gfx/3/esponenziali.png, id=493, 1047.915pt x 541.02126pt>
 File: gfx/3/esponenziali.png Graphic file (type png)
 <use gfx/3/esponenziali.png>
 Package pdftex.def Info: gfx/3/esponenziali.png  used on input line 121.
 (pdftex.def)             Requested size: 302.39795pt x 156.11613pt.
  [15 </home/rick/uni/calculus-I/gfx/3/esponenziali.png>]
-<gfx/3/logaritmi.png, id=482, 972.63374pt x 682.55pt>
+<gfx/3/logaritmi.png, id=504, 972.63374pt x 682.55pt>
 File: gfx/3/logaritmi.png Graphic file (type png)
 <use gfx/3/logaritmi.png>
 Package pdftex.def Info: gfx/3/logaritmi.png  used on input line 154.
@@ -2105,7 +2108,7 @@ Package pdftex.def Info: gfx/3/logaritmi.png  used on input line 154.
 
  (/home/rick/uni/calculus-I/Chapters/Chapter04.tex
 Capitolo 4.
-<gfx/4/circonferenza.png, id=492, 275.0275pt x 301.125pt>
+<gfx/4/circonferenza.png, id=514, 275.0275pt x 301.125pt>
 File: gfx/4/circonferenza.png Graphic file (type png)
 <use gfx/4/circonferenza.png>
 Package pdftex.def Info: gfx/4/circonferenza.png  used on input line 17.
@@ -2121,18 +2124,18 @@ Underfull \hbox (badness 8075) in paragraph at lines 19--19
 
 
  </home/rick/uni/calculus-I/gfx/4/circonferenza.png>]
-<gfx/4/senocoseno.png, id=498, 1077.02374pt x 210.7875pt>
+<gfx/4/senocoseno.png, id=520, 1077.02374pt x 210.7875pt>
 File: gfx/4/senocoseno.png Graphic file (type png)
 <use gfx/4/senocoseno.png>
 Package pdftex.def Info: gfx/4/senocoseno.png  used on input line 40.
 (pdftex.def)             Requested size: 336.0pt x 65.75835pt.
  [18 </home/rick/uni/calculus-I/gfx/4/senocoseno.png>]
-<gfx/4/tangente.png, id=508, 402.50375pt x 384.43625pt>
+<gfx/4/tangente.png, id=530, 402.50375pt x 384.43625pt>
 File: gfx/4/tangente.png Graphic file (type png)
 <use gfx/4/tangente.png>
 Package pdftex.def Info: gfx/4/tangente.png  used on input line 68.
 (pdftex.def)             Requested size: 141.11938pt x 134.78346pt.
-<gfx/4/trigonometriche.png, id=510, 462.528pt x 346.896pt>
+<gfx/4/trigonometriche.png, id=532, 462.528pt x 346.896pt>
 File: gfx/4/trigonometriche.png Graphic file (type png)
 <use gfx/4/trigonometriche.png>
 Package pdftex.def Info: gfx/4/trigonometriche.png  used on input line 87.
@@ -2157,18 +2160,18 @@ Overfull \hbox (36.67009pt too wide) detected at line 100
  []
 
 [20 </home/rick/uni/calculus-I/gfx/4/trigonometriche.png>]
-<gfx/4/arcoseno.png, id=524, 704.6325pt x 524.96124pt>
+<gfx/4/arcoseno.png, id=546, 704.6325pt x 524.96124pt>
 File: gfx/4/arcoseno.png Graphic file (type png)
 <use gfx/4/arcoseno.png>
 Package pdftex.def Info: gfx/4/arcoseno.png  used on input line 122.
 (pdftex.def)             Requested size: 302.39795pt x 225.28836pt.
-<gfx/4/arcocoseno.png, id=525, 710.655pt x 526.96875pt>
+<gfx/4/arcocoseno.png, id=547, 710.655pt x 526.96875pt>
 File: gfx/4/arcocoseno.png Graphic file (type png)
 <use gfx/4/arcocoseno.png>
 Package pdftex.def Info: gfx/4/arcocoseno.png  used on input line 127.
 (pdftex.def)             Requested size: 302.39795pt x 224.2442pt.
  [21 </home/rick/uni/calculus-I/gfx/4/arcoseno.png>]
-<gfx/4/arcotangente.png, id=532, 862.22125pt x 643.40375pt>
+<gfx/4/arcotangente.png, id=554, 862.22125pt x 643.40375pt>
 File: gfx/4/arcotangente.png Graphic file (type png)
 <use gfx/4/arcotangente.png>
 Package pdftex.def Info: gfx/4/arcotangente.png  used on input line 133.
@@ -2262,12 +2265,31 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-[43]) [44]
+[43] [44] [45]
+Package hyperref Info: bookmark level for unknown coro defaults to 0 on input l
+ine 284.
+) [46] [47
+
+
+
+
+
+] [48]
+\openout2 = `Chapters/Chapter0A.aux'.
+
+
+(/home/rick/uni/calculus-I/Chapters/Chapter0A.tex
+Appendice a.
+[49
+
+
+
+]) [50]
 \tf@thm=\write7
 \openout7 = `ClassicThesis.thm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
  (/home/rick/uni/calculus-I/ClassicThesis.aux
 (/home/rick/uni/calculus-I/FrontBackmatter/Titlepage.aux)
 (/home/rick/uni/calculus-I/FrontBackmatter/Contents.aux)
@@ -2277,8 +2299,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
 (/home/rick/uni/calculus-I/Chapters/Chapter04.aux)
 (/home/rick/uni/calculus-I/Chapters/Chapter05.aux)
 (/home/rick/uni/calculus-I/Chapters/Chapter06.aux)
-(/home/rick/uni/calculus-I/Chapters/Chapter07.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
+(/home/rick/uni/calculus-I/Chapters/Chapter07.aux)
+(/home/rick/uni/calculus-I/Chapters/Chapter0A.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
 
 
  *File List*
@@ -2450,7 +2473,7 @@ FrontBackmatter/Titlepage.tex
   mt-msa.cfg    2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
   mt-msb.cfg    2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
  ot1zplm.fd    2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
-gfx/TFZsuperellipse_bw.pdf
+gfx/brand.jpg
 FrontBackmatter/Contents.tex
 Chapters/Chapter01.tex
 Chapters/Chapter02.tex
@@ -2470,11 +2493,12 @@ Chapters/Chapter05.tex
 Chapters/Chapter06.tex
 Chapters/Chapter07.tex
   t1cmss.fd    2014/09/29 v2.5h Standard LaTeX font definitions
+Chapters/Chapter0A.tex
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
 Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
-(rerunfilecheck)             Checksum: B425162E804C5CD7976E98B5B2A18FDF;5228.
+(rerunfilecheck)             Checksum: A937CCA00C95CC7E888CFD4C5E9DDDC7;5559.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2483,11 +2507,11 @@ Package logreq Info: Writing requests to 'ClassicThesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33962 strings out of 492982
- 625268 string characters out of 6134897
- 1062297 words of memory out of 5000000
- 36350 multiletter control sequences out of 15000+600000
- 645472 words of font info for 410 fonts, out of 8000000 for 9000
+ 34102 strings out of 492982
+ 626792 string characters out of 6134897
+ 1062666 words of memory out of 5000000
+ 36392 multiletter control sequences out of 15000+600000
+ 648588 words of font info for 454 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,23n,92p,10516b,1670s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texliv
@@ -2506,11 +2530,11 @@ blic/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/
 sfsx1095.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on /home/rick/uni/calculus-I/ClassicThesis.pdf (48 pages, 820340
+Output written on /home/rick/uni/calculus-I/ClassicThesis.pdf (54 pages, 809308
  bytes).
 PDF statistics:
- 830 PDF objects out of 1000 (max. 8388607)
- 743 compressed objects within 8 object streams
- 241 named destinations out of 1000 (max. 500000)
- 98944 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 908 PDF objects out of 1000 (max. 8388607)
+ 815 compressed objects within 9 object streams
+ 276 named destinations out of 1000 (max. 500000)
+ 98984 words of extra memory for PDF output out of 106986 (max. 10000000)
 

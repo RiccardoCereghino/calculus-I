@@ -220,3 +220,73 @@ Date due funzioni $f,g:I \backslash \{x_0\} \rightarrow \R$ dove $I$ è un inter
 allora esiste:
 \[\lim_{x\to x_0}{\frac{f(x)}{g(x)}}=\ell.\]
 \end{teo}
+
+\section{Derivate di ordine successivo}
+Una funzione $f:I\rightarrow\R$ su un intervallo $I$ si dice derivabile due volte se:
+\begin{aenumerate}
+\item la funzione $f$ è derivabile;
+\item la derivata prima $f^\prime$ è derivabile;
+\end{aenumerate}
+inoltre la funzione:
+\[f^{\prime\prime}:I\rightarrow\R \qquad f^{\prime\prime}(x)=(f^\prime(x))^\prime\]
+si chiama derivata seconda.
+
+In modo analogo si definiscono le derivate di ordine successivo:
+\[f^{\prime\prime\prime}=(f^{\prime\prime})^\prime, \quad f^{(4)}= (f^{\prime\prime\prime})^\prime, \quad f^{(k+1)}=(f^{(k)})^\prime, \]
+dove l'indice $k\in\N$ è detto ordine di derivazione (se $k=0$ si pone $f^{(0)}=f$).
+
+Notazioni alternative per le derivate sono:
+\[f^\prime=\frac{df}{dx},\quad f^{\prime\prime}=\frac{d^2f}{dx^2}, \quad f^{(k)}=\frac{d^kf}{dx^k}\]
+
+Inoltre, si definiscono i seguenti spazi di funzioni:
+\[\cc^0(I)=\{f:I\rightarrow\R \mid f\text{ continua}\}\]
+\[\cc^1(I)=\{f:I\rightarrow\R \mid f\text{ derivabile ed } f^\prime \text{ continua}\}\]
+\[\dots\]
+\[\cc^k(I)=\{f:I\rightarrow\R \mid f\text{ derivabile k-volte ed } f^\{(k)\} \text{ continua}\}\]
+\[\cc^\infty(I)=\{f:I\rightarrow\R \mid f\text{ ammette derivata k-esima per ogni } k\in\N\}\]
+e si definisce $\cc^k(I)$ come lo spazio delle funzioni di classe $\cc^k$ sull'intervallo $I$. Dalle proprietà delle funzioni derivabili segue che $\cc^k(I)$ è uno spazio vettoriale e:
+\[\cc^\infty(I) \subsetneq \cc^k(I) \subsetneq \cc^\{k-1\}(I) \subsetneq \cc^1(I) \subsetneq \cc^0(I)\]
+
+\section{Funzioni convesse e concave}
+Una funzione $f:I\rightarrow\R$ definita su un intervallo $I$ è detta:
+\begin{itemize}
+\item convessa se per ogni $x_1,x_2\in I$ e per ogni $t\in[0,1]$
+\[f( (1-t)x_1+tx_2)\leq(1-t)f(x_1)+tf(x_2)\]
+\item concava se per ogni $x_1,x_2\in I$ e per ogni $t\in[0,1]$
+\[f( (1-t)x_1+tx_2)\geq(1-t)f(x_1)+tf(x_2)\]
+\end{itemize}
+Dal punto di vista geometrico le due condizioni affermano che, dati due punti $P_1=(x_1,f(x_1))$ e $P_2=(x_2,f(x_2))$ sul grafico di $f$, il segmento di estremi $P_1$ e $P_2$ sta sopra il grafico di $f$. Infatti:
+\begin{itemize}
+\item al variare di $t\in[0,1]$
+\[x_t=(1-t)x_1+tx_2=x_1+t(x_2-x_1)\]
+descrive i punti sull'asse delle ascisse compresi tra $x_1$ e $x_2$;
+\item al variare di $t\in[0,1]$
+\[((1-t)x_1+tx_2),f((1-t)x_1+tx_2)=(x_t,f(x_t))\]
+parametrizza i punti sul grafico di $f$ compresi tra $P_1$ e $P_2$;
+\item al variare di $t\in[0,1]$
+\[((1-t)x_1+tx_2),(1-t)f(x_1)+tf(x_2)\]
+parametrizza i punti del piano che stanno sul segmento di estremi $P_1$ e $P_2$.
+Infatti la retta secante passante per $P_1$ e $P_2$ ha equazione:
+\[y=\frac{f(x_2)-f(x_1)}{x_2-x_1}(x-x_1)+f(x_1) \underset{x=x_t}{=}(1-t)f(x_1)+tf(x_2)\]
+\end{itemize}
+
+\begin{teo}[Caratterizzazione convessità.]
+Data una funzione $f:\rightarrow\R$ definita su un intervallo $I$ e derivabile due vole, sono fatti equivalenti:
+\begin{aenumerate}
+\item la funzione $f$ è convessa;
+\item fissato $x_0 \in I$;
+\[f(x)\geq f(x_0)+f^\prime(x_0)(x-x_0) \qquad \text{per ogni }x\in I\]
+\item per ogni $x\in I$, $f^{\prime\prime}(x)\geq 0$
+\end{aenumerate}
+Dal punto di vista geometrico la seconda condizione afferma che, dato un punto qualunque $P_0=(x_0,f(x_0))$ sul grafico di $f$, la retta tangente al grafico di $f$ in $P_0$ sta sotto il grafico di $f$. Un' analoga caratterizzazione vale per le funzioni concave (baste cambiare il verso delle disequazioni).
+\end{teo}
+
+\begin{coro}[Condizione sufficiente del secondo ordine per estremi relativi.]
+Data una funzione $f:I\rightarrow\R$ definita su un intervallo $I$ e derivabile due volte ed un punto $x_0\in I$:
+\begin{equation*}
+\begin{array}{ *{3}{c} }
+\text{se } f^\prime(x_0)>0 \qquad & \qquad \text{allora} & \qquad x_0 \text{ è un punto di minimo relativo} \\
+\text{se } f^\prime(x_0)<0 \qquad & \qquad \text{allora} & \qquad x_0 \text{ è un punto di massimo relativo} \\
+\end{array}
+\end{equation*}
+\end{coro}

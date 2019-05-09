@@ -184,3 +184,13 @@
 \contentsline {subparagraph}{{Nota:}}{43}{subparagraph*.18}
 \defcounter {refsection}{0}\relax 
 \contentsline {subparagraph}{{Nota:}}{44}{subparagraph*.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.8}{De l'Hopital}}{44}{section.7.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.9}{Derivate di ordine successivo}}{44}{section.7.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.10}{Funzioni convesse e concave}}{45}{section.7.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {v}{Appendix}}{47}{part.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {a}{Studio di funzioni}}{49}{appendix.Alph1}

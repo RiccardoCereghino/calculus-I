@@ -1,0 +1,56 @@
+% Chapter 0a
+
+\chapter{Studio di funzioni} % Chapter title
+
+\label{ch:studio-di-funzioni} % For referencing the chapter elsewhere, use \autoref{ch:name}
+
+%----------------------------------------------------------------------------------------
+Lo schema seguente indica i passi principali da seguire per svolgere lo studio di funzioni.
+
+Ogni volta che si è risolto un punto occorre rappresentare l'informazione sul grafico e verificare che sia in accordo con quanto dedotto precedentemente.
+
+\begin{enumerate}
+\item Determinare il dominio della funzione $f$ e scriverlo come unione di intervalli:
+\[\dom f = I_0 \cup I_1 \cup \dots \]
+
+\item Studiare il segno della funzione e calcolare le intersezioni con gli assi cartesiani: $f(0)$ se $0\in\dom f$ e risolvere l'equazione $f(x)=0$.
+
+\item Stabilire se la funzione è continua, quante vole è derivabile e calcolare $f^\prime$ ed $f^{\prime\prime}$.
+
+\item Calcolare i limiti di $f$ agli estremi di ciascun intervallo, $I_1, I_2 \dots$
+
+\item Studiare il segno della derivata prima $f^\prime$ calcolando i punti critici, deducendo gli intervalli di monotonia della funzione (teorema della caratterizzazione della monotonia).
+
+\item Determinare i punti di massimo e minimo relativi, ricordando che il teorema della condizione necessaria del I ordine dà solo una condizione necessaria affinchè un punto sua un estremo relativo.
+\begin{aenumerate}
+\item I punti critici $x_0$ (non coincidenti con gli estremi degli intervalli $I_1, I_2 \dots$) in cui la derivata \textit{cambia segno} sono punti di estremo relativo. Infatti, se:
+\[\begin{cases}
+f^\prime(x)<0 \text{    se } x_0< \delta < x < x_0 \\
+f^\prime(x)>0 \text{    se } x_0< \delta < x < x_0 \\
+\end{cases}\]
+allota $x_0$ è un punto di minimo relativo.
+Analogamente se:
+\[\begin{cases}
+f^\prime(x)>0 \text{    se } x_0< \delta < x < x_0 \\
+f^\prime(x)<0 \text{    se } x_0< \delta < x < x_0 \\
+\end{cases}\]
+allora $x_0$ è un punto di massimo relativo.
+Per tali valori, calcolare il corrispondente estremo relativo $f(x_0)$.
+
+\item Verificare se gli estremi degli intervalli $I_1, I_2 \dots$, purchè appartenenti al dominio, siano punti di estremi relativi (in tali punti in generale la derivata prima non si annulla).
+Ad esempio se $I_1=[a,b)$ e:
+\[f^\prime(x)>0 \qquad a<x<a+\delta\]
+allora $x_0=a$ è un punto di minimo relativo, mentre $b\not\in\dom f$ per cui non ha senso chiedersi se sia un punto di estremo relativo.
+
+\item Se lo studio del segno di $f^\prime$ non si può svolgere, ma si riesce a calcolare i punti critici $f^\prime(x_0)=0$, allora il segno di $f^{\prime\prime}(x_0)$ permette di stabilire se è un punto di estremo relativo (Corollario della condizione sufficiente del secondo ordine per estremi relativi).
+\end{aenumerate}
+
+\item Determinare $\inf f$ e $\sup f$, stabilendo se sono o meno minimo e massimo assoluti.
+
+\item Determinare l'immagine di $f$ utilizzando il teorema dei valori intermedi.
+
+\item Studiare il segno della derivata seconda $f^{\prime\prime}$ e dedurne gli intervalli di convessità e concavità della funzione (teorema della caratterizzazione convessità).
+In particolare i punti in cui $f^{\prime\prime}$ cambia segno, son odetti punti di flesso e, in tali punti, può essere utile calcolare la derivata e tracciare la retta tangente.
+\end{enumerate}
+
+In molti casi non si riescono a svolgere esplicitamente i calcoli per tutti i punti e si dovrà dedurre l'andamento del grafico solo attraverso i punti svolti.
