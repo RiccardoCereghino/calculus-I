@@ -155,7 +155,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.7}{Teorema degli zeri}}{35}{section.6.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {iv}{Derivate}}{37}{part.4}
+\contentsline {part}{\numberline {iv}{Derivate ed integrali}}{37}{part.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}{Derivate}}{39}{chapter.7}
 \defcounter {refsection}{0}\relax 
@@ -191,6 +191,38 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.10}{Funzioni convesse e concave}}{45}{section.7.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {v}{Appendix}}{47}{part.5}
+\contentsline {chapter}{\numberline {8}{Integrali}}{47}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {a}{Studio di funzioni}}{49}{appendix.Alph1}
+\contentsline {section}{\numberline {8.1}{Integrali indefiniti}}{47}{section.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{{Osservazione.}}{47}{paragraph*.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{{Nota:}}{47}{paragraph*.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{{Nota:}}{48}{paragraph*.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {part}{\numberline {v}{Appendix}}{49}{part.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {a}{Studio di funzioni}}{51}{appendix.Alph1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {b}{Limiti}}{54}{appendix.Alph2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {b.1}{Limiti notevoli}}{54}{section.Alph2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {c}{Integrali}}{55}{appendix.Alph3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {c.1}{Integrali elementari}}{55}{section.Alph3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {c.2}{Integrali notevoli}}{56}{section.Alph3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {d}{Integrali funzioni razionali}}{57}{appendix.Alph4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{{Integrali funzioni razionali}}{57}{paragraph*.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {d.1}{Abbassamento di grado}}{57}{section.Alph4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {d.1.1}{Esempio}}{57}{subsection.Alph4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {d.1.1.1}{Denominatore di grado 1}}{58}{subsubsection.Alph4.1.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {d.1.1.2}{Denominatore di grado 2}}{58}{subsubsection.Alph4.1.1.2}
