@@ -303,6 +303,8 @@ INPUT /home/rick/uni/calculus-I/Chapters/Chapter0A.aux
 INPUT /home/rick/uni/calculus-I/Chapters/Chapter0A.aux
 INPUT /home/rick/uni/calculus-I/Chapters/Chapter0B.aux
 INPUT /home/rick/uni/calculus-I/Chapters/Chapter0B.aux
+INPUT /home/rick/uni/calculus-I/Chapters/Chapter0C.aux
+INPUT /home/rick/uni/calculus-I/Chapters/Chapter0C.aux
 INPUT /home/rick/uni/calculus-I/Chapters/Chapter0D.aux
 INPUT /home/rick/uni/calculus-I/Chapters/Chapter0D.aux
 INPUT /home/rick/uni/calculus-I/Chapters/Chapter0E.aux
@@ -584,6 +586,9 @@ INPUT /home/rick/uni/calculus-I/Chapters/Chapter0A.tex
 OUTPUT /home/rick/uni/calculus-I/Chapters/Chapter0B.aux
 INPUT /home/rick/uni/calculus-I/Chapters/Chapter0B.tex
 INPUT /home/rick/uni/calculus-I/Chapters/Chapter0B.tex
+OUTPUT /home/rick/uni/calculus-I/Chapters/Chapter0C.aux
+INPUT /home/rick/uni/calculus-I/Chapters/Chapter0C.tex
+INPUT /home/rick/uni/calculus-I/Chapters/Chapter0C.tex
 OUTPUT /home/rick/uni/calculus-I/Chapters/Chapter0D.aux
 INPUT /home/rick/uni/calculus-I/Chapters/Chapter0D.tex
 INPUT /home/rick/uni/calculus-I/Chapters/Chapter0D.tex
@@ -616,6 +621,8 @@ INPUT /home/rick/uni/calculus-I/Chapters/Chapter0A.aux
 INPUT /home/rick/uni/calculus-I/Chapters/Chapter0A.aux
 INPUT /home/rick/uni/calculus-I/Chapters/Chapter0B.aux
 INPUT /home/rick/uni/calculus-I/Chapters/Chapter0B.aux
+INPUT /home/rick/uni/calculus-I/Chapters/Chapter0C.aux
+INPUT /home/rick/uni/calculus-I/Chapters/Chapter0C.aux
 INPUT /home/rick/uni/calculus-I/Chapters/Chapter0D.aux
 INPUT /home/rick/uni/calculus-I/Chapters/Chapter0D.aux
 INPUT /home/rick/uni/calculus-I/Chapters/Chapter0E.aux
