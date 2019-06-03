@@ -1,0 +1,59 @@
+% Chapter 0b
+
+\chapter{Derivate} % Chapter title
+
+\label{ch:derivate-a} % For referencing the chapter elsewhere, use \autoref{ch:name}
+
+%----------------------------------------------------------------------------------------
+\section{Derivate fondamentali}
+\begin{equation}
+\begin{array}{ c c }
+y & y^\prime \\ \midrule
+c & 0 \\ \midrule
+x & 1 \\ \midrule
+|x| & \frac{x}{|x|} \\ \midrule
+x^n & nx^{n-1} \\ \midrule
+\frac{1}{x} & -\frac{1}{x^2} \\ \midrule
+\sqrt{x} & \frac{1}{2\sqrt{x}} \\ \midrule
+\sqrt[n]{x} & \frac{1}{n\sqrt[n]{x^{n-1}}} \\ \midrule
+\sin x & \cos x \\ \midrule
+\cos x & -\sin x \\ \midrule
+\tan x & \frac{1}{\cos^2 x} = 1-\tan^2 x \\ \midrule
+\tan^-1 x & -\frac{1}{\sin^2 x}=-1-\tan^{-2}x \\ \midrule
+\log_a x & \frac{1}{x}\log_a e \\ \midrule 
+\ln x\cup\ln|x|\cup\log x & \frac{1}{x} \\ \midrule
+a^x & a^x\log a \\ \midrule
+e^x & e^x \\ \midrule
+\arcsin x & \frac{1}{\sqrt{1-x^2}} \\ \midrule
+\arccos x & -\frac{1}{\sqrt{1-x^2}} \\ \midrule
+\arctan x & \frac{1}{1+x^2} \\ \midrule
+\arctan^{-1} x & -\frac{1}{1+x^2} \\ \midrule
+\end{array}
+\end{equation}
+
+\section{Regole di derivazione}
+\begin{equation}
+\begin{array}{ c c }
+y & y^\prime \\ \midrule
+kf(x) & kf^\prime(x) \\ \midrule
+f(x)\pm g(x) & f^\prime(x)\pm g^\prime(x) \\ \midrule
+f(x)g(x) & f^\prime(x)g(x)+f(x)g^\prime(x) \\ \midrule
+f(x)g(x)h(x) & f^\prime(x)g(x)h(x)+f(x)g^\prime(x)h(x)+f(x)g(x)h^\prime(x) \\ \midrule
+\frac{f(x)}{g(x)} & \frac{f^\prime(x)g(x)-f(x)g^\prime(x)}{g^2(x)} \\ \midrule
+(f(x))^{g(x)} & (f(x))^{g(x)} \left(g^\prime(x)\ln(f(x))+\frac{g(x)f^\prime(x)}{f(x)}\right) \\ \midrule
+f(g(x)) & f^\prime(g(x))g^\prime(x) \\ \midrule
+\sin f(x) & \cos f(x)f^\prime(x) \\ \midrule
+\cos f(x) & -\sin f(x)f^\prime(x) \\ \midrule
+\tan f(x) & \frac{f^\prime(x)}{\cos^2f(x)} \\ \midrule
+\tan^{-1}f(x) & -\frac{f^\prime(x)}{\sin^2f(x)} \\ \midrule
+\log_a f(x) & \frac{f^\prime(x)}{f(x)}\log_a e \\ \midrule
+\ln f(x)\cup\ln|f(x)| & \frac{f^\prime(x)}{f(x)} \\ \midrule
+a^{f(x)} & a^{f(x)} \log a f^\prime(x) \\ \midrule
+e^{f(x)} & e^{f(x)} f^\prime(x) \\ \midrule
+f^{-1}(x) & \frac{1}{f^(f^{-1}(x))} \\ \midrule
+\arcsin f(x) & \frac{f^\prime(x)}{\sqrt{1-|f(x)|^2}} \\ \midrule
+\arccos f(x) & -\frac{f^\prime(x)}{\sqrt{1-|f(x)|^2}} \\ \midrule
+\arctan f(x) & \frac{f^\prime(x)}{1+|f(x)|^2} \\ \midrule
+\arctan^{-1} f(x) & -\frac{f^\prime(x)}{1+|f(x)|^2} \\
+\end{array}
+\end{equation}

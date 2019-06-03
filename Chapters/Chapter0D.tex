@@ -1,0 +1,89 @@
+% Chapter 0a
+
+\chapter{Integrali} % Chapter title
+
+\label{ch:integrali} % For referencing the chapter elsewhere, use \autoref{ch:name}
+
+%----------------------------------------------------------------------------------------
+\section{Proprietà degli integrali indefiniti}
+\begin{gather}
+\int kf(x)\dd x=k\int f(x)\dd x\\
+\int f(x)+g(x)+\dots+f_n(x)\dd x=\int f(x)\dd x+\int g(x)\dd x+\dots+f_n(x)\dd x \\
+\int f(x)\dd x=a\int\frac{1}{a}f(x)\dd x = \frac{1}{a}\int af(x)\dd x = \int\frac{a}{a}f(x)\dd x \qquad a\in\R
+\end{gather}
+\section{Integrali indefiniti elementari}
+\begin{gather}
+\int x^a \dd x = \frac{x^{a+1}}{a+1}+c \qquad a\neq-1 \\
+\int\frac{1}{x}\dd x = \log|x|+c\\
+\int a \dd x = ax+c \\
+\int a^x \dd x = \frac{a^x}{\log a}+c \\
+\int\frac{1}{a^x}\dd x = -\frac{a^{-x}}{\log a}+c \\
+\int ax^n \dd x = \frac{ax^{n+1}}{n+1}+c \\
+\int \frac{1}{x^n}\dd x = -\frac{n-1}{x^{n-1}}+c\\
+\int\frac{1}{x}\dd x=\ln|x|+c \\
+\int\frac{1}{\sqrt{x}}\dd x = 2\sqrt{x}+c \\
+\int e^x \dd x = e^x+c \\
+\int e^{\pm kx}\dd x = \pm\frac{e^{\pm kx}}{k}+c \\
+\int \frac{1}{e^{\pm kx}}\dd x = -\frac{e^{-kx}}{k}+c \\
+\int\sin x\dd x = -\cos x+c \\
+\int\cos x\dd x = \sin x+c
+\end{gather}
+
+\begin{gather}
+\int\frac{1}{\cos x} \dd x = \log|\tan(\frac{x}{2}+\frac{\pi}{4})|+c \\
+\int\frac{1}{\sin x} \dd x = \log|\tan(\frac{x}{2})|+c \\
+\int\sin^2 x\dd x = \frac{1}{2}(x-\sin x\cos x)+c \\
+\int\cos^2 x\dd x = \frac{1}{2}(x+\sin x\cos x)+c \\
+\int\frac{1}{\cos^2x}\dd x = \int(1+\tan^2x)\dd x= \tan x+c \\
+\int\frac{1}{\sin^2 x}\dd x = -\frac{\cos x}{\sin x}+c \\
+\int\frac{1}{1+x^2}\dd x = \arctan x+c \\
+\int\frac{1}{1-x^2}\dd x = \frac{1}{2}\log|\frac{1+x}{1-x}|+c \\
+\int\frac{\pm1}{\sqrt{1-x^2}}\dd x = \pm\arcsin x+c = \mp\arccos x+c \\
+\int\frac{1}{\sqrt{x^2-1}}\dd x = \log|x+\sqrt{x^2-1}|+c \\
+\int\frac{1}{\sqrt{1+x^2}}\dd x = \log(x+\sqrt{1+x^2})+c
+\end{gather}
+
+\section{Integrali indefiniti notevoli}
+\begin{gather}
+\int\ln x\dd x = x(\log x-1)+c\\
+\int\tan x\dd x = -\log|\cos x|+c \\
+\int\frac{1}{\tan x}\dd x = \log(\sin x)+c \\
+\int\arcsin x\dd x = \sqrt{1-x^2}+x\arcsin x+c \\
+\int\arccos x\dd x = x\arccos x-\sqrt{1-x^2}+c\\
+\int\frac{1}{x^2+a}\dd x = \frac{1}{\sqrt{a}}\arctan\left(\frac{x}{\sqrt{a}}\right)+c \qquad a>0\\
+\int\frac{1}{x^2-a}\dd x = \frac{1}{2\sqrt{a}}\log\frac{|x-\sqrt{a}|}{|x+\sqrt{a}|}+c \qquad a>0 \\
+\int\frac{x}{x^2+a}\dd x = \frac{1}{2}\log|x^2+a|+c \qquad a\in\R\\
+\int\frac{1}{\sqrt{a-x^2}}\dd x = \arcsin\left(\frac{x}{\sqrt{a}}\right)+c \qquad a>0\\
+\int\frac{1}{\sqrt{x^2+a}}\dd x = \log\left(x+\sqrt{x^2+a}\right)+c \qquad a\neq0 \\
+\int\frac{2x}{x^2+1}\dd x = \log(x^2+1)+c \\
+\int\sqrt{a-x^2}\dd x = \frac{a}{2}\left(\arcsin\left(\frac{x}{\sqrt{a}}\right)+\frac{x}{a}\sqrt{a-x^2}\right)+c \\
+\int\sqrt{x^2+a}\dd x = \frac{1}{2}\left(x\sqrt{x^2+a}+a\log\left(x+\sqrt{x^2+a}\right)\right)+c \\
+\int\sqrt{a^2-x^2}\dd x = \frac{1}{2}(a^2\arcsin\frac{x}{a}+x\sqrt{a^2-x^2})+c
+\end{gather}
+
+\section{Integrali indefiniti riconducibili ad elementari}
+\begin{equation}
+\begin{array}{ c c }
+f(x) \text{ integrale} &f^\prime(x) \text{ integrale} \\ \midrule
+\int f^n(x)f^\prime(x)\dd x & \frac{f^{n+1}(x)}{n+1}+c \\ \midrule
+\int\frac{f^\prime(x)}{f(x)}\dd x & \log|f(x)|+c \\ \midrule
+\int f^\prime(x)\cos f(x)\dd x & \sin f(x)+c \\ \midrule
+\int f^\prime(x)\sin f(x)\dd x & -\cos f(x)+c \\ \midrule
+\int e^{f(x)}f^\prime(x)\dd x & e^{f(x)}+c \\ \midrule
+\int a^{f(x)}f^\prime(x)\dd x & \frac{a^{f(x)}}{\log a}+c \\ \midrule
+\int\frac{f^\prime(x)}{\sqrt{1-f^2(x)}}\dd x & \begin{cases}\arcsin f(x)+c\\ \midrule-\arccos f(x)+c\end{cases} \\ \midrule
+\int\frac{f^\prime(x)}{1+f^2(x)}\dd x & \arctan f(x)+c \\
+\end{array}
+\end{equation}
+
+\section{Integrazione per parti e per sostituzione}
+\subsection{Integrale indefinito}
+\paragraph{Per parti}
+\[\int f(x)g^\prime(x)\dd x=f(x)g(x)-\int f^\prime(x)g(x)\dd x\]
+\paragraph{Per sostituzione}
+\[\int f(h(x))h^\prime(x)\dd x=\int f(y)\dd y_{y=h(x)}\]
+\subsection{Integrale definito}
+\paragraph{Per parti}
+\[\int_a^b f(x)g^\prime(x)\dd x=|f(b)g(b)-f(a)g(a)|-\int_a^b f^\prime(x)g(x)\dd x\]
+\paragraph{Per sostituzione}
+\[\int_a^b f(h(x))h^\prime(x)\dd x=\int_{h(a)}^{h(b)}f(y\dd y)\]

@@ -1,0 +1,104 @@
+% Chapter 1
+
+\chapter{Integrali} % Chapter title
+
+\label{ch:integrali} % For referencing the chapter elsewhere, use \autoref{ch:introduction} 
+
+%----------------------------------------------------------------------------------------
+
+\section{Integrali indefiniti}
+Data una funzione $f:I\rightarrow\R$ definita su un intervallo $I$, si chiama primitiva di $f$ una funnzione $F:I\rightarrow\R$ derivabile tale che:
+\[F^\prime(x)=f(x) \qquad \forall x\in I.\]
+
+L'insieme di tutte le primitive di $f$ è detto integrale indefinito di $f$ e si denota con:
+\[\int f(x) \dd x = \{F:I\rightarrow\R \mid F \text{ derivabile e } f^\prime(x)=f(x) \quad \forall x\in I\}.\]
+
+\paragraph{Osservazione.} Se $F$ è una primitiva di $f$, $F$ è continua, poichè è derivabile.
+Inoltre anche $F+c$ è una primitiva di $f$.
+Viceversa, se $G$ è un altra primitiva di $f$, allora:
+\[(G(x)-F(x))^\prime=G^\prime(x)-F^\prime(x)=f(x)-f(x)=0 \quad x\in I.\]
+
+Poichè $I$ è un intervallo, allora esiste $c \in \R$ tale che $G(x)=F(x)+c$ per ogni $x\in I$.
+Ne segue che:
+\[\int f(x)\dd x=F(x)+\text{ costante},\]
+dove con lieve abuso di notazione $F(x) +$ costante denota l'insieme:
+\[\{G:I\rightarrow\R\mid G(x)=F(x)+c\text{ dove } c \in\R .\}\]
+
+Inoltre, per definizione di primitiva:
+\[\left(\int f(x)\dd x \right)^\prime=f(x) \qquad \text{e} \int f^\prime(x)\dd x = f(x) + c,\]
+
+\paragraph{Nota:} la definizione di primitiva si può estendere a funzioni definite su unione di intervalli. Tuttavia in tal caso non è più vero che dure primitive della stessa funzione differiscono per una costante.
+Ad esempio, se $f(x)=x^{-1}$ con $\dom f=\R \backslash \{0\}$ allora l'integrale generale è:
+\[\int f(x) \dd x = \begin{cases}
+\ln(x)+c_1 \qquad x>0 \\
+\ln(-x)+c_2 \qquad x<0
+\end{cases}\]
+
+\paragraph{Nota:} Esistono funzioni $f$ che non ammettono primitive. Ad esempio la funzione:
+\[\begin{cases}
+0 \qquad x<0 \\
+1 \qquad x \geq 0
+\end{cases}\]
+
+Infatti, se $F$ fosse una primitiva, allora:
+\[F(x)=\begin{cases}
+c_1 \qquad x<0 \\
+x+c_2 \qquad x>0
+\end{cases}\]
+con $c_1,c_2\in\R$. La continuità di $F$ in $x_0=0$ implica che $F(0)=c_1=c_2=c$.
+Tuttavia, per qualunque scelta di $c\in\R$, $F$ non è derivabile in $x_0=0$.
+Il teorema fondamentale del calcolo integrale assicura che, se $f$ è continua, allora ammentte sempre una primitiva.
+
+\begin{teo}[Linearità.]
+Date due funzioni $f,g:I\rightarrow\R$ continue definite su un intervallo $I$, allora per ogni $\alpha,\beta\in\R$:
+\[\int(\alpha f(x)+\beta g(x))\dd x=(\alpha\int f(x)\dd x+\beta \int g(x)\dd x).\]
+\end{teo}
+
+\begin{teo}[Formula di integrazione per parti.]
+Siano $f,g:I\rightarrow\R$ due funzioni definite su un intervallo $I$, derivabili e derivate $f^\prime$ e $g^\prime$ sono funzioni continue. Allora:
+\[\int f(x)g^\prime(x)\dd x=f(x)g(x)-\int f^\prime(x)g(x)\dd x.\]
+\end{teo}
+
+\begin{teo}[Formula di inegrazione per sostituzione.]
+Date due funzioni $f:I\rightarrow\R$ e $g:J\rightarrow\R$ tali che:
+\begin{aenumerate}
+\item i domini $I$ e $J$ sono intervalli e $g(x)\in I, \forall x \in J$;
+\item la funzione $f$ è continua;
+\item la funzione $g$ è derivabile e la derivata $g^\prime$ è continua,
+\end{aenumerate}
+allora:
+\[\left(\int f(t) \dd t \right)_{t=g(x)}=\int f\underbrace{(g(x))}_{t=g(x)} \underbrace{g^\prime(x)\dd x}_{\dd t = g^\prime(x)\dd x}\]
+\end{teo}
+
+\section{Somme parziali inferiori e superiori}
+Data una funzione $f:[a,b]\rightarrow\R$ limitata, definiamo la successione $(s_n)_{n\in\N}$ delle somme inferiori:
+\begin{gather*}
+s_0 = (b-a) \inf_{x\in[a,b]} f(x) \\
+s_1 = \frac{b-a}{2} \inf_{x\in[a_0,a_1]} f(x) + \frac{b-a}{2} \inf_{x\in[a_1,a_2]} f(x) \\
+\qquad a_0 = a, a_1=\frac{a+b}{2},a_2=b \\
+s_2 = \frac{b-a}{4}\inf_{x\in[a_0,a_1]}f(x) + \frac{b-a}{4}\inf_{x\in[a_1,a_2]}f(x) + \frac{b-a}{4}\inf_{x\in[a_2,a_3]}f(x) + \frac{b-a}{4}\inf_{x\in[a_3,a_4]}f(x) \\
+\qquad a_0=0,a_1=a+\frac{b-a}{4},a_2=a+2\frac{b-a}{4},a_3=a+3\frac{b-a}{4},a_4=b \\
+\dots \\
+s_n=\sum_{k=1}^{2^n}\frac{b-a}{2^n}\inf_{x\in[a_{k-1},a_k]}f(x) \qquad a_k=a+k\frac{b-a}{2^k} \quad k=0,1,\dots,2^n 
+\end{gather*}
+Analogamente, definiamo la successione $(S_n)_{n\in\N}$ delle somme superiori:
+\[S_n=\sum_{k=1}^{2^n}\frac{b-a}{2^n}\sup_{x\in[a_{k-1},a_k]}f(x) \qquad a_k=a+k\frac{b-a}{2^k} \quad k=0,1,\dots,2^n\]
+
+\begin{prop}
+Data una funzione $f:[a,b]\rightarrow\R$ limitata, allora esistono finiti:
+\[\lim_{n\to\infty}{s_n}=\ell\in\R\]
+\[\lim_{n\to\infty}{S_n}=\ell\in\R\]
+\end{prop}
+
+\section{Funzioni integrabili}
+Una funzione $f:[a,b]\rightarrow\R$ limitata si dice integrabile su $[a,b]$ (secondo Riemann) se:
+\[\lim_{n\to\infty}{S_n}=\lim_{n\to\infty}{s_n},\]
+e il valore
+\[\int_a^b f(x)\dd x=\lim_{n\to\infty}{s_n}=\lim_{n\to\infty}{S_n}\]
+è detto integrale definito di $f$ sull'intervallo $[a,b]$. La funzione $f$ si chiama funzione intergranda.
+Se $f$ è positiva, l'integrale esprime l'area della regione compresa tra il grafico della funzione e l'asse delle ascisse. Per una funzione negativa, l'integrale esprime l'area della regione compresa tra il grafico della funzione e l'asse delle ascisse cambiata di segno.
+
+\paragraph{Nota:} L'integrale definito $\int_a^b f(x)\dd x$ è un numero, mentre la variabile di integrazione $x$ è muta. Il fattore $f(x)\dd x$ è un simbolo che ricorda la procedura di approssimazione nella costruzione dell'integrale.
+
+\paragraph{Nota:} Esistono funzioni limitate patologiche per cui:
+\[\lim_{n\to\infty}{S_n}\neq\lim_{n\to\infty}{s_n}\]

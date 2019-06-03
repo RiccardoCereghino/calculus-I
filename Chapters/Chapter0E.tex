@@ -1,0 +1,94 @@
+% Chapter 0b
+
+\chapter{Integrali funzioni razionali} % Chapter title
+
+\label{ch:integrali-e} % For referencing the chapter elsewhere, use \autoref{ch:name}
+
+%----------------------------------------------------------------------------------------
+\paragraph{Integrali funzioni razionali}
+In questa appendice, si accenna all'integrazione di alcune funzioni razionali, cioè della forma $\frac{N(x)}{D(x)}$ dove sia il numeratore $N(x)$, sia il denominatore $D(x)$ sono polinomi.
+
+\section{Abbassamento di grado}
+Se il grado del numeratore è maggiore o uguale al grado del denominatore, il primo passo è quello di abbassare il grado del numeratore.
+
+Posto $n=$grado $N(x)$ e $d=$grado $D(x)$, si determinano due polinomi $Q(x)$ e $R(x)$ tali che:
+\[\frac{N(x)}{D(x)}=Q(x)+\frac{R(x)}{D(x)},\]
+dove $Q(x)$ ha grado $n-d\geq0$ e $R(x)$ ha grado minore o uguale a $d-1$.
+
+I coefficienti di $Q(x)$ e $R(x)$ si calcolano applicando il principio di identità dei polinomi all'uguaglianza:
+\[N(x)=Q(x)D(x)+R(x).\]
+
+\subsection{Esempio}
+Se:
+\[N(x)=a_0+a_1x+a_2x^2+a_3x^3=(A+Bx)(b_0+b_1x+b_2x^2)+(C+Dx),\]
+da cui:
+\[\begin{cases}
+a_0 = Ab_0+C \\
+a_1 = Ab_1+Bb_0+D \\
+a_2 = Ab_2+Bb_1 \\
+a_3 = Bb_2
+\end{cases}\]
+Dalla linearità dell'integrale ne segue che:
+\[\int\frac{N(x)}{D(x)}\dd x=\int Q(x)\dd x+\int\frac{R(x)}{D(x)}\dd x.\]
+Poichè $Q(x)$ è un polinomio, il primo integrale è elementare.
+Consideriamo il secondo, trattiamo solo due casi: il denominatore $D(x)$ è un polinomio di primo grado (e $R(x)$ è una costante) oppure $D(x)$ è di secondo grado (ed $R(x)=mx+q$).
+
+\subsubsection{Denominatore di grado 1}
+Se il grado del denominatore è $1$, allora:
+\[D(x)=ax+b \qquad R(x)=c \qquad a\neq0.\]
+Con il cambio di variabile $t=ax+b$:
+\[\int\frac{c}{ax+b}\dd x = \frac{c}{a}\int\frac{1}{t}\dd t = \frac{c}{a}\log|ax+b|+costante.\]
+
+\subsubsection{Denominatore di grado 2}
+Se il grado $Q(x)$ è $2$, allora:
+\[R(x)=mx+q \qquad D(x)=ax^2+bx+c \qquad a\neq0.\]
+Si calcola il discriminante dell'equazione $D(x)=ax^2+bx+c=0$. In base al segno di $\Delta$ ci sono tre casi distinti.
+\begin{aenumerate}
+\item $\Delta>0$. Denotiamo con $x_1$ ed $x_2$ le due soluzioni reali distinte dell'equazione di secondo grado $ax^2+bx+c=0$, per cui:
+\[ax^2+bx+c=a(x-x_1)(x-x_2).\]
+Poichè:
+\[\frac{mx+q}{ax^2+bx+c}=\frac{1}{a}\left(\frac{A}{x-x_1}+\frac{B}{x-x_2}\right),\]
+dove le costanti $A,B$ si determinano imponendo che:
+\[mx+q=A(x-x_2)+B(x-x_1),\]
+allora dall'equazione precedente:
+\begin{equation}
+\begin{split}
+\int\frac{mx+q}{ax^2+bx+c}\dd x & = \frac{1}{a}\left(A\int\frac{1}{x-x_1}\dd x+B\int\frac{1}{x-x_2}\dd x\right) \\
+& = \frac{A}{a}\ln|x-x_1|+\frac{B}{a}\ln|x-x_2|+c.
+\end{split}
+\end{equation}
+
+\item $\Delta=0$. Denotiamo con $x^\star=x_1=x_2$ le due soluzioni reali coincidenti all'equazione di secondo grado $ax^2+bx+c=0$, per cui:
+\[ax^2+bx+c=a(x-x^\star)^2.\]
+Poichè:
+\[\frac{mx+q}{ax^2+bx+c}=A\frac{2ax+b}{ax^2+bx+c}+\frac{B}{a}\frac{1}{(x-x^\star)^2},\]
+dove le costanti $A$ e $B$ si determinano imponendo che:
+\[mx+q=A(2ax+b)+B,\]
+allora dall'equazione precedente:
+\begin{equation}
+\begin{split}
+\int\frac{mx+q}{ax^2+bx+c}\dd x & = \left(A\int\frac{2ax+b}{ax^2+bx+c}\dd x+\frac{B}{a}\int\frac{1}{(x-x_1)^2}\dd x\right) \\
+& = \left(A\int\frac{1}{t}\dd t+\frac{B}{a}\int\frac{1}{(x-x_1)^2}\dd x\right) \\
+& = A\ln(ax^2+bx+c)-\frac{B}{a}\frac{1}{x-x^\star}+c,
+\end{split}
+\end{equation}
+dove nel primo integrale si è fatto il cambio di variabili $t=ax^2+bx+c$ e $\dd t=(2ax+b)\dd x$.
+
+\item $\Delta<0$. Senza perdita di generalità supponiamo che $a>0$, poichè:
+\[ax^2+bx+c=\beta^2+(\alpha x+\gamma)^2,\]
+dove le costanti $\alpha,\beta,\gamma$ si determinano imponendo che:
+\[ax^2+bx+c=\alpha^2 x^2+2\alpha\gamma x + (\beta^2+\gamma^2).\]
+Inoltre, analogamente a sopra:
+\[\frac{mx+q}{ax^2+bx+c}=A\frac{2ax+b}{ax^2+bx+c}+B\frac{1}{ax^2+bx+c},\]
+dove le costanti $A,B$ si determinano imponendo che:
+\[mx+q=A(2ax+b)+B,\]
+allora, dall'equazione precedente:
+\begin{equation}
+\begin{split}
+\int\frac{mx+q}{ax^2+bx+c}\dd x & = \left(A\int\frac{2ax+b}{ax^2+bx+c}\dd x + B\int\frac{1}{\beta^2+(\alpha x+\gamma)^2}\dd x\right) \\
+& = \left(A\int\frac{2ax+b}{ax^2+bx+c}\dd x+\frac{B}{\beta^2}\int\frac{1}{1+(\frac{\alpha x+\gamma}{\beta})^2}\dd x\right) \\
+& = A\ln(ax^2+bx+c)+\frac{B}{\alpha\beta}\arctan(\frac{\alpha x+\gamma}{\beta})+c,
+\end{split}
+\end{equation}
+dove nel primo integrale si è fatto il cambio di variabili $t=ax^2+bx+c$ e $\dd t=2ax+b$ e nel secondo il cambio di variabili $t=\frac{\alpha x+\gamma}{\beta}$ e $\dd t=(\frac{\alpha}{\beta})\dd x$.
+\end{aenumerate}

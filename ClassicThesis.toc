@@ -229,34 +229,34 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {d.1}{Propriet\IeC {\`a} degli integrali indefiniti}}{59}{section.Alph4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {d.2}{Integrali indefiniti elementari}}{59}{section.Alph4.2}
+\contentsline {section}{\numberline {d.2}{Integrali indefiniti elementari}}{60}{section.Alph4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {d.3}{Integrali indefiniti notevoli}}{61}{section.Alph4.3}
+\contentsline {section}{\numberline {d.3}{Integrali indefiniti notevoli}}{62}{section.Alph4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {d.4}{Integrali indefiniti riconducibili ad elementari}}{62}{section.Alph4.4}
+\contentsline {section}{\numberline {d.4}{Integrali indefiniti riconducibili ad elementari}}{63}{section.Alph4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {d.5}{Integrazione per parti e per sostituzione}}{62}{section.Alph4.5}
+\contentsline {section}{\numberline {d.5}{Integrazione per parti e per sostituzione}}{63}{section.Alph4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {d.5.1}{Integrale indefinito}}{62}{subsection.Alph4.5.1}
+\contentsline {subsection}{\numberline {d.5.1}{Integrale indefinito}}{63}{subsection.Alph4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{{Per parti}}{62}{paragraph*.25}
+\contentsline {paragraph}{{Per parti}}{63}{paragraph*.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{{Per sostituzione}}{62}{paragraph*.26}
+\contentsline {paragraph}{{Per sostituzione}}{63}{paragraph*.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {d.5.2}{Integrale definito}}{62}{subsection.Alph4.5.2}
+\contentsline {subsection}{\numberline {d.5.2}{Integrale definito}}{63}{subsection.Alph4.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{{Per parti}}{62}{paragraph*.27}
+\contentsline {paragraph}{{Per parti}}{63}{paragraph*.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{{Per sostituzione}}{62}{paragraph*.28}
+\contentsline {paragraph}{{Per sostituzione}}{63}{paragraph*.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {e}{Integrali funzioni razionali}}{63}{appendix.Alph5}
+\contentsline {chapter}{\numberline {e}{Integrali funzioni razionali}}{65}{appendix.Alph5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{{Integrali funzioni razionali}}{63}{paragraph*.29}
+\contentsline {paragraph}{{Integrali funzioni razionali}}{65}{paragraph*.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {e.1}{Abbassamento di grado}}{63}{section.Alph5.1}
+\contentsline {section}{\numberline {e.1}{Abbassamento di grado}}{65}{section.Alph5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {e.1.1}{Esempio}}{63}{subsection.Alph5.1.1}
+\contentsline {subsection}{\numberline {e.1.1}{Esempio}}{65}{subsection.Alph5.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {e.1.1.1}{Denominatore di grado 1}}{64}{subsubsection.Alph5.1.1.1}
+\contentsline {subsubsection}{\numberline {e.1.1.1}{Denominatore di grado 1}}{66}{subsubsection.Alph5.1.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {e.1.1.2}{Denominatore di grado 2}}{64}{subsubsection.Alph5.1.1.2}
+\contentsline {subsubsection}{\numberline {e.1.1.2}{Denominatore di grado 2}}{66}{subsubsection.Alph5.1.1.2}
